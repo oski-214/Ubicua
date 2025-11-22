@@ -1,0 +1,34 @@
+package mqtt;
+
+public class MQTTBroker {
+
+    private static int qos = 2;
+    private static final String broker = "tcp://mqtt-broker:1883";
+    private static final String clientId = "ContadorVehiculos";
+    private static final String username = "martayoscar";
+    private static final String password = "contador";
+    
+    public MQTTBroker() {
+    }
+
+    public static int getQos() {
+        return qos;
+    }
+
+    public static String getBroker() {
+        return broker;
+    }
+
+    public static String getClientId() {
+        return clientId;
+    }
+
+    public static String getUsername() {
+        return username;
+    }
+
+    public static String getPassword() {
+        return password;
+    }
+    
+}
