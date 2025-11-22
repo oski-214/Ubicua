@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+CAUTION: Do not modify this file unless you know what you are doing.
+ Unexpected results may occur if the code is changed deliberately.
+-->
+<dbmodel pgmodeler-ver="0.9.4" use-changelog="false" last-position="89,0" last-zoom="0.7" max-obj-count="6"
+	 default-schema="public" default-owner="postgres"
+	 layers="Default layer"
+	 active-layers="0"
+	 layer-name-colors="#000000"
+	 layer-rect-colors="#b4b4b4"
+	 show-layer-names="false" show-layer-rects="false">
+<database name="DB_Ubicua" is-template="false" allow-conns="true">
+</database>
+
+<schema name="public" layers="0" fill-color="#e1e1e1" sql-disabled="true">
+</schema>
+
+<table name="Street" layers="0" collapse-mode="1" pagination="true" attribs-page="0" ext-attribs-page="0" max-obj-count="14" z-value="0">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="280" y="140"/>
+	<column name="Street Name" not-null="true">
+		<type name="char" length="7"/>
+	</column>
+	<column name="Street_length_meters">
+		<type name="double precision" length="0"/>
+	</column>
+	<column name="latitude">
+		<type name="double precision" length="0"/>
+	</column>
+	<column name="longitude">
+		<type name="double precision" length="0"/>
+	</column>
+	<column name="district">
+		<type name="text" length="0"/>
+	</column>
+	<column name="neighborhood">
+		<type name="text" length="0"/>
+	</column>
+	<column name="postal_code">
+		<type name="smallint" length="0"/>
+	</column>
+	<column name="stree_name">
+		<type name="text" length="0"/>
+	</column>
+	<column name="street-length">
+		<type name="double precision" length="0"/>
+	</column>
+	<column name="surface_type">
+		<type name="text" length="0"/>
+	</column>
+	<column name="speed_limit">
+		<type name="smallint" length="0"/>
+	</column>
+	<constraint name="Street_pk" type="pk-constr" table="public.&quot;Street&quot;">
+		<columns names="Street Name" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="Coche" layers="0" collapse-mode="2" pagination="true" attribs-page="0" ext-attribs-page="0" max-obj-count="4" z-value="0">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1340" y="20"/>
+	<column name="matricula" not-null="true">
+		<type name="char" length="7"/>
+	</column>
+	<column name="media_presiones">
+		<type name="double precision" length="0"/>
+	</column>
+	<column name="tipo">
+		<type name="text" length="0"/>
+	</column>
+	<column name="media_distancias">
+		<type name="double precision" length="0"/>
+	</column>
+	<constraint name="Coche_pk" type="pk-constr" table="public.&quot;Coche&quot;">
+		<columns names="matricula" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="Bicicleta" layers="0" collapse-mode="2" pagination="true" attribs-page="0" ext-attribs-page="0" max-obj-count="4" z-value="0">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1260" y="220"/>
+	<column name="matricula" not-null="true">
+		<type name="char" length="7"/>
+	</column>
+	<column name="media_presiones">
+		<type name="double precision" length="0"/>
+	</column>
+	<column name="tipo">
+		<type name="text" length="0"/>
+	</column>
+	<column name="media_distancias">
+		<type name="double precision" length="0"/>
+	</column>
+	<constraint name="Bicicleta_pk" type="pk-constr" table="public.&quot;Bicicleta&quot;">
+		<columns names="matricula" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="Camión" layers="0" collapse-mode="2" pagination="true" attribs-page="0" ext-attribs-page="0" max-obj-count="4" z-value="0">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1280" y="480"/>
+	<column name="matrícula" not-null="true">
+		<type name="char" length="7"/>
+	</column>
+	<column name="media_presiones">
+		<type name="double precision" length="0"/>
+	</column>
+	<column name="tipo">
+		<type name="text" length="0"/>
+	</column>
+	<column name="media_distancias">
+		<type name="double precision" length="0"/>
+	</column>
+	<constraint name="Camión_pk" type="pk-constr" table="public.&quot;Camión&quot;">
+		<columns names="matrícula" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="Registro" layers="0" collapse-mode="2" pagination="true" attribs-page="0" ext-attribs-page="0" max-obj-count="10" z-value="0">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="700" y="140"/>
+	<column name="tipo_vehículo">
+		<type name="text" length="0"/>
+	</column>
+	<column name="matricula">
+		<type name="char" length="7"/>
+	</column>
+	<column name="contador_Coches">
+		<type name="smallint" length="0"/>
+	</column>
+	<column name="contador_Camiones">
+		<type name="smallint" length="0"/>
+	</column>
+	<column name="contador_Bicicletas">
+		<type name="smallint" length="0"/>
+	</column>
+	<column name="contador_Gasolinas">
+		<type name="smallint" length="0"/>
+	</column>
+	<column name="contador_Eléctricos">
+		<type name="smallint" length="0"/>
+	</column>
+	<column name="tipo_emisión">
+		<type name="text" length="0"/>
+	</column>
+	<column name="Street_Name" not-null="true">
+		<type name="char" length="7"/>
+	</column>
+	<constraint name="Registro_pk" type="pk-constr" table="public.&quot;Registro&quot;">
+		<columns names="Street_Name" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<relationship name="Registro_has_many_Street" type="rel1n" layers="0"
+	 src-col-pattern="{sc}_{st}"
+	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
+	 src-fk-pattern="{st}_fk"
+	 custom-color="#f73219"
+	 src-table="public.&quot;Registro&quot;"
+	 dst-table="public.&quot;Street&quot;"
+	 src-required="false" dst-required="false"/>
+
+<relationship name="many_Camión_has_many_Registro" type="relnn" layers="0"
+	 src-col-pattern="{sc}_{st}" dst-col-pattern="{sc}_{dt}"
+	 pk-pattern="{gt}_pk" uq-pattern="{gt}_uq"
+	 src-fk-pattern="{st}_fk" dst-fk-pattern="{dt}_fk"
+	 pk-col-pattern="id"
+	 custom-color="#7935b0"
+	 src-table="public.&quot;Camión&quot;"
+	 dst-table="public.&quot;Registro&quot;"
+	 src-required="false" dst-required="false"
+	 table-name="many_Camión_has_many_Registro"/>
+
+<relationship name="many_Bicicleta_has_many_Registro" type="relnn" layers="0"
+	 src-col-pattern="{sc}_{st}" dst-col-pattern="{sc}_{dt}"
+	 pk-pattern="{gt}_pk" uq-pattern="{gt}_uq"
+	 src-fk-pattern="{st}_fk" dst-fk-pattern="{dt}_fk"
+	 pk-col-pattern="id"
+	 custom-color="#f9910c"
+	 src-table="public.&quot;Bicicleta&quot;"
+	 dst-table="public.&quot;Registro&quot;"
+	 src-required="false" dst-required="false"
+	 table-name="many_Bicicleta_has_many_Registro"/>
+
+<relationship name="many_Coche_has_many_Registro" type="relnn" layers="0"
+	 src-col-pattern="{sc}_{st}" dst-col-pattern="{sc}_{dt}"
+	 pk-pattern="{gt}_pk" uq-pattern="{gt}_uq"
+	 src-fk-pattern="{st}_fk" dst-fk-pattern="{dt}_fk"
+	 pk-col-pattern="id"
+	 custom-color="#a796c9"
+	 src-table="public.&quot;Coche&quot;"
+	 dst-table="public.&quot;Registro&quot;"
+	 src-required="false" dst-required="false"
+	 table-name="many_Coche_has_many_Registro"/>
+
+</dbmodel>
