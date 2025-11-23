@@ -1,0 +1,11 @@
+FROM tomcat:10-jdk17
+
+# Descargar driver JDBC de MariaDB
+ADD https://repo1.maven.org/maven2/org/mariadb/jdbc/mariadb-java-client/3.1.4/mariadb-java-client-3.1.4.jar \
+    /usr/local/tomcat/lib/
+
+# Dar permisos
+RUN chmod 644 /usr/local/tomcat/lib/mariadb-java-client-3.1.4.jar
+
+EXPOSE 8080
+CMD ["catalina.sh", "run"]
