@@ -39,10 +39,7 @@ CREATE TABLE Camion (
     media_distancias DOUBLE,
     street_id CHAR(7),
     CONSTRAINT fk_camion_street FOREIGN KEY (street_id) 
-        REFERENCES Street(street_id) 
-        ON DELETE SET NULL 
-        ON UPDATE CASCADE,
-    INDEX idx_camion_street (street_id)
+        REFERENCES Street(street_id)
 );
 
 CREATE TABLE Registro (

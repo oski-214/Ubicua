@@ -2,6 +2,7 @@
 #include <LiquidCrystal_I2C.h>
 #include <WiFi.h>
 #include <PubSubClient.h>
+#include "time.h"
 
 // C++ code
 
@@ -12,6 +13,8 @@
 const char* ssid = "MOVISTAR_40E6"; //cambiar para wifi MARTA
 const char* password = "CN9uLfTywfx3RR72A2rt"; //cambiar para wifi MARTA 
 
+
+
 //conexion a servidor mqtt de ubicua
 const char* mqtt_server = "192.168.1.52";
 const int mqtt_port = 1883;
@@ -19,6 +22,10 @@ const char* mqtt_user = "martayoscar";
 const char* mqtt_password = "contador";
 const char* client_id = "ESP32OscarMarta"; // ID unico
 
+//para tener hora real
+const char* ntpServer = "pool.ntp.org";
+const long  gmtOffset_sec = 3600;  // 1 hora (CET)
+const int   daylightOffset_sec = 3600;
 
 //objetos
 WiFiClient espClient;  //para la conexion
@@ -102,6 +109,15 @@ void setup()
 
   // 3. CONECTAR MQTT
   reconnect();
+
+  // h
+  configTime(gmtOffset_sec, daylightOffset_sec, ntpServer);
+  Serial.print("Esperando hora NTP...");
+  while(!time(nullptr)){
+    delay(500);
+    Serial.print(".");
+  }
+  Serial.println("\nHora NTP sincronizada.");
 
 
   //Ultrasónico
@@ -394,13 +410,21 @@ void callback(char* topic, byte* payload, unsigned int length) {
 
 void publicar_datos() {
   int total_vehiculos = contador_coches + contador_camiones;
-  
+  String currentTimestamp = getCurrentTimestamp();
+
+  String tipo_emision_actual;
+  if (ha_sonado) {
+    tipo_emision_actual = "GAS";
+  } else {
+    tipo_emision_actual = "ECO";
+  }
+
   // Crear JSON con los datos reales de ST_1678 - Calle del Sol
   String mensaje = "{";
   mensaje += "\"sensor_id\":\"TC_1678\",";
   mensaje += "\"sensor_type\":\"traffic_counter\",";
   mensaje += "\"street_id\":\"ST_1678\",";
-  mensaje += "\"timestamp\":\"" + String(millis()) + "\",";
+  mensaje += "\"timestamp\":\"" + currentTimestamp + "\",";
   
   // Ubicación real de Calle del Sol
   mensaje += "\"location\":{";
@@ -424,13 +448,13 @@ void publicar_datos() {
   mensaje += "\"truck_count\":" + String(contador_camiones) + ",";
   mensaje += "\"eco_count\":" + String(contador_ECO) + ",";
   mensaje += "\"gas_count\":" + String(contador_GAS) + ",";
-  mensaje += "\"plate\":" + String(matricula) + ",";
+  mensaje += "\"plate\":\"" + String(matricula) + "\",";
   mensaje += "\"mean_pressure\":" + String(media_ts1) + ",";
   mensaje += "\"distance\":" + String(distancia) + ",";
-  mensaje += "\"type_vehicle\":" + String(tipo_vehiculo_presion) + ",";
+  mensaje += "\"type_vehicle\":\"" + String(tipo_vehiculo_presion) + "\",";
   mensaje += "\"direction\":\"north\",";
   mensaje += "\"counter_type\":\"vehicle\",";
-  mensaje += "\"technology\":\"pressure_ultrasonic_sound\"";
+  mensaje += "\"technology\":\"" + tipo_emision_actual + "\"";
   mensaje += "}";
   mensaje += "}";
   
@@ -441,4 +465,18 @@ void publicar_datos() {
   } else {
     Serial.println("Error al publicar");
   }
+}
+
+
+
+String getCurrentTimestamp() {
+  struct tm timeinfo;
+  if (!getLocalTime(&timeinfo)) {
+    return "2000-01-01 00:00:00"; // Devolver un valor por defecto si falla
+  }
+  
+  // Formato SQL: YYYY-MM-DD HH:MM:SS
+  char buffer[20];
+  strftime(buffer, 20, "%Y-%m-%d %H:%M:%S", &timeinfo);
+  return String(buffer);
 }
