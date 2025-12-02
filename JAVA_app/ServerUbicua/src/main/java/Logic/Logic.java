@@ -283,7 +283,138 @@ public class Logic
                 conector.closeConnection(con);
             }
         }
-      
+        
+        public static ArrayList<Measurement> getRegistroMeasurementsByDay(String dateStr) {
+            ArrayList<Measurement> list = new ArrayList<>();
+            ConectionDDBB conector = new ConectionDDBB();
+            Connection con = null;
+
+            try {
+                con = conector.obtainConnection(true);
+
+                String sql =
+                    "SELECT id, tipo_vehiculo, matricula, street_id, timestamp, " +
+                    "       contador_coches, contador_camiones, contador_bicicletas, " +
+                    "       contador_gasolinas, contador_electricos, tipo_emision " +
+                    "FROM Registro " +
+                    "WHERE DATE(timestamp) = ?";
+
+                PreparedStatement ps = con.prepareStatement(sql);
+                ps.setString(1, dateStr); // "YYYY-MM-DD"
+                ResultSet rs = ps.executeQuery();
+
+                while (rs.next()) {
+                    Measurement m = new Measurement();
+
+                    // Campos de Registro -> Measurement
+                    m.setStreetId(rs.getString("street_id"));
+                    m.setTimestamp(rs.getTimestamp("timestamp"));
+                    m.setCarCount(rs.getInt("contador_coches"));
+                    m.setTruckCount(rs.getInt("contador_camiones"));
+                    m.setBicycleCount(rs.getInt("contador_bicicletas"));
+                    m.setGasCount(rs.getInt("contador_gasolinas"));
+                    m.setEcoCount(rs.getInt("contador_electricos"));
+                    m.setTypeVehicle(rs.getString("tipo_vehiculo"));
+                    m.setPlate(rs.getString("matricula"));
+                    m.setTechnology(rs.getString("tipo_emision"));
+
+                    // El resto de campos (sensorId, location, etc.) los puedes dejar null/0
+                    // o rellenarlos si los unes con otras tablas (Street, etc.)
+
+                    list.add(m);
+                }
+            } catch (Exception e) {
+                Log.log.error("Error getRegistroMeasurementsByDay: ", e);
+                list = new ArrayList<>();
+            } finally {
+                conector.closeConnection(con);
+            }
+            return list;
+        }
+        
+       public static ArrayList<Measurement> getVehicleMeasurements(String tableName, String matricula) {
+            ArrayList<Measurement> list = new ArrayList<>();
+            ConectionDDBB conector = new ConectionDDBB();
+            Connection con = null;
+
+            try {
+                con = conector.obtainConnection(true);
+
+                String sql =
+                    "SELECT matricula, media_presiones, tipo, media_distancias, street_id " +
+                    "FROM " + tableName + " WHERE matricula = ?";
+                PreparedStatement ps = con.prepareStatement(sql);
+                ps.setString(1, matricula);
+                ResultSet rs = ps.executeQuery();
+
+                while (rs.next()) {
+                    Measurement m = new Measurement();
+
+                    // datos vehículo -> Measurement
+                    m.setPlate(rs.getString("matricula"));
+                    m.setMeanPressure(rs.getDouble("media_presiones"));
+                    m.setTypeVehicle(rs.getString("tipo"));          // p.ej. "Coche"/"Camion"/"Bicicleta" o tecnología
+                    m.setDistance(rs.getDouble("media_distancias"));
+                    m.setStreetId(rs.getString("street_id"));
+
+                    // si quieres saber de qué tabla viene:
+                    m.setSensorType(tableName); // opcional, reutilizas el campo
+
+                    list.add(m);
+                }
+            } catch (Exception e) {
+                Log.log.error("Error getVehicleMeasurements: ", e);
+                list = new ArrayList<>();
+            } finally {
+                conector.closeConnection(con);
+            }
+            return list;
+        }
+        
+        public static ArrayList<Measurement> getStreetMeasurements(String streetId) {
+            ArrayList<Measurement> list = new ArrayList<>();
+            ConectionDDBB conector = new ConectionDDBB();
+            Connection con = null;
+
+            try {
+                con = conector.obtainConnection(true);
+
+                String sql = 
+                    "SELECT id, street_id, street_length, latitude, longitude, " +
+                    "       district, neighborhood, postal_code, street_name, " +
+                    "       surface_type, speed_limit " +
+                    "FROM Street WHERE street_id = ?";
+
+                PreparedStatement ps = con.prepareStatement(sql);
+                ps.setString(1, streetId);
+                ResultSet rs = ps.executeQuery();
+
+                while (rs.next()) {
+                    Measurement m = new Measurement();
+
+                    // datos de la calle -> Measurement (location + límites)
+                    m.setStreetId(rs.getString("street_id"));
+                    m.setLatitude(rs.getDouble("latitude"));
+                    m.setLongitude(rs.getDouble("longitude"));
+                    m.setDistrict(rs.getString("district"));
+                    m.setNeighborhood(rs.getString("neighborhood"));
+                    m.setPostalCode(String.valueOf(rs.getInt("postal_code")));
+                    m.setStreetName(rs.getString("street_name"));
+                    m.setStreetLength(rs.getDouble("street_length"));
+                    m.setSurfaceType(rs.getString("surface_type"));
+                    m.setSpeedLimit(rs.getInt("speed_limit"));
+
+                    // si quieres, puedes usar sensorId/sensorType para otra cosa
+                    list.add(m);
+                }
+            } catch (Exception e) {
+                Log.log.error("Error getStreetMeasurements: ", e);
+                list = new ArrayList<>();
+            } finally {
+                conector.closeConnection(con);
+            }
+            return list;
+        }
 }
 
 
