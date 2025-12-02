@@ -20,53 +20,75 @@ import logic.Measurement;
  */
 @WebServlet("/GetData")
 public class GetData extends HttpServlet {
-	private static final long serialVersionUID = 1L;
-       
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
-    public GetData() {
-        super();
-        // TODO Auto-generated constructor stub
+
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        response.setContentType("application/json;charset=UTF-8");
+        PrintWriter out = response.getWriter();
+
+        try {
+            String table = request.getParameter("table"); // Street, Coche, Bicicleta, Camion, Registro
+
+            if (table == null || table.isEmpty()) {
+                response.setStatus(HttpServletResponse.SC_BAD_REQUEST);
+                out.print("{\"error\":\"missing_table_param\"}");
+                return;
+            }
+
+            // Siempre devolvemos una lista de Measurement
+            java.util.List<Measurement> result;
+
+            switch (table) {
+                case "Street": {
+                    String streetId = request.getParameter("street_id");
+                    result = Logic.getStreetMeasurements(streetId);
+                    break;
+                }
+                case "Coche":
+                case "Bicicleta":
+                case "Camion": {
+                    String matricula = request.getParameter("matricula");
+                    if (matricula == null || matricula.isEmpty()) {
+                        response.setStatus(HttpServletResponse.SC_BAD_REQUEST);
+                        out.print("{\"error\":\"missing_matricula\"}");
+                        return;
+                    }
+                    result = Logic.getVehicleMeasurements(table, matricula);
+                    break;
+                }
+                case "Registro": {
+                    String dateStr = request.getParameter("date"); // YYYY-MM-DD
+                    if (dateStr == null || dateStr.isEmpty()) {
+                        response.setStatus(HttpServletResponse.SC_BAD_REQUEST);
+                        out.print("{\"error\":\"missing_date\"}");
+                        return;
+                    }
+                    result = Logic.getRegistroMeasurementsByDay(dateStr);
+                    break;
+                }
+                default:
+                    response.setStatus(HttpServletResponse.SC_BAD_REQUEST);
+                    out.print("{\"error\":\"invalid_table\"}");
+                    return;
+            }
+
+            String json = new Gson().toJson(result);
+            out.print(json);
+
+        } catch (Exception e) {
+            Log.log.error("Exception in GetData: ", e);
+            response.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
+            out.print("{\"error\":\"internal_error\"}");
+        } finally {
+            out.close();
+        }
     }
 
-	/**
-	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
-	 */
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		Log.log.info("--Set new value into the DB--");
-		response.setContentType("text/html;charset=UTF-8");
-		PrintWriter out = response.getWriter();
-		try 
-		{
-			//ArrayList<Measurement> values =Logic.getDataFromDB();
-			//String jsonMeasurements = new Gson().toJson(values);
-			//Logs.log.info("Values=>" + jsonMeasurements);
-			//out.println(jsonMeasurements);
-		} catch (NumberFormatException nfe) 
-		{
-			out.println("-1");
-			Log.log.error("Number Format Exception: " + nfe);
-		} catch (IndexOutOfBoundsException iobe) 
-		{
-			out.println("-1");
-			Log.log.error("Index out of bounds Exception: " + iobe);
-		} catch (Exception e) 
-		{
-			out.println("-1");
-			Log.log.error("Exception: " + e);
-		} finally 
-		{
-			out.close();
-		}
-	}
-
-	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
-	 */
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		doGet(request, response);
-	}
-
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        doGet(request, response);
+    }
 }
