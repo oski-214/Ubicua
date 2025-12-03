@@ -14,6 +14,10 @@ public class Projectinitializer implements ServletContextListener {
     // Mantén como atributo de clase la única instancia de suscriptor y broker
     private static MQTTSuscriber suscriber;
     private static MQTTBroker broker;
+    
+    public static MQTTBroker getBroker() {
+        return broker;
+    }
 
     @Override
     public void contextInitialized(ServletContextEvent sce) {
