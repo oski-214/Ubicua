@@ -22,11 +22,12 @@ public class SetData extends HttpServlet
     }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
-		Log.log.info("--Get values from the DB--");
+		Log.log.info("SetData servlet iniciado - Get values from the DB");
 		response.setContentType("text/html;charset=UTF-8");
 		PrintWriter out = response.getWriter();
 		try {
 			int value = Integer.parseInt(request.getParameter("value"));
+			Log.log.info("Parámetro value: " + value);
 			//Logic.setDataToDB(value);
 		} catch (NumberFormatException nfe){
 			out.println("-1");

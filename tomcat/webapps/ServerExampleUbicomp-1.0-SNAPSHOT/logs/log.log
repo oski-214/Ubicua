@@ -1,1 +1,18 @@
 -- UBICOMP SERVER EXAMPLE LOG --
+2025-12-04 19:57:11.540 INFO  logic.Projectinitializer.contextInitialized(Projectinitializer.java:24) log ### ========================================
+2025-12-04 19:57:11.663 INFO  logic.Projectinitializer.contextInitialized(Projectinitializer.java:25) log ### === UBICOMP SERVER INICIANDO ===
+2025-12-04 19:57:11.663 INFO  logic.Projectinitializer.contextInitialized(Projectinitializer.java:26) log ### ========================================
+2025-12-04 19:57:12.875 INFO  logic.Projectinitializer.contextInitialized(Projectinitializer.java:45) log ### === SERVIDOR INICIADO CORRECTAMENTE ===
+2025-12-04 19:59:24.947 INFO  servlets.SendCommandServlet.processRequest(SendCommandServlet.java:34) log ### SendCommandServlet iniciado
+2025-12-04 19:59:24.951 INFO  servlets.SendCommandServlet.processRequest(SendCommandServlet.java:42) log ### Parámetro action: reset
+2025-12-04 19:59:25.430 INFO  servlets.SendCommandServlet.processRequest(SendCommandServlet.java:58) log ### Comando JSON creado: {"sensor_id":"TC_1678","action":"reset"}
+2025-12-04 19:59:25.838 INFO  servlets.SendCommandServlet.processRequest(SendCommandServlet.java:77) log ### SendCommandServlet finalizado correctamente
+2025-12-04 19:59:32.363 INFO  servlets.GetData.doGet(GetData.java:28) log ### GetData servlet iniciado
+2025-12-04 19:59:32.366 INFO  servlets.GetData.doGet(GetData.java:36) log ### Parámetro table: Street
+2025-12-04 19:59:32.435 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-04 19:59:33.142 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 1690967349, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-04
+2025-12-04 19:59:33.142 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-04 19:59:33.305 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-04 19:59:33.306 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 1690967349, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-04
+2025-12-04 19:59:33.309 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-04 19:59:33.968 INFO  servlets.GetData.doGet(GetData.java:91) log ### GetData finalizado correctamente

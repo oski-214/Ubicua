@@ -1,7 +1,13 @@
 -- UBICOMP SERVER EXAMPLE MQTT LOG --
-2025-12-04 19:37:00.856 DEBUG mqtt.MQTTSuscriber.suscribeTopic(MQTTSuscriber.java:21) logmqtt ### Suscribe to topics
-2025-12-04 19:37:02.292 INFO  mqtt.MQTTSuscriber.suscribeTopic(MQTTSuscriber.java:44) logmqtt ### Subscribed to sensors/ST_1678/traffic_counter
-2025-12-04 19:39:52.050 INFO  mqtt.MQTTPublisher.publish(MQTTPublisher.java:26) logmqtt ### Connecting to broker: tcp://mqtt-broker:1883
-2025-12-04 19:39:52.363 INFO  mqtt.MQTTPublisher.publish(MQTTPublisher.java:28) logmqtt ### Connected
-2025-12-04 19:39:52.435 INFO  mqtt.MQTTPublisher.publish(MQTTPublisher.java:32) logmqtt ### Message published
-2025-12-04 19:39:52.458 INFO  mqtt.MQTTPublisher.publish(MQTTPublisher.java:34) logmqtt ### Disconnected
+2025-12-04 19:57:11.664 INFO  logic.Projectinitializer.contextInitialized(Projectinitializer.java:31) logmqtt ### Inicializando MQTT Broker...
+2025-12-04 19:57:11.664 INFO  logic.Projectinitializer.contextInitialized(Projectinitializer.java:33) logmqtt ### MQTT Broker inicializado
+2025-12-04 19:57:11.665 INFO  logic.Projectinitializer.contextInitialized(Projectinitializer.java:37) logmqtt ### Creando suscriptor para topic: sensors/ST_1678/traffic_counter
+2025-12-04 19:57:11.687 DEBUG mqtt.MQTTSuscriber.suscribeTopic(MQTTSuscriber.java:21) logmqtt ### Suscribe to topics
+2025-12-04 19:57:12.873 INFO  mqtt.MQTTSuscriber.suscribeTopic(MQTTSuscriber.java:44) logmqtt ### Subscribed to sensors/ST_1678/traffic_counter
+2025-12-04 19:57:12.874 INFO  logic.Projectinitializer.contextInitialized(Projectinitializer.java:40) logmqtt ### Suscripción completada
+2025-12-04 19:59:25.431 INFO  servlets.SendCommandServlet.processRequest(SendCommandServlet.java:59) logmqtt ### Publicando comando en topic: sensors/ST_1678/cmd
+2025-12-04 19:59:25.460 INFO  mqtt.MQTTPublisher.publish(MQTTPublisher.java:26) logmqtt ### Connecting to broker: tcp://mqtt-broker:1883
+2025-12-04 19:59:25.769 INFO  mqtt.MQTTPublisher.publish(MQTTPublisher.java:28) logmqtt ### Connected
+2025-12-04 19:59:25.816 INFO  mqtt.MQTTPublisher.publish(MQTTPublisher.java:32) logmqtt ### Message published
+2025-12-04 19:59:25.832 INFO  mqtt.MQTTPublisher.publish(MQTTPublisher.java:34) logmqtt ### Disconnected
+2025-12-04 19:59:25.833 INFO  servlets.SendCommandServlet.processRequest(SendCommandServlet.java:72) logmqtt ### Comando publicado exitosamente: {"sensor_id":"TC_1678","action":"reset"}

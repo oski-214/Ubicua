@@ -1,1 +1,3 @@
 -- UBICOMP SERVER EXAMPLE DATABASE LOG --
+2025-12-04 19:59:32.367 INFO  servlets.GetData.doGet(GetData.java:51) logdb ### Consultando Street con street_id: ST_1678
+2025-12-04 19:59:33.310 INFO  servlets.GetData.doGet(GetData.java:88) logdb ### Consulta completada, registros obtenidos: 1
