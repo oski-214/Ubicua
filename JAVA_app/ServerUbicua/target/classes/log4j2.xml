@@ -45,16 +45,24 @@
     </Appenders>
 
     <Loggers>
+        <!-- Logger general -->
         <Logger name="log" additivity="FALSE" level="DEBUG">
             <AppenderRef ref="LogFile" level="DEBUG" />
         </Logger>
 
+        <!-- Logger MQTT -->
         <Logger name="logmqtt" additivity="FALSE" level="DEBUG">
             <AppenderRef ref="LogFileMQTT" level="DEBUG" />
         </Logger>
 
+        <!-- Logger Base de Datos -->
         <Logger name="logdb" additivity="FALSE" level="DEBUG">
             <AppenderRef ref="LogFileDB" level="DEBUG" />
         </Logger>
+
+        <!-- Logger raíz (obligatorio) -->
+        <Root level="INFO">
+            <AppenderRef ref="LogFile" />
+        </Root>
     </Loggers>
 </Configuration>

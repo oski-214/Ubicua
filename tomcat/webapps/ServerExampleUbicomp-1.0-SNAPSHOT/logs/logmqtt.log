@@ -1,3 +1,7 @@
 -- UBICOMP SERVER EXAMPLE MQTT LOG --
-2025-12-04 19:25:34.177 DEBUG mqtt.MQTTSuscriber.suscribeTopic(MQTTSuscriber.java:21) logmqtt ### Suscribe to topics
-2025-12-04 19:25:35.731 INFO  mqtt.MQTTSuscriber.suscribeTopic(MQTTSuscriber.java:44) logmqtt ### Subscribed to sensors/ST_1678/traffic_counter
+2025-12-04 19:37:00.856 DEBUG mqtt.MQTTSuscriber.suscribeTopic(MQTTSuscriber.java:21) logmqtt ### Suscribe to topics
+2025-12-04 19:37:02.292 INFO  mqtt.MQTTSuscriber.suscribeTopic(MQTTSuscriber.java:44) logmqtt ### Subscribed to sensors/ST_1678/traffic_counter
+2025-12-04 19:39:52.050 INFO  mqtt.MQTTPublisher.publish(MQTTPublisher.java:26) logmqtt ### Connecting to broker: tcp://mqtt-broker:1883
+2025-12-04 19:39:52.363 INFO  mqtt.MQTTPublisher.publish(MQTTPublisher.java:28) logmqtt ### Connected
+2025-12-04 19:39:52.435 INFO  mqtt.MQTTPublisher.publish(MQTTPublisher.java:32) logmqtt ### Message published
+2025-12-04 19:39:52.458 INFO  mqtt.MQTTPublisher.publish(MQTTPublisher.java:34) logmqtt ### Disconnected
