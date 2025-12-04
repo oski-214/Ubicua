@@ -7,6 +7,7 @@ logic\Measurement.class
 mqtt\MQTTBroker.class
 logic\Log.class
 mqtt\MQTTSuscriber.class
+servlets\SendCommandServlet.class
 db\Topics.class
 logic\Logic.class
 servlets\SetData.class

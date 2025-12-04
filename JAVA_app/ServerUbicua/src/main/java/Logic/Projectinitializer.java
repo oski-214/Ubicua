@@ -22,7 +22,7 @@ public class Projectinitializer implements ServletContextListener {
     @Override
     public void contextInitialized(ServletContextEvent sce) {
         System.out.println("-->Suscribe Topics<--");
-        String topic = "sensors/#";
+        String topic = "sensors/ST_1678/traffic_counter";
         broker = new MQTTBroker();
 
         // SOLO crea un suscriptor si aún no existe
@@ -30,7 +30,7 @@ public class Projectinitializer implements ServletContextListener {
             suscriber = new MQTTSuscriber();
             suscriber.suscribeTopic(broker, topic);
             // (Opcional) Realiza el publish solo una vez
-            MQTTPublisher.publish(broker, topic, "Hello from Tomcat :)");
+            //MQTTPublisher.publish(broker, topic, "Hello from Tomcat :)");
         }
     }
 

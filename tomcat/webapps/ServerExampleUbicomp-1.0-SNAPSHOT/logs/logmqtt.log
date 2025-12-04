@@ -1,0 +1,3 @@
+-- UBICOMP SERVER EXAMPLE MQTT LOG --
+2025-12-04 19:25:34.177 DEBUG mqtt.MQTTSuscriber.suscribeTopic(MQTTSuscriber.java:21) logmqtt ### Suscribe to topics
+2025-12-04 19:25:35.731 INFO  mqtt.MQTTSuscriber.suscribeTopic(MQTTSuscriber.java:44) logmqtt ### Subscribed to sensors/ST_1678/traffic_counter

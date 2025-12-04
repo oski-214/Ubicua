@@ -93,6 +93,7 @@ unsigned long ultMensaje = 0;
 
 void setup()
 {
+  pinMode(2, OUTPUT);
   //Presión + num_mediciones
   Serial.begin(9600);
   StartTime=millis();
@@ -396,6 +397,7 @@ void setup_wifi() {
   client.subscribe(topic_subscribe);
 }
 
+
 void callback(char* topic, byte* payload, unsigned int length) {
   Serial.print("Mensaje recibido en [");
   Serial.print(topic);
@@ -404,9 +406,14 @@ void callback(char* topic, byte* payload, unsigned int length) {
   String mensaje = "";
   for (int i = 0; i < length; i++) {
     mensaje += (char)payload[i];
-    Serial.print((char)payload[i]);
+  }
+  Serial.println(mensaje);
+  
+  if (String(topic) == "sensors/ST_1678/cmd") {
+    procesarComando(mensaje);
   }
 }
+
 
 void publicar_datos() {
   int total_vehiculos = contador_coches + contador_camiones;
@@ -480,3 +487,35 @@ String getCurrentTimestamp() {
   strftime(buffer, 20, "%Y-%m-%d %H:%M:%S", &timeinfo);
   return String(buffer);
 }
+
+
+
+void procesarComando(String json) {
+  Serial.println("Procesando comando: " + json);
+  
+  // Comando: RESET
+  if (json.indexOf("\"action\":\"reset\"") > 0) {
+    Serial.println("Reseteando contadores...");
+    
+    contador_bicicletas = 0;
+    contador_coches = 0;
+    contador_camiones = 0;
+    contador_ECO = 0;
+    contador_GAS = 0;
+    
+    lcd.clear();
+    lcd.setCursor(0, 0);
+    lcd.print("RESET OK!");
+    delay(2000);
+    
+    lcd.clear();
+    lcd.setCursor(0,0);
+    lcd.print("ECO=0 GAS=0");
+    lcd.setCursor(0,1);
+    lcd.print("B=0 A=0 C=0");
+    
+    Serial.println("Contadores reseteados");
+  }
+  
+}
+
