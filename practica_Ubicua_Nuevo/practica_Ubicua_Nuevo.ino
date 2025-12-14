@@ -10,13 +10,13 @@
 //const char* ssid = "MOVISTAR_0C33"; //cambiar para wifi OSCAR
 //const char* password = "Z0023F8BBA6FA00"; //cambiar para wifi OSCAR
 
-const char* ssid = "MOVISTAR_40E6"; //cambiar para wifi MARTA
-const char* password = "CN9uLfTywfx3RR72A2rt"; //cambiar para wifi MARTA 
+const char* ssid = "Xiaomi 14T Pro"; //cambiar para wifi MARTA
+const char* password = "dianaespreciosa"; //cambiar para wifi MARTA 
 
 
 
 //conexion a servidor mqtt de ubicua
-const char* mqtt_server = "192.168.1.52";
+const char* mqtt_server = "10.31.176.113";
 const int mqtt_port = 1883;
 const char* mqtt_user = "martayoscar";
 const char* mqtt_password = "contador";
