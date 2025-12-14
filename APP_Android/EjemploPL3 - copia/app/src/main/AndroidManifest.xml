@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Permisos de Internet, necesarios para Retrofit --><uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EjemploPL3"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+
+        <!--
+            PASO 1: MainActivity es ahora la actividad de inicio.
+            El intent-filter con LAUNCHER debe estar aquí.
+        -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--
+            PASO 2: StreetSelection es una actividad normal ahora.
+            Quítale el intent-filter de LAUNCHER si lo tenía.
+        -->
+        <activity
+            android:name=".StreetSelection"
+            android:exported="false" />
+
+        <!--
+            PASO 3: Asegúrate de que VehicleSelection también está declarada.
+        -->
+        <activity
+            android:name=".VehicleSelection"
+            android:exported="false" />
+        <activity
+            android:name=".VehicleTypeSelection"
+            android:exported="false" />
+        <activity
+            android:name=".RegistroSelection"
+            android:exported="false" />
+        <activity
+            android:name=".MqttMonitoringActivity"
+            android:exported="false" />
+
+
+    </application>
+</manifest>
