@@ -415,6 +415,74 @@ public class Logic
             }
             return list;
         }
+        
+        
+        public static java.util.List<String> getStreetIds() {
+            java.util.List<String> list = new java.util.ArrayList<>();
+            ConectionDDBB conector = new ConectionDDBB();
+            Connection con = null;
+
+            try {
+                con = conector.obtainConnection(true);
+
+                String sql = "SELECT street_id FROM Street";
+                PreparedStatement ps = con.prepareStatement(sql);
+                ResultSet rs = ps.executeQuery();
+
+                while (rs.next()) {
+                    String streetId = rs.getString("street_id");
+                    if (list.contains(streetId)==false){
+                        list.add(streetId);
+                    }
+                }
+            } catch (Exception e) {
+                Log.log.error("Error getStreetIds: ", e);
+                list = new java.util.ArrayList<>();
+            } finally {
+                conector.closeConnection(con);
+            }
+            return list;
+        }
+        
+        public static java.util.List<String> getLicensePlates(String table) {
+            java.util.List<String> list = new java.util.ArrayList<>();
+            ConectionDDBB conector = new ConectionDDBB();
+            Connection con = null;
+
+            try {
+                con = conector.obtainConnection(true);
+
+                // Importante: validar el nombre de la tabla para evitar SQL injection.
+                // Solo permitimos las tablas esperadas.
+                String tableName;
+                switch (table) {
+                    case "Coche":
+                    case "Bicicleta":
+                    case "Camion":
+                        tableName = table;
+                        break;
+                    default:
+                        throw new IllegalArgumentException("Tabla no permitida: " + table);
+                }
+
+                String sql = "SELECT matricula FROM " + tableName;
+                PreparedStatement ps = con.prepareStatement(sql);
+                ResultSet rs = ps.executeQuery();
+
+                while (rs.next()) {
+                    String plate = rs.getString("matricula");
+                    list.add(plate);
+                }
+            } catch (Exception e) {
+                Log.log.error("Error getLicensePlates: ", e);
+                list = new java.util.ArrayList<>();
+            } finally {
+                conector.closeConnection(con);
+            }
+            return list;
+        }
+
+
 }
 
 

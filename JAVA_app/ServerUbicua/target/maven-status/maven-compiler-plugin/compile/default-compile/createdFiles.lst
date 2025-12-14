@@ -10,4 +10,6 @@ mqtt\MQTTSuscriber.class
 servlets\SendCommandServlet.class
 db\Topics.class
 logic\Logic.class
+servlets\GetStreetIds.class
 servlets\SetData.class
+servlets\GetLicensePlates.class

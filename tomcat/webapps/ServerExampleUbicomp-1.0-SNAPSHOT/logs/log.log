@@ -1,18 +1,458 @@
 -- UBICOMP SERVER EXAMPLE LOG --
-2025-12-04 19:57:11.540 INFO  logic.Projectinitializer.contextInitialized(Projectinitializer.java:24) log ### ========================================
-2025-12-04 19:57:11.663 INFO  logic.Projectinitializer.contextInitialized(Projectinitializer.java:25) log ### === UBICOMP SERVER INICIANDO ===
-2025-12-04 19:57:11.663 INFO  logic.Projectinitializer.contextInitialized(Projectinitializer.java:26) log ### ========================================
-2025-12-04 19:57:12.875 INFO  logic.Projectinitializer.contextInitialized(Projectinitializer.java:45) log ### === SERVIDOR INICIADO CORRECTAMENTE ===
-2025-12-04 19:59:24.947 INFO  servlets.SendCommandServlet.processRequest(SendCommandServlet.java:34) log ### SendCommandServlet iniciado
-2025-12-04 19:59:24.951 INFO  servlets.SendCommandServlet.processRequest(SendCommandServlet.java:42) log ### Parámetro action: reset
-2025-12-04 19:59:25.430 INFO  servlets.SendCommandServlet.processRequest(SendCommandServlet.java:58) log ### Comando JSON creado: {"sensor_id":"TC_1678","action":"reset"}
-2025-12-04 19:59:25.838 INFO  servlets.SendCommandServlet.processRequest(SendCommandServlet.java:77) log ### SendCommandServlet finalizado correctamente
-2025-12-04 19:59:32.363 INFO  servlets.GetData.doGet(GetData.java:28) log ### GetData servlet iniciado
-2025-12-04 19:59:32.366 INFO  servlets.GetData.doGet(GetData.java:36) log ### Parámetro table: Street
-2025-12-04 19:59:32.435 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
-2025-12-04 19:59:33.142 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 1690967349, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-04
-2025-12-04 19:59:33.142 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
-2025-12-04 19:59:33.305 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
-2025-12-04 19:59:33.306 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 1690967349, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-04
-2025-12-04 19:59:33.309 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
-2025-12-04 19:59:33.968 INFO  servlets.GetData.doGet(GetData.java:91) log ### GetData finalizado correctamente
+2025-12-12 13:49:55.665 INFO  logic.Projectinitializer.contextInitialized(Projectinitializer.java:24) log ### ========================================
+2025-12-12 13:49:55.911 INFO  logic.Projectinitializer.contextInitialized(Projectinitializer.java:25) log ### === UBICOMP SERVER INICIANDO ===
+2025-12-12 13:49:55.913 INFO  logic.Projectinitializer.contextInitialized(Projectinitializer.java:26) log ### ========================================
+2025-12-12 13:49:57.631 INFO  logic.Projectinitializer.contextInitialized(Projectinitializer.java:45) log ### === SERVIDOR INICIADO CORRECTAMENTE ===
+2025-12-12 13:50:11.732 INFO  servlets.GetLicensePlates.doGet(GetLicensePlates.java:24) log ### GetLicensePlates servlet iniciado
+2025-12-12 13:50:11.737 INFO  servlets.GetLicensePlates.doGet(GetLicensePlates.java:31) log ### Parámetro table en GetLicensePlates: Camion
+2025-12-12 13:50:11.836 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:50:12.817 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 650180171, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:12.819 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:50:13.028 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:50:13.029 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 650180171, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:13.032 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:50:14.658 INFO  servlets.GetLicensePlates.doGet(GetLicensePlates.java:54) log ### GetLicensePlates finalizado correctamente
+2025-12-12 13:50:18.026 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:50:18.028 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 664629736, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:18.029 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:50:18.098 INFO  logic.Logic.insertOrUpdateStreet(Logic.java:113) log ### Street ST_1678 already exists, skipping insert
+2025-12-12 13:50:18.099 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:50:18.099 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 664629736, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:18.100 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:50:18.101 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:50:18.102 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 858407529, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:18.104 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:50:18.107 INFO  logic.Logic.insertOrUpdateVehicle(Logic.java:162) log ### Vehicle inserted: Camion - 8354AGI
+2025-12-12 13:50:18.108 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:50:18.108 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 858407529, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:18.109 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:50:18.110 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:50:18.112 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 1667090513, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:18.113 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:50:18.137 INFO  logic.Logic.insertRegistro(Logic.java:225) log ### Registro insertado para matrícula: 8354AGI
+2025-12-12 13:50:18.153 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:50:18.154 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 1667090513, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:18.154 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:50:18.155 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:50:18.156 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 660635070, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:18.157 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:50:18.165 INFO  logic.Logic.insertManyToOne(Logic.java:277) log ### Relación M:M insertada en many_Camion_has_many_Registro para vehículo 8354AGI y Registro ID: 56
+2025-12-12 13:50:18.166 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:50:18.167 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 660635070, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:18.167 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:50:23.363 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:50:23.367 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 1654108595, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:23.368 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:50:23.370 INFO  logic.Logic.insertOrUpdateStreet(Logic.java:113) log ### Street ST_1678 already exists, skipping insert
+2025-12-12 13:50:23.371 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:50:23.373 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 1654108595, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:23.374 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:50:23.375 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:50:23.377 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 382944794, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:23.379 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:50:23.382 INFO  logic.Logic.insertOrUpdateVehicle(Logic.java:162) log ### Vehicle inserted: Camion - 3594JMM
+2025-12-12 13:50:23.383 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:50:23.384 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 382944794, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:23.385 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:50:23.386 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:50:23.388 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 743557303, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:23.391 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:50:23.396 INFO  logic.Logic.insertRegistro(Logic.java:225) log ### Registro insertado para matrícula: 3594JMM
+2025-12-12 13:50:23.397 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:50:23.399 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 743557303, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:23.399 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:50:23.400 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:50:23.402 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 324880056, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:23.402 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:50:23.406 INFO  logic.Logic.insertManyToOne(Logic.java:277) log ### Relación M:M insertada en many_Camion_has_many_Registro para vehículo 3594JMM y Registro ID: 57
+2025-12-12 13:50:23.407 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:50:23.408 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 324880056, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:23.409 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:50:27.667 INFO  servlets.GetLicensePlates.doGet(GetLicensePlates.java:24) log ### GetLicensePlates servlet iniciado
+2025-12-12 13:50:27.668 INFO  servlets.GetLicensePlates.doGet(GetLicensePlates.java:31) log ### Parámetro table en GetLicensePlates: Camion
+2025-12-12 13:50:27.669 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:50:27.671 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 122305297, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:27.673 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:50:27.676 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:50:27.677 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 122305297, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:27.678 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:50:27.683 INFO  servlets.GetLicensePlates.doGet(GetLicensePlates.java:54) log ### GetLicensePlates finalizado correctamente
+2025-12-12 13:50:28.582 INFO  servlets.GetLicensePlates.doGet(GetLicensePlates.java:24) log ### GetLicensePlates servlet iniciado
+2025-12-12 13:50:28.588 INFO  servlets.GetLicensePlates.doGet(GetLicensePlates.java:31) log ### Parámetro table en GetLicensePlates: Camion
+2025-12-12 13:50:28.589 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:50:28.591 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 2040222990, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:28.593 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:50:28.595 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:50:28.596 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 2040222990, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:28.597 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:50:28.599 INFO  servlets.GetLicensePlates.doGet(GetLicensePlates.java:54) log ### GetLicensePlates finalizado correctamente
+2025-12-12 13:50:38.920 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:50:38.922 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 1694599968, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:38.924 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:50:38.928 INFO  logic.Logic.insertOrUpdateStreet(Logic.java:113) log ### Street ST_1678 already exists, skipping insert
+2025-12-12 13:50:38.930 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:50:38.930 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 1694599968, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:38.931 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:50:38.932 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:50:38.934 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 304767147, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:38.936 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:50:38.960 INFO  logic.Logic.insertOrUpdateVehicle(Logic.java:162) log ### Vehicle inserted: Camion - 4833GNZ
+2025-12-12 13:50:38.961 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:50:38.962 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 304767147, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:38.963 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:50:38.965 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:50:38.967 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 57461984, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:38.968 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:50:38.972 INFO  logic.Logic.insertRegistro(Logic.java:225) log ### Registro insertado para matrícula: 4833GNZ
+2025-12-12 13:50:38.973 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:50:38.974 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 57461984, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:38.975 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:50:38.976 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:50:38.977 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 1972501088, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:38.979 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:50:38.982 INFO  logic.Logic.insertManyToOne(Logic.java:277) log ### Relación M:M insertada en many_Camion_has_many_Registro para vehículo 4833GNZ y Registro ID: 58
+2025-12-12 13:50:38.984 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:50:38.985 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 1972501088, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:38.986 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:50:44.337 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:50:44.339 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 313586327, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:44.340 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:50:44.342 INFO  logic.Logic.insertOrUpdateStreet(Logic.java:113) log ### Street ST_1678 already exists, skipping insert
+2025-12-12 13:50:44.343 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:50:44.345 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 313586327, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:44.347 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:50:44.348 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:50:44.351 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 593984647, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:44.352 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:50:44.356 INFO  logic.Logic.insertOrUpdateVehicle(Logic.java:162) log ### Vehicle inserted: Camion - 1977XBU
+2025-12-12 13:50:44.356 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:50:44.358 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 593984647, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:44.360 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:50:44.360 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:50:44.362 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 819248481, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:44.363 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:50:44.369 INFO  logic.Logic.insertRegistro(Logic.java:225) log ### Registro insertado para matrícula: 1977XBU
+2025-12-12 13:50:44.370 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:50:44.371 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 819248481, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:44.372 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:50:44.372 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:50:44.375 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 256817035, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:44.376 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:50:44.382 INFO  logic.Logic.insertManyToOne(Logic.java:277) log ### Relación M:M insertada en many_Camion_has_many_Registro para vehículo 1977XBU y Registro ID: 59
+2025-12-12 13:50:44.383 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:50:44.385 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 256817035, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:44.386 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:50:56.321 INFO  servlets.GetLicensePlates.doGet(GetLicensePlates.java:24) log ### GetLicensePlates servlet iniciado
+2025-12-12 13:50:56.322 INFO  servlets.GetLicensePlates.doGet(GetLicensePlates.java:31) log ### Parámetro table en GetLicensePlates: Camion
+2025-12-12 13:50:56.323 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:50:56.325 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 1421388810, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:56.326 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:50:56.328 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:50:56.329 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 1421388810, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:50:56.330 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:50:56.348 INFO  servlets.GetLicensePlates.doGet(GetLicensePlates.java:54) log ### GetLicensePlates finalizado correctamente
+2025-12-12 13:51:04.225 INFO  servlets.GetLicensePlates.doGet(GetLicensePlates.java:24) log ### GetLicensePlates servlet iniciado
+2025-12-12 13:51:04.226 INFO  servlets.GetLicensePlates.doGet(GetLicensePlates.java:31) log ### Parámetro table en GetLicensePlates: Camion
+2025-12-12 13:51:04.226 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:51:04.227 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 1189700810, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:04.228 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:51:04.229 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:51:04.230 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 1189700810, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:04.231 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:51:04.233 INFO  servlets.GetLicensePlates.doGet(GetLicensePlates.java:54) log ### GetLicensePlates finalizado correctamente
+2025-12-12 13:51:04.826 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:51:04.829 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 296924770, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:04.831 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:51:04.833 INFO  logic.Logic.insertOrUpdateStreet(Logic.java:113) log ### Street ST_1678 already exists, skipping insert
+2025-12-12 13:51:04.834 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:51:04.835 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 296924770, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:04.835 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:51:04.836 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:51:04.838 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 1464245977, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:04.839 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:51:04.844 INFO  logic.Logic.insertOrUpdateVehicle(Logic.java:162) log ### Vehicle inserted: Camion - 9931NQO
+2025-12-12 13:51:04.846 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:51:04.846 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 1464245977, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:04.847 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:51:04.848 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:51:04.850 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 385862795, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:04.851 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:51:04.856 INFO  logic.Logic.insertRegistro(Logic.java:225) log ### Registro insertado para matrícula: 9931NQO
+2025-12-12 13:51:04.857 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:51:04.858 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 385862795, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:04.859 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:51:04.859 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:51:04.861 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 738982146, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:04.862 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:51:04.865 INFO  logic.Logic.insertManyToOne(Logic.java:277) log ### Relación M:M insertada en many_Camion_has_many_Registro para vehículo 9931NQO y Registro ID: 60
+2025-12-12 13:51:04.865 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:51:04.866 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 738982146, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:04.867 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:51:07.996 INFO  servlets.GetData.doGet(GetData.java:28) log ### GetData servlet iniciado
+2025-12-12 13:51:07.999 INFO  servlets.GetData.doGet(GetData.java:36) log ### Parámetro table: Camion
+2025-12-12 13:51:08.002 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:51:08.004 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 275299462, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:08.005 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:51:08.101 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:51:08.102 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 275299462, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:08.103 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:51:08.233 INFO  servlets.GetData.doGet(GetData.java:91) log ### GetData finalizado correctamente
+2025-12-12 13:51:15.246 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:51:15.248 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 84653514, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:15.249 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:51:15.251 INFO  logic.Logic.insertOrUpdateStreet(Logic.java:113) log ### Street ST_1678 already exists, skipping insert
+2025-12-12 13:51:15.252 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:51:15.253 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 84653514, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:15.254 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:51:15.255 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:51:15.257 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 2044707613, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:15.258 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:51:15.268 INFO  logic.Logic.insertOrUpdateVehicle(Logic.java:162) log ### Vehicle inserted: Bicicleta - 0774UEC
+2025-12-12 13:51:15.269 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:51:15.270 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 2044707613, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:15.271 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:51:15.272 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:51:15.274 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 164180514, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:15.274 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:51:15.278 INFO  logic.Logic.insertRegistro(Logic.java:225) log ### Registro insertado para matrícula: 0774UEC
+2025-12-12 13:51:15.279 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:51:15.280 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 164180514, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:15.280 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:51:15.281 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:51:15.283 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 2069252772, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:15.284 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:51:15.294 INFO  logic.Logic.insertManyToOne(Logic.java:277) log ### Relación M:M insertada en many_Bicicleta_has_many_Registro para vehículo 0774UEC y Registro ID: 61
+2025-12-12 13:51:15.295 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:51:15.296 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 2069252772, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:15.296 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:51:25.761 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:51:25.768 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 1237941119, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:25.770 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:51:25.774 INFO  logic.Logic.insertOrUpdateStreet(Logic.java:113) log ### Street ST_1678 already exists, skipping insert
+2025-12-12 13:51:25.775 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:51:25.776 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 1237941119, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:25.778 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:51:25.779 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:51:25.784 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 1234500778, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:25.786 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:51:25.810 INFO  logic.Logic.insertOrUpdateVehicle(Logic.java:162) log ### Vehicle inserted: Camion - 1543DDQ
+2025-12-12 13:51:25.811 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:51:25.812 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 1234500778, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:25.812 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:51:25.813 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:51:25.815 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 1255573009, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:25.816 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:51:25.820 INFO  logic.Logic.insertRegistro(Logic.java:225) log ### Registro insertado para matrícula: 1543DDQ
+2025-12-12 13:51:25.821 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:51:25.821 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 1255573009, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:25.822 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:51:25.823 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:51:25.824 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 1355308309, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:25.824 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:51:25.828 INFO  logic.Logic.insertManyToOne(Logic.java:277) log ### Relación M:M insertada en many_Camion_has_many_Registro para vehículo 1543DDQ y Registro ID: 62
+2025-12-12 13:51:25.829 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:51:25.829 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 1355308309, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:25.830 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:51:36.264 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:51:36.267 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 1452883264, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:36.269 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:51:36.272 INFO  logic.Logic.insertOrUpdateStreet(Logic.java:113) log ### Street ST_1678 already exists, skipping insert
+2025-12-12 13:51:36.272 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:51:36.273 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 1452883264, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:36.274 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:51:36.274 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:51:36.276 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 1178623739, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:36.277 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:51:36.295 INFO  logic.Logic.insertOrUpdateVehicle(Logic.java:162) log ### Vehicle inserted: Camion - 7358TQA
+2025-12-12 13:51:36.296 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:51:36.297 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 1178623739, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:36.297 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:51:36.298 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:51:36.300 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 2139701173, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:36.301 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:51:36.305 INFO  logic.Logic.insertRegistro(Logic.java:225) log ### Registro insertado para matrícula: 7358TQA
+2025-12-12 13:51:36.306 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:51:36.307 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 2139701173, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:36.307 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:51:36.308 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:51:36.310 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 2076459491, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:36.310 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:51:36.313 INFO  logic.Logic.insertManyToOne(Logic.java:277) log ### Relación M:M insertada en many_Camion_has_many_Registro para vehículo 7358TQA y Registro ID: 63
+2025-12-12 13:51:36.314 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:51:36.314 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 2076459491, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:36.315 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:51:41.815 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:51:41.820 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 113671456, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:41.821 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:51:41.823 INFO  logic.Logic.insertOrUpdateStreet(Logic.java:113) log ### Street ST_1678 already exists, skipping insert
+2025-12-12 13:51:41.824 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:51:41.825 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 113671456, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:41.827 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:51:41.828 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:51:41.830 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 1532806228, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:41.831 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:51:41.854 INFO  logic.Logic.insertOrUpdateVehicle(Logic.java:162) log ### Vehicle inserted: Camion - 0945FPO
+2025-12-12 13:51:41.855 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:51:41.856 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 1532806228, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:41.857 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:51:41.857 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:51:41.859 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 2056673289, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:41.860 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:51:41.865 INFO  logic.Logic.insertRegistro(Logic.java:225) log ### Registro insertado para matrícula: 0945FPO
+2025-12-12 13:51:41.866 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:51:41.867 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 2056673289, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:41.868 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:51:41.869 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:51:41.871 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 937318897, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:41.872 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:51:41.876 INFO  logic.Logic.insertManyToOne(Logic.java:277) log ### Relación M:M insertada en many_Camion_has_many_Registro para vehículo 0945FPO y Registro ID: 64
+2025-12-12 13:51:41.877 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:51:41.878 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 937318897, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:41.879 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:51:47.085 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:51:47.088 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 1350443137, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:47.089 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:51:47.091 INFO  logic.Logic.insertOrUpdateStreet(Logic.java:113) log ### Street ST_1678 already exists, skipping insert
+2025-12-12 13:51:47.092 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:51:47.092 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 1350443137, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:47.093 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:51:47.094 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:51:47.095 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 1975756652, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:47.095 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:51:47.098 INFO  logic.Logic.insertOrUpdateVehicle(Logic.java:162) log ### Vehicle inserted: Camion - 6463XYE
+2025-12-12 13:51:47.099 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:51:47.099 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 1975756652, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:47.100 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:51:47.100 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:51:47.102 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 1330610174, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:47.102 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:51:47.105 INFO  logic.Logic.insertRegistro(Logic.java:225) log ### Registro insertado para matrícula: 6463XYE
+2025-12-12 13:51:47.105 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:51:47.106 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 1330610174, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:47.107 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:51:47.107 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:51:47.109 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 743038440, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:47.109 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:51:47.112 INFO  logic.Logic.insertManyToOne(Logic.java:277) log ### Relación M:M insertada en many_Camion_has_many_Registro para vehículo 6463XYE y Registro ID: 65
+2025-12-12 13:51:47.112 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:51:47.113 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 743038440, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:47.113 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:51:48.834 INFO  servlets.GetData.doGet(GetData.java:28) log ### GetData servlet iniciado
+2025-12-12 13:51:48.835 INFO  servlets.GetData.doGet(GetData.java:36) log ### Parámetro table: Registro
+2025-12-12 13:51:48.837 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:51:48.838 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 1308715957, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:48.839 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:51:48.842 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:51:48.843 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 1308715957, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:48.843 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:51:48.854 INFO  servlets.GetData.doGet(GetData.java:91) log ### GetData finalizado correctamente
+2025-12-12 13:51:52.662 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:51:52.663 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 1469244399, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:52.664 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:51:52.666 INFO  logic.Logic.insertOrUpdateStreet(Logic.java:113) log ### Street ST_1678 already exists, skipping insert
+2025-12-12 13:51:52.666 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:51:52.667 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 1469244399, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:52.668 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:51:52.669 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:51:52.670 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 1045589128, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:52.671 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:51:52.676 INFO  logic.Logic.insertOrUpdateVehicle(Logic.java:162) log ### Vehicle inserted: Camion - 0176ODP
+2025-12-12 13:51:52.677 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:51:52.677 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 1045589128, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:52.678 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:51:52.678 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:51:52.680 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 735789448, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:52.681 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:51:52.686 INFO  logic.Logic.insertRegistro(Logic.java:225) log ### Registro insertado para matrícula: 0176ODP
+2025-12-12 13:51:52.687 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:51:52.687 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 735789448, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:52.688 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:51:52.689 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:51:52.690 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 1759188788, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:52.691 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:51:52.694 INFO  logic.Logic.insertManyToOne(Logic.java:277) log ### Relación M:M insertada en many_Camion_has_many_Registro para vehículo 0176ODP y Registro ID: 66
+2025-12-12 13:51:52.695 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:51:52.695 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 1759188788, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:52.696 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:51:58.182 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:51:58.184 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 1080439482, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:58.187 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:51:58.189 INFO  logic.Logic.insertOrUpdateStreet(Logic.java:113) log ### Street ST_1678 already exists, skipping insert
+2025-12-12 13:51:58.190 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:51:58.192 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 1080439482, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:58.193 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:51:58.194 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:51:58.197 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 890782689, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:58.198 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:51:58.215 INFO  logic.Logic.insertOrUpdateVehicle(Logic.java:162) log ### Vehicle inserted: Camion - 8883NFD
+2025-12-12 13:51:58.216 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:51:58.217 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 890782689, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:58.218 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:51:58.219 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:51:58.220 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 1920745172, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:58.221 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:51:58.226 INFO  logic.Logic.insertRegistro(Logic.java:225) log ### Registro insertado para matrícula: 8883NFD
+2025-12-12 13:51:58.227 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:51:58.228 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 1920745172, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:58.229 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:51:58.230 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:51:58.232 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 1411467982, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:58.233 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:51:58.237 INFO  logic.Logic.insertManyToOne(Logic.java:277) log ### Relación M:M insertada en many_Camion_has_many_Registro para vehículo 8883NFD y Registro ID: 67
+2025-12-12 13:51:58.237 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:51:58.238 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 1411467982, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:58.239 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:51:58.527 INFO  servlets.GetStreetIds.doGet(GetStreetIds.java:24) log ### GetStreetIds servlet iniciado
+2025-12-12 13:51:58.527 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:51:58.529 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 29235502, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:58.530 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:51:58.532 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:51:58.532 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 29235502, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:51:58.533 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:51:58.535 INFO  servlets.GetStreetIds.doGet(GetStreetIds.java:36) log ### GetStreetIds finalizado correctamente
+2025-12-12 13:52:00.487 INFO  servlets.GetData.doGet(GetData.java:28) log ### GetData servlet iniciado
+2025-12-12 13:52:00.488 INFO  servlets.GetData.doGet(GetData.java:36) log ### Parámetro table: Street
+2025-12-12 13:52:00.489 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:52:00.491 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 1993348164, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:52:00.491 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:52:00.493 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:52:00.494 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 1993348164, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:52:00.494 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:52:00.496 INFO  servlets.GetData.doGet(GetData.java:91) log ### GetData finalizado correctamente
+2025-12-12 13:52:03.457 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:52:03.460 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 902559390, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:52:03.462 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:52:03.464 INFO  logic.Logic.insertOrUpdateStreet(Logic.java:113) log ### Street ST_1678 already exists, skipping insert
+2025-12-12 13:52:03.465 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:52:03.466 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 902559390, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:52:03.467 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:52:03.467 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:52:03.469 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 1082662267, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:52:03.470 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:52:03.474 INFO  logic.Logic.insertOrUpdateVehicle(Logic.java:162) log ### Vehicle inserted: Camion - 3558NEG
+2025-12-12 13:52:03.474 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:52:03.475 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 1082662267, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:52:03.476 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:52:03.477 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:52:03.478 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 466519745, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:52:03.479 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:52:03.482 INFO  logic.Logic.insertRegistro(Logic.java:225) log ### Registro insertado para matrícula: 3558NEG
+2025-12-12 13:52:03.483 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:52:03.484 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 466519745, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:52:03.485 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:52:03.485 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:52:03.487 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 251794106, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:52:03.487 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:52:03.492 INFO  logic.Logic.insertManyToOne(Logic.java:277) log ### Relación M:M insertada en many_Camion_has_many_Registro para vehículo 3558NEG y Registro ID: 68
+2025-12-12 13:52:03.492 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:52:03.493 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 251794106, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:52:03.494 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:52:04.222 INFO  servlets.GetLicensePlates.doGet(GetLicensePlates.java:24) log ### GetLicensePlates servlet iniciado
+2025-12-12 13:52:04.222 INFO  servlets.GetLicensePlates.doGet(GetLicensePlates.java:31) log ### Parámetro table en GetLicensePlates: Camion
+2025-12-12 13:52:04.223 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:23) log ### Attempt 0 to connect to the database
+2025-12-12 13:52:04.224 DEBUG Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:36) log ### Connection creation. Bd connection identifier: 1234781859, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:52:04.225 INFO  Database.ConectionDDBB.obtainConnection(ConectionDDBB.java:38) log ### Conection obtained in the attempt: 0
+2025-12-12 13:52:04.228 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:86) log ### Closing the connection
+2025-12-12 13:52:04.228 DEBUG Database.ConectionDDBB.closeConnection(ConectionDDBB.java:91) log ### Connection closed. Bd connection identifier: 1234781859, URL=jdbc:mariadb://db:3306/BD_Vehiculos, MariaDB Connector/J obtained in 2025-12-12
+2025-12-12 13:52:04.229 INFO  Database.ConectionDDBB.closeConnection(ConectionDDBB.java:95) log ### The connection has been closed
+2025-12-12 13:52:04.231 INFO  servlets.GetLicensePlates.doGet(GetLicensePlates.java:54) log ### GetLicensePlates finalizado correctamente

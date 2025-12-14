@@ -1,3 +1,14 @@
 -- UBICOMP SERVER EXAMPLE DATABASE LOG --
-2025-12-04 19:59:32.367 INFO  servlets.GetData.doGet(GetData.java:51) logdb ### Consultando Street con street_id: ST_1678
-2025-12-04 19:59:33.310 INFO  servlets.GetData.doGet(GetData.java:88) logdb ### Consulta completada, registros obtenidos: 1
+2025-12-12 13:50:13.032 INFO  servlets.GetLicensePlates.doGet(GetLicensePlates.java:50) logdb ### GetLicensePlates: matrículas obtenidas = 32
+2025-12-12 13:50:27.679 INFO  servlets.GetLicensePlates.doGet(GetLicensePlates.java:50) logdb ### GetLicensePlates: matrículas obtenidas = 34
+2025-12-12 13:50:28.598 INFO  servlets.GetLicensePlates.doGet(GetLicensePlates.java:50) logdb ### GetLicensePlates: matrículas obtenidas = 34
+2025-12-12 13:50:56.330 INFO  servlets.GetLicensePlates.doGet(GetLicensePlates.java:50) logdb ### GetLicensePlates: matrículas obtenidas = 36
+2025-12-12 13:51:04.232 INFO  servlets.GetLicensePlates.doGet(GetLicensePlates.java:50) logdb ### GetLicensePlates: matrículas obtenidas = 36
+2025-12-12 13:51:08.001 INFO  servlets.GetData.doGet(GetData.java:65) logdb ### Consultando Camion con matricula: 1977XBU
+2025-12-12 13:51:08.104 INFO  servlets.GetData.doGet(GetData.java:88) logdb ### Consulta completada, registros obtenidos: 1
+2025-12-12 13:51:48.836 INFO  servlets.GetData.doGet(GetData.java:77) logdb ### Consultando Registro con fecha: 2025-12-12
+2025-12-12 13:51:48.844 INFO  servlets.GetData.doGet(GetData.java:88) logdb ### Consulta completada, registros obtenidos: 20
+2025-12-12 13:51:58.534 INFO  servlets.GetStreetIds.doGet(GetStreetIds.java:32) logdb ### GetStreetIds: ids obtenidos = 1
+2025-12-12 13:52:00.489 INFO  servlets.GetData.doGet(GetData.java:51) logdb ### Consultando Street con street_id: ST_1678
+2025-12-12 13:52:00.495 INFO  servlets.GetData.doGet(GetData.java:88) logdb ### Consulta completada, registros obtenidos: 1
+2025-12-12 13:52:04.230 INFO  servlets.GetLicensePlates.doGet(GetLicensePlates.java:50) logdb ### GetLicensePlates: matrículas obtenidas = 44
