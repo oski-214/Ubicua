@@ -2,14 +2,17 @@ package com.example.ejemplopl3;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.cardview.widget.CardView;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
@@ -30,7 +33,9 @@ public class RegistroSelection extends AppCompatActivity {
     private RecyclerView recyclerView;
     private RegistroAdapter registroAdapter;
     private List<Registro> registroDataList;
-
+    private CardView cardResumen;
+    private TextView txtResumenTotal, txtResumenTipo, txtResumenTech;
+    private Button btnExportPdf;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -59,6 +64,14 @@ public class RegistroSelection extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(registroAdapter);
 
+        cardResumen = findViewById(R.id.card_resumen);
+        txtResumenTotal = findViewById(R.id.txt_resumen_total);
+        txtResumenTipo = findViewById(R.id.txt_resumen_tipo);
+        txtResumenTech = findViewById(R.id.txt_resumen_tech);
+
+        btnExportPdf = findViewById(R.id.btn_export_pdf);
+        btnExportPdf.setOnClickListener(v -> generarPDF());
+
         searchButton.setOnClickListener(v -> {
             String date = dateInput.getText().toString();
             if (!date.isEmpty()) {
@@ -80,6 +93,7 @@ public class RegistroSelection extends AppCompatActivity {
                     registroDataList.clear();
                     registroDataList.addAll(response.body());
                     registroAdapter.notifyDataSetChanged();
+                    actualizarTarjetaResumen(response.body());
                     Toast.makeText(RegistroSelection.this, "Datos cargados: " + registroDataList.size() + " registros.", Toast.LENGTH_SHORT).show();
                 } else {
                     Log.e("API_ERROR", "Respuesta no exitosa: " + response.code());
@@ -90,7 +104,6 @@ public class RegistroSelection extends AppCompatActivity {
             @Override
             public void onFailure(@NonNull Call<List<Registro>> call, @NonNull Throwable t) {
 
-                // --- MODIFICACIÓN IMPORTANTE ---
                 // Imprime el error completo en el Logcat para poder diagnosticarlo.
                 Log.e("API_FAILURE", "Fallo de conexión en RegistroSelection. Causa: " + t.getMessage(), t);
 
@@ -99,10 +112,111 @@ public class RegistroSelection extends AppCompatActivity {
             }
         });
     }
+    private void actualizarTarjetaResumen(List<Registro> lista) {
+        if (lista == null || lista.isEmpty()) {
+            cardResumen.setVisibility(View.GONE);
+            return;
+        }
 
-    @Override
-    public boolean onSupportNavigateUp() {
-        finish();
-        return true;
+        int totalCoches = 0;
+        int totalCamiones = 0;
+        int totalBicis = 0;
+        int totalEco = 0;
+        int totalGas = 0;
+
+        for (Registro reg : lista) {
+            totalCoches += reg.getCar_count();
+            totalCamiones += reg.getTruck_count();
+            totalBicis += reg.getBicycle_count();
+
+            String tech = reg.getTechnology();
+            if (tech != null) {
+                if (tech.equalsIgnoreCase("ECO")) totalEco++;
+                else if (tech.equalsIgnoreCase("GAS")) totalGas++;
+            }
+        }
+
+        // --- PASO CLAVE: Calculamos los valores finales aquí ---
+        int sumaTotal = totalCoches + totalCamiones + totalBicis;
+
+        String masNumeroso = "Coches";
+        if (totalCamiones > totalCoches && totalCamiones > totalBicis) masNumeroso = "Camiones";
+        else if (totalBicis > totalCoches && totalBicis > totalCamiones) masNumeroso = "Bicicletas";
+
+        String techPredom = (totalEco >= totalGas) ? "ECO" : "GAS";
+
+        // Creamos los Strings finales. Al ser variables que no se vuelven a tocar,
+        // Java las acepta dentro del runOnUiThread sin problemas.
+        String textoTotal = "Total de vehículos hoy: " + sumaTotal;
+        String textoTipo = "Tipo predominante: " + masNumeroso;
+        String textoTech = "Tecnología predominante: " + techPredom;
+
+        runOnUiThread(() -> {
+            cardResumen.setVisibility(View.VISIBLE);
+            btnExportPdf.setVisibility(View.VISIBLE);
+            txtResumenTotal.setText(textoTotal);
+            txtResumenTipo.setText(textoTipo);
+            txtResumenTech.setText(textoTech);
+
+            if (techPredom.trim().equalsIgnoreCase("ECO")) {
+                cardResumen.setCardBackgroundColor(android.graphics.Color.parseColor("#E8F5E9")); // Verde
+            } else {
+                cardResumen.setCardBackgroundColor(android.graphics.Color.parseColor("#E3F2FD")); // Azul
+            }
+        });
+    }
+    private void generarPDF() {
+        android.graphics.pdf.PdfDocument document = new android.graphics.pdf.PdfDocument();
+
+        // Calculamos el alto de la página según el número de matrículas (30dp por matrícula + cabecera)
+        int altoPagina = 250 + (registroDataList.size() * 20);
+        android.graphics.pdf.PdfDocument.PageInfo pageInfo =
+                new android.graphics.pdf.PdfDocument.PageInfo.Builder(300, altoPagina, 1).create();
+
+        android.graphics.pdf.PdfDocument.Page page = document.startPage(pageInfo);
+        android.graphics.Canvas canvas = page.getCanvas();
+        android.graphics.Paint paint = new android.graphics.Paint();
+
+        // --- Título y Resumen ---
+        paint.setTextSize(14f);
+        paint.setFakeBoldText(true);
+        canvas.drawText("INFORME DE TRÁFICO", 10, 30, paint);
+
+        paint.setFakeBoldText(false);
+        paint.setTextSize(10f);
+        canvas.drawText("Fecha: " + dateInput.getText().toString(), 10, 55, paint);
+        canvas.drawText(txtResumenTotal.getText().toString(), 10, 75, paint);
+        canvas.drawText(txtResumenTipo.getText().toString(), 10, 95, paint);
+        canvas.drawText(txtResumenTech.getText().toString(), 10, 115, paint);
+
+        // --- Listado de Matrículas ---
+        paint.setFakeBoldText(true);
+        canvas.drawText("DETALLE DE MATRÍCULAS:", 10, 150, paint);
+
+        paint.setFakeBoldText(false);
+        int yPos = 175; // Posición inicial de la primera matrícula
+
+        for (Registro reg : registroDataList) {
+            String matricula = (reg.getPlate() != null) ? reg.getPlate() : "S/N";
+            String tipo = reg.getType_vehicle();
+            canvas.drawText("- " + matricula + " (" + tipo + ")", 15, yPos, paint);
+            yPos += 20; // Bajamos 20dp para la siguiente línea
+        }
+
+        document.finishPage(page);
+
+        // --- Guardar Archivo ---
+        String fileName = "Informe_" + dateInput.getText().toString() + ".pdf";
+        java.io.File file = new java.io.File(getExternalFilesDir(null), fileName);
+
+        try {
+            document.writeTo(new java.io.FileOutputStream(file));
+            Toast.makeText(this, "Informe PDF generado con éxito", Toast.LENGTH_LONG).show();
+        } catch (java.io.IOException e) {
+            Log.e("PDF_ERROR", e.getMessage());
+            Toast.makeText(this, "Error al crear el PDF", Toast.LENGTH_SHORT).show();
+        }
+
+        document.close();
     }
 }

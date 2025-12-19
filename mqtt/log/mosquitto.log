@@ -40139,3 +40139,2470 @@
 1765733980: New connection from ::1:58518 on port 1883.
 1765733980: New client connected from ::1:58518 as auto-407C3645-ECA8-0429-4CBA-A5421AE09A08 (p2, c1, k60).
 1765733980: Client auto-407C3645-ECA8-0429-4CBA-A5421AE09A08 disconnected.
+1766145332: mosquitto version 2.0.22 starting
+1766145332: Config loaded from /mosquitto/config/mosquitto.conf.
+1766145332: Opening ipv4 listen socket on port 1883.
+1766145332: Opening ipv6 listen socket on port 1883.
+1766145332: Opening websockets listen socket on port 9001.
+1766145332: mosquitto version 2.0.22 running
+1766145337: New connection from ::1:48614 on port 1883.
+1766145337: New client connected from ::1:48614 as auto-FB9E248E-01BB-6179-2251-E15B5CFD6A68 (p2, c1, k60).
+1766145337: Client auto-FB9E248E-01BB-6179-2251-E15B5CFD6A68 disconnected.
+1766145350: New connection from 172.18.0.2:41798 on port 1883.
+1766145350: New client connected from 172.18.0.2:41798 as ContadorVehiculos1766145349898 (p2, c1, k60, u'martayoscar').
+1766145352: New connection from ::1:34862 on port 1883.
+1766145352: New client connected from ::1:34862 as auto-E2BDE564-49AD-A439-B0F3-DF9C1AB27C36 (p2, c1, k60).
+1766145352: Client auto-E2BDE564-49AD-A439-B0F3-DF9C1AB27C36 disconnected.
+1766145367: New connection from ::1:47352 on port 1883.
+1766145367: New client connected from ::1:47352 as auto-92134027-060A-C01A-3269-1F23FD7F4C3C (p2, c1, k60).
+1766145367: Client auto-92134027-060A-C01A-3269-1F23FD7F4C3C disconnected.
+1766145382: New connection from ::1:59716 on port 1883.
+1766145382: New client connected from ::1:59716 as auto-C95D0F45-7BBA-291F-EBFA-A8E1F78E70E0 (p2, c1, k60).
+1766145382: Client auto-C95D0F45-7BBA-291F-EBFA-A8E1F78E70E0 disconnected.
+1766145397: New connection from ::1:59322 on port 1883.
+1766145397: New client connected from ::1:59322 as auto-2D335931-C839-748C-5F41-9F46FB99D880 (p2, c1, k60).
+1766145397: Client auto-2D335931-C839-748C-5F41-9F46FB99D880 disconnected.
+1766145412: New connection from ::1:46046 on port 1883.
+1766145412: New client connected from ::1:46046 as auto-FB88B960-4C2D-48A5-2A15-D80855FCD7B4 (p2, c1, k60).
+1766145412: Client auto-FB88B960-4C2D-48A5-2A15-D80855FCD7B4 disconnected.
+1766145427: New connection from ::1:43814 on port 1883.
+1766145427: New client connected from ::1:43814 as auto-ADB9CB03-AE2E-CD59-375B-BD2624A8CE16 (p2, c1, k60).
+1766145427: Client auto-ADB9CB03-AE2E-CD59-375B-BD2624A8CE16 disconnected.
+1766145442: New connection from ::1:55234 on port 1883.
+1766145442: New client connected from ::1:55234 as auto-0DB0AC1D-E524-54BB-8F1F-6015C814A28D (p2, c1, k60).
+1766145442: Client auto-0DB0AC1D-E524-54BB-8F1F-6015C814A28D disconnected.
+1766145449: New connection from 172.18.0.1:49740 on port 1883.
+1766145449: New client connected from 172.18.0.1:49740 as mqtt-explorer-a64ba892 (p2, c1, k60).
+1766145457: New connection from ::1:56714 on port 1883.
+1766145457: New client connected from ::1:56714 as auto-9FDDB10F-D192-8F37-9AEF-B7F75CB32C63 (p2, c1, k60).
+1766145457: Client auto-9FDDB10F-D192-8F37-9AEF-B7F75CB32C63 disconnected.
+1766145472: New connection from ::1:41560 on port 1883.
+1766145472: New client connected from ::1:41560 as auto-4E0345DF-8AF6-58A1-65BD-1BE44863FAA0 (p2, c1, k60).
+1766145472: Client auto-4E0345DF-8AF6-58A1-65BD-1BE44863FAA0 disconnected.
+1766145487: New connection from ::1:43484 on port 1883.
+1766145487: New client connected from ::1:43484 as auto-55B3CE10-4A87-7A9D-F520-929A93838363 (p2, c1, k60).
+1766145487: Client auto-55B3CE10-4A87-7A9D-F520-929A93838363 disconnected.
+1766145502: New connection from ::1:39948 on port 1883.
+1766145502: New client connected from ::1:39948 as auto-BE1B52BC-79F8-5E1E-0A11-0CF1E34EB5E9 (p2, c1, k60).
+1766145502: Client auto-BE1B52BC-79F8-5E1E-0A11-0CF1E34EB5E9 disconnected.
+1766145517: New connection from ::1:48232 on port 1883.
+1766145517: New client connected from ::1:48232 as auto-813297AB-1DF0-C9A6-BDA5-9184E9AE571C (p2, c1, k60).
+1766145517: Client auto-813297AB-1DF0-C9A6-BDA5-9184E9AE571C disconnected.
+1766145532: New connection from ::1:58510 on port 1883.
+1766145532: New client connected from ::1:58510 as auto-A9EC4848-2BE2-8FD0-4F36-09C1375AA41D (p2, c1, k60).
+1766145532: Client auto-A9EC4848-2BE2-8FD0-4F36-09C1375AA41D disconnected.
+1766145547: New connection from ::1:40102 on port 1883.
+1766145547: New client connected from ::1:40102 as auto-7DEF3791-C0CC-C7D8-5A26-0AB95FC2B2A7 (p2, c1, k60).
+1766145547: Client auto-7DEF3791-C0CC-C7D8-5A26-0AB95FC2B2A7 disconnected.
+1766145562: New connection from ::1:51054 on port 1883.
+1766145562: New client connected from ::1:51054 as auto-6AFBACC7-2427-D07C-2E31-84BE8DC924F2 (p2, c1, k60).
+1766145562: Client auto-6AFBACC7-2427-D07C-2E31-84BE8DC924F2 disconnected.
+1766145577: New connection from ::1:45314 on port 1883.
+1766145577: New client connected from ::1:45314 as auto-A974571C-567A-B656-A3E6-5E990DADFEB8 (p2, c1, k60).
+1766145577: Client auto-A974571C-567A-B656-A3E6-5E990DADFEB8 disconnected.
+1766145592: New connection from ::1:38134 on port 1883.
+1766145592: New client connected from ::1:38134 as auto-FE43B7EC-4FC5-B201-AFB3-F42D01468123 (p2, c1, k60).
+1766145592: Client auto-FE43B7EC-4FC5-B201-AFB3-F42D01468123 disconnected.
+1766145607: New connection from ::1:35538 on port 1883.
+1766145607: New client connected from ::1:35538 as auto-0050FEE7-7740-36A3-5759-408520241FC9 (p2, c1, k60).
+1766145607: Client auto-0050FEE7-7740-36A3-5759-408520241FC9 disconnected.
+1766145622: New connection from ::1:40786 on port 1883.
+1766145622: New client connected from ::1:40786 as auto-C4DFD77B-2F73-1D61-2EC7-19A67D3EC56E (p2, c1, k60).
+1766145622: Client auto-C4DFD77B-2F73-1D61-2EC7-19A67D3EC56E disconnected.
+1766145637: New connection from ::1:39542 on port 1883.
+1766145637: New client connected from ::1:39542 as auto-22D8887C-2372-AF85-F9C5-7BE61308FD39 (p2, c1, k60).
+1766145637: Client auto-22D8887C-2372-AF85-F9C5-7BE61308FD39 disconnected.
+1766145652: New connection from ::1:54474 on port 1883.
+1766145652: New client connected from ::1:54474 as auto-C835A0FB-8BF0-CD9C-D502-A823AECFCEBD (p2, c1, k60).
+1766145652: Client auto-C835A0FB-8BF0-CD9C-D502-A823AECFCEBD disconnected.
+1766145667: New connection from ::1:36292 on port 1883.
+1766145667: New client connected from ::1:36292 as auto-D0CB686B-C128-BFF0-0125-0DAA264B130B (p2, c1, k60).
+1766145667: Client auto-D0CB686B-C128-BFF0-0125-0DAA264B130B disconnected.
+1766145682: New connection from ::1:58976 on port 1883.
+1766145682: New client connected from ::1:58976 as auto-F355322F-9A77-9356-FC0D-99D3B90234DD (p2, c1, k60).
+1766145682: Client auto-F355322F-9A77-9356-FC0D-99D3B90234DD disconnected.
+1766145697: New connection from ::1:56936 on port 1883.
+1766145697: New client connected from ::1:56936 as auto-C93D12B4-2DF4-9796-1843-EC53DD2014E4 (p2, c1, k60).
+1766145697: Client auto-C93D12B4-2DF4-9796-1843-EC53DD2014E4 disconnected.
+1766145712: New connection from ::1:39224 on port 1883.
+1766145712: New client connected from ::1:39224 as auto-6B427DF0-C9E6-DE9A-22A3-C0B2A3B2C558 (p2, c1, k60).
+1766145712: Client auto-6B427DF0-C9E6-DE9A-22A3-C0B2A3B2C558 disconnected.
+1766145727: New connection from ::1:53168 on port 1883.
+1766145727: New client connected from ::1:53168 as auto-3AF3E9D9-DFF3-BDA8-A472-E597FB064181 (p2, c1, k60).
+1766145727: Client auto-3AF3E9D9-DFF3-BDA8-A472-E597FB064181 disconnected.
+1766145742: New connection from ::1:44736 on port 1883.
+1766145742: New client connected from ::1:44736 as auto-7A1D3598-B8C1-6A58-0E5E-F131F403DCD3 (p2, c1, k60).
+1766145742: Client auto-7A1D3598-B8C1-6A58-0E5E-F131F403DCD3 disconnected.
+1766145757: New connection from ::1:54770 on port 1883.
+1766145757: New client connected from ::1:54770 as auto-F7ACFA0B-62B9-5EC0-7672-DE077D6C1876 (p2, c1, k60).
+1766145757: Client auto-F7ACFA0B-62B9-5EC0-7672-DE077D6C1876 disconnected.
+1766145772: New connection from ::1:42962 on port 1883.
+1766145772: New client connected from ::1:42962 as auto-27AAFAA9-3FF8-9650-1389-F51C428BE811 (p2, c1, k60).
+1766145772: Client auto-27AAFAA9-3FF8-9650-1389-F51C428BE811 disconnected.
+1766145787: New connection from ::1:59276 on port 1883.
+1766145787: New client connected from ::1:59276 as auto-429AB221-DE5A-7291-3339-FA244B6EFF0F (p2, c1, k60).
+1766145787: Client auto-429AB221-DE5A-7291-3339-FA244B6EFF0F disconnected.
+1766145802: New connection from ::1:60018 on port 1883.
+1766145802: New client connected from ::1:60018 as auto-C113D2B6-392E-8361-9FDB-810C0A48BD9A (p2, c1, k60).
+1766145802: Client auto-C113D2B6-392E-8361-9FDB-810C0A48BD9A disconnected.
+1766145817: New connection from ::1:41856 on port 1883.
+1766145817: New client connected from ::1:41856 as auto-36DD3C73-49D5-9F6D-12A0-70A8BDD72EF4 (p2, c1, k60).
+1766145817: Client auto-36DD3C73-49D5-9F6D-12A0-70A8BDD72EF4 disconnected.
+1766145832: New connection from ::1:55554 on port 1883.
+1766145832: New client connected from ::1:55554 as auto-69C907FE-BD67-E424-A880-5A20ABE4FAD5 (p2, c1, k60).
+1766145832: Client auto-69C907FE-BD67-E424-A880-5A20ABE4FAD5 disconnected.
+1766145847: New connection from ::1:55350 on port 1883.
+1766145847: New client connected from ::1:55350 as auto-A6D22ED9-6758-7BFD-A3A8-CCA263E72876 (p2, c1, k60).
+1766145847: Client auto-A6D22ED9-6758-7BFD-A3A8-CCA263E72876 disconnected.
+1766145862: New connection from ::1:43772 on port 1883.
+1766145862: New client connected from ::1:43772 as auto-B3DE8DFC-F562-15D4-6291-FB46920F3962 (p2, c1, k60).
+1766145862: Client auto-B3DE8DFC-F562-15D4-6291-FB46920F3962 disconnected.
+1766145877: New connection from ::1:34240 on port 1883.
+1766145877: New client connected from ::1:34240 as auto-005238B5-0DE0-8CC8-BA98-DA33D8001832 (p2, c1, k60).
+1766145877: Client auto-005238B5-0DE0-8CC8-BA98-DA33D8001832 disconnected.
+1766145892: New connection from ::1:54580 on port 1883.
+1766145892: New client connected from ::1:54580 as auto-AE18AF68-BC57-8F04-B31B-9ACCA0D99D7C (p2, c1, k60).
+1766145892: Client auto-AE18AF68-BC57-8F04-B31B-9ACCA0D99D7C disconnected.
+1766145907: New connection from ::1:57984 on port 1883.
+1766145907: New client connected from ::1:57984 as auto-4E0AB8BE-6E7C-4498-3A17-6AD862F2E79C (p2, c1, k60).
+1766145907: Client auto-4E0AB8BE-6E7C-4498-3A17-6AD862F2E79C disconnected.
+1766145922: New connection from ::1:50950 on port 1883.
+1766145922: New client connected from ::1:50950 as auto-A50A0A5E-FE9C-1304-ABBD-4E8F9718CC4A (p2, c1, k60).
+1766145922: Client auto-A50A0A5E-FE9C-1304-ABBD-4E8F9718CC4A disconnected.
+1766145937: New connection from ::1:46804 on port 1883.
+1766145937: New client connected from ::1:46804 as auto-F5BA7CA3-0B6C-CFA7-2C43-8D7CDACF86FA (p2, c1, k60).
+1766145937: Client auto-F5BA7CA3-0B6C-CFA7-2C43-8D7CDACF86FA disconnected.
+1766145952: New connection from ::1:45778 on port 1883.
+1766145952: New client connected from ::1:45778 as auto-7FDBBC49-14D7-015D-1B09-FBA77364A1D2 (p2, c1, k60).
+1766145952: Client auto-7FDBBC49-14D7-015D-1B09-FBA77364A1D2 disconnected.
+1766145967: New connection from ::1:36308 on port 1883.
+1766145967: New client connected from ::1:36308 as auto-0DAFA427-5D13-8AC3-F561-644870CD4E30 (p2, c1, k60).
+1766145967: Client auto-0DAFA427-5D13-8AC3-F561-644870CD4E30 disconnected.
+1766145982: New connection from ::1:39258 on port 1883.
+1766145982: New client connected from ::1:39258 as auto-3D3C7B3E-0FE3-6954-72AB-F8A8BF7CA135 (p2, c1, k60).
+1766145982: Client auto-3D3C7B3E-0FE3-6954-72AB-F8A8BF7CA135 disconnected.
+1766145997: New connection from ::1:56020 on port 1883.
+1766145997: New client connected from ::1:56020 as auto-9C0924CE-E5AD-CA94-95E9-28E59E85E952 (p2, c1, k60).
+1766145997: Client auto-9C0924CE-E5AD-CA94-95E9-28E59E85E952 disconnected.
+1766146013: New connection from ::1:49350 on port 1883.
+1766146013: New client connected from ::1:49350 as auto-F63F59B3-BFFC-1028-84DB-9B3CC3CC3847 (p2, c1, k60).
+1766146013: Client auto-F63F59B3-BFFC-1028-84DB-9B3CC3CC3847 disconnected.
+1766146028: New connection from ::1:56754 on port 1883.
+1766146028: New client connected from ::1:56754 as auto-ADDE304E-79F1-0EDD-899D-8C0F07B57CE9 (p2, c1, k60).
+1766146028: Client auto-ADDE304E-79F1-0EDD-899D-8C0F07B57CE9 disconnected.
+1766146043: New connection from ::1:54586 on port 1883.
+1766146043: New client connected from ::1:54586 as auto-67EDDFFA-7843-4ADE-D402-65F54DD7570F (p2, c1, k60).
+1766146043: Client auto-67EDDFFA-7843-4ADE-D402-65F54DD7570F disconnected.
+1766146058: New connection from ::1:34404 on port 1883.
+1766146058: New client connected from ::1:34404 as auto-92B1FC70-E9B9-EDAA-75B2-8EC421526F31 (p2, c1, k60).
+1766146058: Client auto-92B1FC70-E9B9-EDAA-75B2-8EC421526F31 disconnected.
+1766146073: New connection from ::1:57764 on port 1883.
+1766146073: New client connected from ::1:57764 as auto-263E21F0-EFD4-1487-73C2-0D5DBB23F8EF (p2, c1, k60).
+1766146073: Client auto-263E21F0-EFD4-1487-73C2-0D5DBB23F8EF disconnected.
+1766146088: New connection from ::1:56842 on port 1883.
+1766146088: New client connected from ::1:56842 as auto-DF7193CC-840A-4727-5EBF-CF8A86C115FE (p2, c1, k60).
+1766146088: Client auto-DF7193CC-840A-4727-5EBF-CF8A86C115FE disconnected.
+1766146103: New connection from ::1:48066 on port 1883.
+1766146103: New client connected from ::1:48066 as auto-888411D6-3382-51FE-F2DA-0176278913C0 (p2, c1, k60).
+1766146103: Client auto-888411D6-3382-51FE-F2DA-0176278913C0 disconnected.
+1766146118: New connection from ::1:41446 on port 1883.
+1766146118: New client connected from ::1:41446 as auto-F687685D-3296-F8C1-8F1C-F974F9A14FB0 (p2, c1, k60).
+1766146118: Client auto-F687685D-3296-F8C1-8F1C-F974F9A14FB0 disconnected.
+1766146133: New connection from ::1:37896 on port 1883.
+1766146133: New client connected from ::1:37896 as auto-C51DF6A0-7D47-B36F-D97D-C3E8409F878B (p2, c1, k60).
+1766146133: Client auto-C51DF6A0-7D47-B36F-D97D-C3E8409F878B disconnected.
+1766146148: New connection from ::1:50564 on port 1883.
+1766146148: New client connected from ::1:50564 as auto-6025908D-956D-9841-17CA-C9772D0C9DC2 (p2, c1, k60).
+1766146148: Client auto-6025908D-956D-9841-17CA-C9772D0C9DC2 disconnected.
+1766146163: New connection from ::1:51310 on port 1883.
+1766146163: New client connected from ::1:51310 as auto-58BE487A-31B5-017F-6088-131CC932DF10 (p2, c1, k60).
+1766146163: Client auto-58BE487A-31B5-017F-6088-131CC932DF10 disconnected.
+1766146178: New connection from ::1:48692 on port 1883.
+1766146178: New client connected from ::1:48692 as auto-C993754E-BB7D-B079-199C-750BBFF589DE (p2, c1, k60).
+1766146178: Client auto-C993754E-BB7D-B079-199C-750BBFF589DE disconnected.
+1766146193: New connection from ::1:39354 on port 1883.
+1766146193: New client connected from ::1:39354 as auto-BAC83697-8DBF-E167-9975-A9770E088F8C (p2, c1, k60).
+1766146193: Client auto-BAC83697-8DBF-E167-9975-A9770E088F8C disconnected.
+1766146208: New connection from ::1:46204 on port 1883.
+1766146208: New client connected from ::1:46204 as auto-D835D4F7-1B74-3153-721E-8030F57E8BCE (p2, c1, k60).
+1766146208: Client auto-D835D4F7-1B74-3153-721E-8030F57E8BCE disconnected.
+1766146223: New connection from ::1:59134 on port 1883.
+1766146223: New client connected from ::1:59134 as auto-EA3461B4-DB2C-4994-8A95-232385F4D06D (p2, c1, k60).
+1766146223: Client auto-EA3461B4-DB2C-4994-8A95-232385F4D06D disconnected.
+1766146238: New connection from ::1:45994 on port 1883.
+1766146238: New client connected from ::1:45994 as auto-CFDF5470-7B14-D6E8-5775-06F47C2E8E52 (p2, c1, k60).
+1766146238: Client auto-CFDF5470-7B14-D6E8-5775-06F47C2E8E52 disconnected.
+1766146253: New connection from ::1:50060 on port 1883.
+1766146253: New client connected from ::1:50060 as auto-356788B1-D526-3F47-4B3A-84FCD02EF342 (p2, c1, k60).
+1766146253: Client auto-356788B1-D526-3F47-4B3A-84FCD02EF342 disconnected.
+1766146268: New connection from ::1:58056 on port 1883.
+1766146268: New client connected from ::1:58056 as auto-400201F1-E7C5-AB08-8DEF-A133A03BD79A (p2, c1, k60).
+1766146268: Client auto-400201F1-E7C5-AB08-8DEF-A133A03BD79A disconnected.
+1766146283: New connection from ::1:55110 on port 1883.
+1766146283: New client connected from ::1:55110 as auto-D53B7A5F-82B0-E00B-2F40-EABFEACFFD46 (p2, c1, k60).
+1766146283: Client auto-D53B7A5F-82B0-E00B-2F40-EABFEACFFD46 disconnected.
+1766146298: New connection from ::1:42240 on port 1883.
+1766146298: New client connected from ::1:42240 as auto-ECBA65D3-E68F-3710-94F6-B3FC5424F1C4 (p2, c1, k60).
+1766146298: Client auto-ECBA65D3-E68F-3710-94F6-B3FC5424F1C4 disconnected.
+1766146313: New connection from ::1:57422 on port 1883.
+1766146313: New client connected from ::1:57422 as auto-74338EDF-1E5A-D04D-3F6A-3FD39174E135 (p2, c1, k60).
+1766146313: Client auto-74338EDF-1E5A-D04D-3F6A-3FD39174E135 disconnected.
+1766146328: New connection from ::1:55090 on port 1883.
+1766146328: New client connected from ::1:55090 as auto-9F8B781E-087A-1E6F-EEFE-45CC0D8D9E26 (p2, c1, k60).
+1766146328: Client auto-9F8B781E-087A-1E6F-EEFE-45CC0D8D9E26 disconnected.
+1766146343: New connection from ::1:59054 on port 1883.
+1766146343: New client connected from ::1:59054 as auto-8EF5266A-CC78-4B7B-46DD-03598D465F16 (p2, c1, k60).
+1766146343: Client auto-8EF5266A-CC78-4B7B-46DD-03598D465F16 disconnected.
+1766146358: New connection from ::1:53032 on port 1883.
+1766146358: New client connected from ::1:53032 as auto-83D896B2-6BD2-F67C-DF7C-A34AB6C1B7B5 (p2, c1, k60).
+1766146358: Client auto-83D896B2-6BD2-F67C-DF7C-A34AB6C1B7B5 disconnected.
+1766146373: New connection from ::1:42282 on port 1883.
+1766146373: New client connected from ::1:42282 as auto-E84E662E-2E3D-82D1-4BE6-8CF1E318B3CF (p2, c1, k60).
+1766146373: Client auto-E84E662E-2E3D-82D1-4BE6-8CF1E318B3CF disconnected.
+1766146388: New connection from ::1:42202 on port 1883.
+1766146388: New client connected from ::1:42202 as auto-681F7DE7-7B42-6565-45CD-FE4355AA23B2 (p2, c1, k60).
+1766146388: Client auto-681F7DE7-7B42-6565-45CD-FE4355AA23B2 disconnected.
+1766146403: New connection from ::1:47816 on port 1883.
+1766146403: New client connected from ::1:47816 as auto-0B236593-8E4A-F669-DF65-B3C07A7FFD98 (p2, c1, k60).
+1766146403: Client auto-0B236593-8E4A-F669-DF65-B3C07A7FFD98 disconnected.
+1766146418: New connection from ::1:60394 on port 1883.
+1766146418: New client connected from ::1:60394 as auto-3DE4B729-C0CF-DF64-67A6-1ED62E416090 (p2, c1, k60).
+1766146418: Client auto-3DE4B729-C0CF-DF64-67A6-1ED62E416090 disconnected.
+1766146433: New connection from ::1:39512 on port 1883.
+1766146433: New client connected from ::1:39512 as auto-7B6EB725-8CC6-572F-065E-F39397E115B3 (p2, c1, k60).
+1766146433: Client auto-7B6EB725-8CC6-572F-065E-F39397E115B3 disconnected.
+1766146448: New connection from ::1:33010 on port 1883.
+1766146448: New client connected from ::1:33010 as auto-3F4A070B-059F-30F7-80CF-F90DEE0A50E3 (p2, c1, k60).
+1766146448: Client auto-3F4A070B-059F-30F7-80CF-F90DEE0A50E3 disconnected.
+1766146463: New connection from ::1:54416 on port 1883.
+1766146463: New client connected from ::1:54416 as auto-5E3B31C1-551B-9E43-163D-D111E42EE589 (p2, c1, k60).
+1766146463: Client auto-5E3B31C1-551B-9E43-163D-D111E42EE589 disconnected.
+1766146478: New connection from ::1:41006 on port 1883.
+1766146478: New client connected from ::1:41006 as auto-DCC99D07-041F-C67B-D7E6-8D47FE1BB4B2 (p2, c1, k60).
+1766146478: Client auto-DCC99D07-041F-C67B-D7E6-8D47FE1BB4B2 disconnected.
+1766146493: New connection from ::1:35392 on port 1883.
+1766146493: New client connected from ::1:35392 as auto-0B8CA019-65C8-D471-DFD2-BA85654DCBAE (p2, c1, k60).
+1766146493: Client auto-0B8CA019-65C8-D471-DFD2-BA85654DCBAE disconnected.
+1766146508: New connection from ::1:54718 on port 1883.
+1766146508: New client connected from ::1:54718 as auto-91CEB702-BFEE-9391-A88E-2DEFBCF13729 (p2, c1, k60).
+1766146508: Client auto-91CEB702-BFEE-9391-A88E-2DEFBCF13729 disconnected.
+1766146523: New connection from ::1:36986 on port 1883.
+1766146523: New client connected from ::1:36986 as auto-A74CA6B7-0CC2-8A0D-1CDB-4A16B869044E (p2, c1, k60).
+1766146523: Client auto-A74CA6B7-0CC2-8A0D-1CDB-4A16B869044E disconnected.
+1766146538: New connection from ::1:46326 on port 1883.
+1766146538: New client connected from ::1:46326 as auto-5A9876E5-699A-4381-4824-F19ABE191944 (p2, c1, k60).
+1766146538: Client auto-5A9876E5-699A-4381-4824-F19ABE191944 disconnected.
+1766146554: New connection from ::1:37946 on port 1883.
+1766146554: New client connected from ::1:37946 as auto-101F3148-F6C0-C615-A0A0-B765994793D2 (p2, c1, k60).
+1766146554: Client auto-101F3148-F6C0-C615-A0A0-B765994793D2 disconnected.
+1766146568: New connection from ::1:51896 on port 1883.
+1766146568: New client connected from ::1:51896 as auto-342182F9-0103-3090-84A0-FC0D968FD2A9 (p2, c1, k60).
+1766146568: Client auto-342182F9-0103-3090-84A0-FC0D968FD2A9 disconnected.
+1766146584: New connection from ::1:35548 on port 1883.
+1766146584: New client connected from ::1:35548 as auto-EDD75AB5-9AC5-98FB-9549-28E31609A25B (p2, c1, k60).
+1766146584: Client auto-EDD75AB5-9AC5-98FB-9549-28E31609A25B disconnected.
+1766146599: New connection from ::1:60848 on port 1883.
+1766146599: New client connected from ::1:60848 as auto-0DC5B473-BCC9-016E-E38B-0F91E9F3C5CA (p2, c1, k60).
+1766146599: Client auto-0DC5B473-BCC9-016E-E38B-0F91E9F3C5CA disconnected.
+1766146614: New connection from ::1:37648 on port 1883.
+1766146614: New client connected from ::1:37648 as auto-B3851FEE-DD81-0E0F-6C9D-7A496D6FF23D (p2, c1, k60).
+1766146614: Client auto-B3851FEE-DD81-0E0F-6C9D-7A496D6FF23D disconnected.
+1766146629: New connection from ::1:58448 on port 1883.
+1766146629: New client connected from ::1:58448 as auto-A4A975C1-6E32-FB0E-63FA-9D0637AB376B (p2, c1, k60).
+1766146629: Client auto-A4A975C1-6E32-FB0E-63FA-9D0637AB376B disconnected.
+1766146644: New connection from ::1:42890 on port 1883.
+1766146644: New client connected from ::1:42890 as auto-9C304CBF-8413-6923-23CD-E6A0577B1C98 (p2, c1, k60).
+1766146644: Client auto-9C304CBF-8413-6923-23CD-E6A0577B1C98 disconnected.
+1766146659: New connection from ::1:51336 on port 1883.
+1766146659: New client connected from ::1:51336 as auto-4FA6D646-8BB1-5A2D-84AC-CB83A3CDAB10 (p2, c1, k60).
+1766146659: Client auto-4FA6D646-8BB1-5A2D-84AC-CB83A3CDAB10 disconnected.
+1766146674: New connection from ::1:53454 on port 1883.
+1766146674: New client connected from ::1:53454 as auto-6D1EE941-08B5-3ABC-1673-EBA4CEFBD29F (p2, c1, k60).
+1766146674: Client auto-6D1EE941-08B5-3ABC-1673-EBA4CEFBD29F disconnected.
+1766146689: New connection from ::1:57034 on port 1883.
+1766146689: New client connected from ::1:57034 as auto-B78D5C22-351D-16ED-47CA-A87B068DD375 (p2, c1, k60).
+1766146689: Client auto-B78D5C22-351D-16ED-47CA-A87B068DD375 disconnected.
+1766146704: New connection from ::1:41636 on port 1883.
+1766146704: New client connected from ::1:41636 as auto-4D63A58A-D80E-6A6C-E88B-0C266491EFB4 (p2, c1, k60).
+1766146704: Client auto-4D63A58A-D80E-6A6C-E88B-0C266491EFB4 disconnected.
+1766146719: New connection from ::1:47844 on port 1883.
+1766146719: New client connected from ::1:47844 as auto-C99EE259-5E76-E8F5-C03D-6578ECE4393B (p2, c1, k60).
+1766146719: Client auto-C99EE259-5E76-E8F5-C03D-6578ECE4393B disconnected.
+1766146734: New connection from ::1:41604 on port 1883.
+1766146734: New client connected from ::1:41604 as auto-BEE3FE4D-BB78-2348-EE2F-2F5DD015A762 (p2, c1, k60).
+1766146734: Client auto-BEE3FE4D-BB78-2348-EE2F-2F5DD015A762 disconnected.
+1766146749: New connection from ::1:57840 on port 1883.
+1766146749: New client connected from ::1:57840 as auto-19EE1D12-4692-8435-9B29-8368BDFB9536 (p2, c1, k60).
+1766146749: Client auto-19EE1D12-4692-8435-9B29-8368BDFB9536 disconnected.
+1766146764: New connection from ::1:52968 on port 1883.
+1766146764: New client connected from ::1:52968 as auto-07B62C2A-2C0C-41DC-1476-9514C8B0466E (p2, c1, k60).
+1766146764: Client auto-07B62C2A-2C0C-41DC-1476-9514C8B0466E disconnected.
+1766146779: New connection from ::1:60756 on port 1883.
+1766146779: New client connected from ::1:60756 as auto-4EB2506B-3CDD-C608-C14B-CAFDECD1E740 (p2, c1, k60).
+1766146779: Client auto-4EB2506B-3CDD-C608-C14B-CAFDECD1E740 disconnected.
+1766146794: New connection from ::1:49658 on port 1883.
+1766146794: New client connected from ::1:49658 as auto-485CB7AC-361F-F30F-6BBE-2B80901369D8 (p2, c1, k60).
+1766146794: Client auto-485CB7AC-361F-F30F-6BBE-2B80901369D8 disconnected.
+1766146809: New connection from ::1:33316 on port 1883.
+1766146809: New client connected from ::1:33316 as auto-ABF7A310-2A70-557F-9119-32EE33E43EA7 (p2, c1, k60).
+1766146809: Client auto-ABF7A310-2A70-557F-9119-32EE33E43EA7 disconnected.
+1766146824: New connection from ::1:40194 on port 1883.
+1766146824: New client connected from ::1:40194 as auto-C33BB2D8-21B8-15DE-9596-621490AFFC86 (p2, c1, k60).
+1766146824: Client auto-C33BB2D8-21B8-15DE-9596-621490AFFC86 disconnected.
+1766146839: New connection from ::1:42670 on port 1883.
+1766146839: New client connected from ::1:42670 as auto-3626B0CF-645D-0F3E-ED48-AA7C40AF491F (p2, c1, k60).
+1766146839: Client auto-3626B0CF-645D-0F3E-ED48-AA7C40AF491F disconnected.
+1766146854: New connection from ::1:32908 on port 1883.
+1766146854: New client connected from ::1:32908 as auto-1D9CDBF8-434C-F0B0-5561-05545C9ACA58 (p2, c1, k60).
+1766146854: Client auto-1D9CDBF8-434C-F0B0-5561-05545C9ACA58 disconnected.
+1766146869: New connection from ::1:49452 on port 1883.
+1766146869: New client connected from ::1:49452 as auto-F20FEDAC-AFB3-6C76-7089-53DE6324FBE1 (p2, c1, k60).
+1766146869: Client auto-F20FEDAC-AFB3-6C76-7089-53DE6324FBE1 disconnected.
+1766146884: New connection from ::1:42720 on port 1883.
+1766146884: New client connected from ::1:42720 as auto-9A306408-767F-A1F5-F617-EC1E189D6CF7 (p2, c1, k60).
+1766146884: Client auto-9A306408-767F-A1F5-F617-EC1E189D6CF7 disconnected.
+1766146899: New connection from ::1:48788 on port 1883.
+1766146899: New client connected from ::1:48788 as auto-C79E9835-27B0-73B2-D0CE-44D1CBA07FB3 (p2, c1, k60).
+1766146899: Client auto-C79E9835-27B0-73B2-D0CE-44D1CBA07FB3 disconnected.
+1766146914: New connection from ::1:52042 on port 1883.
+1766146914: New client connected from ::1:52042 as auto-3162E77D-CD08-F54D-B1C5-B31D3D060324 (p2, c1, k60).
+1766146914: Client auto-3162E77D-CD08-F54D-B1C5-B31D3D060324 disconnected.
+1766146929: New connection from ::1:51772 on port 1883.
+1766146929: New client connected from ::1:51772 as auto-53AEB20D-04F8-98C1-01DD-AC488565E8AE (p2, c1, k60).
+1766146929: Client auto-53AEB20D-04F8-98C1-01DD-AC488565E8AE disconnected.
+1766146944: New connection from ::1:60050 on port 1883.
+1766146944: New client connected from ::1:60050 as auto-FE21628A-50A9-4341-0FC2-B2DE41559FD0 (p2, c1, k60).
+1766146944: Client auto-FE21628A-50A9-4341-0FC2-B2DE41559FD0 disconnected.
+1766146959: New connection from ::1:58790 on port 1883.
+1766146959: New client connected from ::1:58790 as auto-C8D7ADF7-5338-6A10-9189-0EDB96D9FC1D (p2, c1, k60).
+1766146959: Client auto-C8D7ADF7-5338-6A10-9189-0EDB96D9FC1D disconnected.
+1766146974: New connection from ::1:42554 on port 1883.
+1766146974: New client connected from ::1:42554 as auto-3DDA15C4-B8BD-431B-92F5-8634E4F5400F (p2, c1, k60).
+1766146974: Client auto-3DDA15C4-B8BD-431B-92F5-8634E4F5400F disconnected.
+1766146989: New connection from ::1:49868 on port 1883.
+1766146989: New client connected from ::1:49868 as auto-986BD720-660A-9B06-E78F-2389DDFAD652 (p2, c1, k60).
+1766146989: Client auto-986BD720-660A-9B06-E78F-2389DDFAD652 disconnected.
+1766147004: New connection from ::1:53440 on port 1883.
+1766147004: New client connected from ::1:53440 as auto-7C6DD539-5A4D-3E44-ACAE-A3430746BFC8 (p2, c1, k60).
+1766147004: Client auto-7C6DD539-5A4D-3E44-ACAE-A3430746BFC8 disconnected.
+1766147019: New connection from ::1:41644 on port 1883.
+1766147019: New client connected from ::1:41644 as auto-A43DBE79-D292-09C7-38D6-0B9DBE90D56D (p2, c1, k60).
+1766147019: Client auto-A43DBE79-D292-09C7-38D6-0B9DBE90D56D disconnected.
+1766147034: New connection from ::1:32970 on port 1883.
+1766147034: New client connected from ::1:32970 as auto-4DDBBCF6-4110-7D2C-8A7C-53980C8E6835 (p2, c1, k60).
+1766147034: Client auto-4DDBBCF6-4110-7D2C-8A7C-53980C8E6835 disconnected.
+1766147049: New connection from ::1:50930 on port 1883.
+1766147049: New client connected from ::1:50930 as auto-62069769-592B-67AF-FA79-8BEBA9318AE9 (p2, c1, k60).
+1766147049: Client auto-62069769-592B-67AF-FA79-8BEBA9318AE9 disconnected.
+1766147064: New connection from ::1:34718 on port 1883.
+1766147064: New client connected from ::1:34718 as auto-8B96323B-19D8-F66D-B401-8CF614877D2E (p2, c1, k60).
+1766147064: Client auto-8B96323B-19D8-F66D-B401-8CF614877D2E disconnected.
+1766147079: New connection from ::1:44138 on port 1883.
+1766147079: New client connected from ::1:44138 as auto-93F20D3D-EAF5-F8AE-0AE0-3837CAE57C37 (p2, c1, k60).
+1766147079: Client auto-93F20D3D-EAF5-F8AE-0AE0-3837CAE57C37 disconnected.
+1766147094: New connection from ::1:34150 on port 1883.
+1766147094: New client connected from ::1:34150 as auto-230014C0-37CE-995F-F569-20B5998ABCDA (p2, c1, k60).
+1766147094: Client auto-230014C0-37CE-995F-F569-20B5998ABCDA disconnected.
+1766147110: New connection from ::1:57778 on port 1883.
+1766147110: New client connected from ::1:57778 as auto-0F23D18D-A2D9-BBA7-9FC7-6BBF53F35ECA (p2, c1, k60).
+1766147110: Client auto-0F23D18D-A2D9-BBA7-9FC7-6BBF53F35ECA disconnected.
+1766147125: New connection from ::1:42052 on port 1883.
+1766147125: New client connected from ::1:42052 as auto-D6A0A4EF-9C18-F96E-EE2B-029C7648F732 (p2, c1, k60).
+1766147125: Client auto-D6A0A4EF-9C18-F96E-EE2B-029C7648F732 disconnected.
+1766147127: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1766147140: New connection from ::1:44946 on port 1883.
+1766147140: New client connected from ::1:44946 as auto-5CC87529-0864-AC75-86EA-B42D766B8883 (p2, c1, k60).
+1766147140: Client auto-5CC87529-0864-AC75-86EA-B42D766B8883 disconnected.
+1766147155: New connection from ::1:39812 on port 1883.
+1766147155: New client connected from ::1:39812 as auto-3BEC3500-7FB5-C8D3-4CB9-DDE65544AE6C (p2, c1, k60).
+1766147155: Client auto-3BEC3500-7FB5-C8D3-4CB9-DDE65544AE6C disconnected.
+1766147170: New connection from ::1:45322 on port 1883.
+1766147170: New client connected from ::1:45322 as auto-844EECCA-5244-2BFD-6741-5BCEC6E5A289 (p2, c1, k60).
+1766147170: Client auto-844EECCA-5244-2BFD-6741-5BCEC6E5A289 disconnected.
+1766147185: New connection from ::1:48632 on port 1883.
+1766147185: New client connected from ::1:48632 as auto-09C2A870-7ACC-A62F-3FC2-983F6EF245AA (p2, c1, k60).
+1766147185: Client auto-09C2A870-7ACC-A62F-3FC2-983F6EF245AA disconnected.
+1766147200: New connection from ::1:41788 on port 1883.
+1766147200: New client connected from ::1:41788 as auto-8458314C-6D4D-D264-E97E-8DCEA1F227D9 (p2, c1, k60).
+1766147200: Client auto-8458314C-6D4D-D264-E97E-8DCEA1F227D9 disconnected.
+1766147215: New connection from ::1:50676 on port 1883.
+1766147215: New client connected from ::1:50676 as auto-E4336870-655B-75F2-623C-DF7A2A6D6F65 (p2, c1, k60).
+1766147215: Client auto-E4336870-655B-75F2-623C-DF7A2A6D6F65 disconnected.
+1766147230: New connection from ::1:40436 on port 1883.
+1766147230: New client connected from ::1:40436 as auto-B04539D7-9E6F-5BBA-915C-9B6F6E893A93 (p2, c1, k60).
+1766147230: Client auto-B04539D7-9E6F-5BBA-915C-9B6F6E893A93 disconnected.
+1766147245: New connection from ::1:38230 on port 1883.
+1766147245: New client connected from ::1:38230 as auto-A4E3428B-13C6-C041-13C8-10AD038C7181 (p2, c1, k60).
+1766147245: Client auto-A4E3428B-13C6-C041-13C8-10AD038C7181 disconnected.
+1766147260: New connection from ::1:40166 on port 1883.
+1766147260: New client connected from ::1:40166 as auto-3D683C76-1DB7-2902-AA82-E1DD1ED62F31 (p2, c1, k60).
+1766147260: Client auto-3D683C76-1DB7-2902-AA82-E1DD1ED62F31 disconnected.
+1766147275: New connection from ::1:36620 on port 1883.
+1766147275: New client connected from ::1:36620 as auto-EAF9CAEC-EDCF-4595-DDC1-43EEFBA0FA2E (p2, c1, k60).
+1766147275: Client auto-EAF9CAEC-EDCF-4595-DDC1-43EEFBA0FA2E disconnected.
+1766147290: New connection from ::1:36158 on port 1883.
+1766147290: New client connected from ::1:36158 as auto-95EEBD08-79A9-E5FE-8CC1-F52220D147DC (p2, c1, k60).
+1766147290: Client auto-95EEBD08-79A9-E5FE-8CC1-F52220D147DC disconnected.
+1766147305: New connection from ::1:40370 on port 1883.
+1766147305: New client connected from ::1:40370 as auto-B902B409-AA86-1D15-2681-823718EB2447 (p2, c1, k60).
+1766147305: Client auto-B902B409-AA86-1D15-2681-823718EB2447 disconnected.
+1766147320: New connection from ::1:44302 on port 1883.
+1766147320: New client connected from ::1:44302 as auto-881F6175-4D48-EDAC-7079-409E46948921 (p2, c1, k60).
+1766147320: Client auto-881F6175-4D48-EDAC-7079-409E46948921 disconnected.
+1766147335: New connection from ::1:46358 on port 1883.
+1766147335: New client connected from ::1:46358 as auto-EB51DD3D-8469-D0CC-2F90-E4BCBA6F88F8 (p2, c1, k60).
+1766147335: Client auto-EB51DD3D-8469-D0CC-2F90-E4BCBA6F88F8 disconnected.
+1766147350: New connection from ::1:39764 on port 1883.
+1766147350: New client connected from ::1:39764 as auto-046BD174-6459-6CD6-72D5-06286FDFD7D1 (p2, c1, k60).
+1766147350: Client auto-046BD174-6459-6CD6-72D5-06286FDFD7D1 disconnected.
+1766147365: New connection from ::1:53218 on port 1883.
+1766147365: New client connected from ::1:53218 as auto-FFF7372D-4C5B-7027-9B99-C902B2C2920D (p2, c1, k60).
+1766147365: Client auto-FFF7372D-4C5B-7027-9B99-C902B2C2920D disconnected.
+1766147380: New connection from ::1:40790 on port 1883.
+1766147380: New client connected from ::1:40790 as auto-144794B0-BB21-808C-FCBE-72F4CFA25211 (p2, c1, k60).
+1766147380: Client auto-144794B0-BB21-808C-FCBE-72F4CFA25211 disconnected.
+1766147395: New connection from ::1:56994 on port 1883.
+1766147395: New client connected from ::1:56994 as auto-7E5E6F58-DE44-3B9D-81F8-B169B84E1130 (p2, c1, k60).
+1766147395: Client auto-7E5E6F58-DE44-3B9D-81F8-B169B84E1130 disconnected.
+1766147410: New connection from ::1:41520 on port 1883.
+1766147410: New client connected from ::1:41520 as auto-7684D399-DBB0-8F46-2872-B5E5E0338546 (p2, c1, k60).
+1766147410: Client auto-7684D399-DBB0-8F46-2872-B5E5E0338546 disconnected.
+1766147425: New connection from ::1:32852 on port 1883.
+1766147425: New client connected from ::1:32852 as auto-5412E387-15CE-CC47-6875-0119ECDD8643 (p2, c1, k60).
+1766147425: Client auto-5412E387-15CE-CC47-6875-0119ECDD8643 disconnected.
+1766147441: New connection from ::1:51720 on port 1883.
+1766147441: New client connected from ::1:51720 as auto-D287650E-4EE0-C260-45CA-E6898B386B36 (p2, c1, k60).
+1766147441: Client auto-D287650E-4EE0-C260-45CA-E6898B386B36 disconnected.
+1766147456: New connection from ::1:51770 on port 1883.
+1766147456: New client connected from ::1:51770 as auto-77B9AF68-5FA9-A2EC-6365-F6B517497AB0 (p2, c1, k60).
+1766147456: Client auto-77B9AF68-5FA9-A2EC-6365-F6B517497AB0 disconnected.
+1766147471: New connection from ::1:49144 on port 1883.
+1766147471: New client connected from ::1:49144 as auto-B0CB71F0-51B6-8307-3E96-1BD92AB3A15C (p2, c1, k60).
+1766147471: Client auto-B0CB71F0-51B6-8307-3E96-1BD92AB3A15C disconnected.
+1766147486: New connection from ::1:41020 on port 1883.
+1766147486: New client connected from ::1:41020 as auto-CF90BA77-F03E-CBB6-D6D6-96C3465B40C5 (p2, c1, k60).
+1766147486: Client auto-CF90BA77-F03E-CBB6-D6D6-96C3465B40C5 disconnected.
+1766147501: New connection from ::1:38186 on port 1883.
+1766147501: New client connected from ::1:38186 as auto-D24556E9-35E2-A6FB-1626-81D6D21298E3 (p2, c1, k60).
+1766147501: Client auto-D24556E9-35E2-A6FB-1626-81D6D21298E3 disconnected.
+1766147516: New connection from ::1:45854 on port 1883.
+1766147516: New client connected from ::1:45854 as auto-4F3A113C-2A09-0A18-53B7-956477551786 (p2, c1, k60).
+1766147516: Client auto-4F3A113C-2A09-0A18-53B7-956477551786 disconnected.
+1766147531: New connection from ::1:49234 on port 1883.
+1766147531: New client connected from ::1:49234 as auto-CCBCFDE3-B088-9264-50D9-BE4EA17A1BB4 (p2, c1, k60).
+1766147531: Client auto-CCBCFDE3-B088-9264-50D9-BE4EA17A1BB4 disconnected.
+1766147546: New connection from ::1:44992 on port 1883.
+1766147546: New client connected from ::1:44992 as auto-07CB985A-9929-035A-5B46-63E3473A860A (p2, c1, k60).
+1766147546: Client auto-07CB985A-9929-035A-5B46-63E3473A860A disconnected.
+1766147561: New connection from ::1:39726 on port 1883.
+1766147561: New client connected from ::1:39726 as auto-5F656858-7C6D-05EF-A9B2-06369DECCD26 (p2, c1, k60).
+1766147561: Client auto-5F656858-7C6D-05EF-A9B2-06369DECCD26 disconnected.
+1766147576: New connection from ::1:60760 on port 1883.
+1766147576: New client connected from ::1:60760 as auto-B03EBE9A-9CFC-480C-5CC0-DA0ED4EBFF83 (p2, c1, k60).
+1766147576: Client auto-B03EBE9A-9CFC-480C-5CC0-DA0ED4EBFF83 disconnected.
+1766147591: New connection from ::1:44702 on port 1883.
+1766147591: New client connected from ::1:44702 as auto-88A8E619-B846-D2B8-8C51-159D0D676DA0 (p2, c1, k60).
+1766147591: Client auto-88A8E619-B846-D2B8-8C51-159D0D676DA0 disconnected.
+1766147606: New connection from ::1:35668 on port 1883.
+1766147606: New client connected from ::1:35668 as auto-219D7A77-8188-1F32-0898-C12AEEEF7932 (p2, c1, k60).
+1766147606: Client auto-219D7A77-8188-1F32-0898-C12AEEEF7932 disconnected.
+1766147621: New connection from ::1:51736 on port 1883.
+1766147621: New client connected from ::1:51736 as auto-D5C97CD0-CC83-6F58-D332-27B23F6346B3 (p2, c1, k60).
+1766147621: Client auto-D5C97CD0-CC83-6F58-D332-27B23F6346B3 disconnected.
+1766147636: New connection from ::1:52674 on port 1883.
+1766147636: New client connected from ::1:52674 as auto-042BED5B-78CA-6C5F-F3A5-440EDC66565F (p2, c1, k60).
+1766147636: Client auto-042BED5B-78CA-6C5F-F3A5-440EDC66565F disconnected.
+1766147651: New connection from ::1:48448 on port 1883.
+1766147651: New client connected from ::1:48448 as auto-25CEA61A-863A-972D-1D8A-02461F09DB65 (p2, c1, k60).
+1766147651: Client auto-25CEA61A-863A-972D-1D8A-02461F09DB65 disconnected.
+1766147667: New connection from ::1:57866 on port 1883.
+1766147667: New client connected from ::1:57866 as auto-B6FAC634-D544-49D6-F52B-67415D4D53D2 (p2, c1, k60).
+1766147667: Client auto-B6FAC634-D544-49D6-F52B-67415D4D53D2 disconnected.
+1766147682: New connection from ::1:46666 on port 1883.
+1766147682: New client connected from ::1:46666 as auto-9D2022D8-4287-7E17-53E2-C8E94E3586E7 (p2, c1, k60).
+1766147682: Client auto-9D2022D8-4287-7E17-53E2-C8E94E3586E7 disconnected.
+1766147697: New connection from ::1:59542 on port 1883.
+1766147697: New client connected from ::1:59542 as auto-9E934112-649C-F410-F8A3-10FB282D5CAD (p2, c1, k60).
+1766147697: Client auto-9E934112-649C-F410-F8A3-10FB282D5CAD disconnected.
+1766147712: New connection from ::1:34620 on port 1883.
+1766147712: New client connected from ::1:34620 as auto-E5EE0F55-4BF3-7A05-EDEE-9A97C6EF3383 (p2, c1, k60).
+1766147712: Client auto-E5EE0F55-4BF3-7A05-EDEE-9A97C6EF3383 disconnected.
+1766147727: New connection from ::1:34290 on port 1883.
+1766147727: New client connected from ::1:34290 as auto-093F9566-5B67-58D7-E963-69E4F617679E (p2, c1, k60).
+1766147727: Client auto-093F9566-5B67-58D7-E963-69E4F617679E disconnected.
+1766147742: New connection from ::1:50314 on port 1883.
+1766147742: New client connected from ::1:50314 as auto-BBD49F7C-51F8-EECC-167C-5840B9380C56 (p2, c1, k60).
+1766147742: Client auto-BBD49F7C-51F8-EECC-167C-5840B9380C56 disconnected.
+1766147757: New connection from ::1:45154 on port 1883.
+1766147757: New client connected from ::1:45154 as auto-75C3066D-1ECD-34AB-6E8E-C3BD3F12EA32 (p2, c1, k60).
+1766147757: Client auto-75C3066D-1ECD-34AB-6E8E-C3BD3F12EA32 disconnected.
+1766147772: New connection from ::1:42226 on port 1883.
+1766147772: New client connected from ::1:42226 as auto-E13FDD3D-BFC8-D719-8493-CC0A245F1037 (p2, c1, k60).
+1766147772: Client auto-E13FDD3D-BFC8-D719-8493-CC0A245F1037 disconnected.
+1766147787: New connection from ::1:37030 on port 1883.
+1766147787: New client connected from ::1:37030 as auto-66D014C5-9B96-8F09-75B6-300E22BE79CF (p2, c1, k60).
+1766147787: Client auto-66D014C5-9B96-8F09-75B6-300E22BE79CF disconnected.
+1766147802: New connection from ::1:35606 on port 1883.
+1766147802: New client connected from ::1:35606 as auto-301D8E53-F3DC-B9B7-57BC-CD1E1FF46DAF (p2, c1, k60).
+1766147802: Client auto-301D8E53-F3DC-B9B7-57BC-CD1E1FF46DAF disconnected.
+1766147817: New connection from ::1:33312 on port 1883.
+1766147817: New client connected from ::1:33312 as auto-DD867F6A-9BAC-7FE5-CA2B-76423202FE5F (p2, c1, k60).
+1766147817: Client auto-DD867F6A-9BAC-7FE5-CA2B-76423202FE5F disconnected.
+1766147832: New connection from ::1:50658 on port 1883.
+1766147832: New client connected from ::1:50658 as auto-EFE13E6B-EC1D-CA26-AA21-0DE22932B062 (p2, c1, k60).
+1766147832: Client auto-EFE13E6B-EC1D-CA26-AA21-0DE22932B062 disconnected.
+1766147847: New connection from ::1:47438 on port 1883.
+1766147847: New client connected from ::1:47438 as auto-D2C9092E-30E1-12AB-BED1-2BADB11741D3 (p2, c1, k60).
+1766147847: Client auto-D2C9092E-30E1-12AB-BED1-2BADB11741D3 disconnected.
+1766147862: New connection from ::1:54666 on port 1883.
+1766147862: New client connected from ::1:54666 as auto-BC6F9D8B-0F4B-79C8-4681-DAB16B2D2567 (p2, c1, k60).
+1766147863: Client auto-BC6F9D8B-0F4B-79C8-4681-DAB16B2D2567 disconnected.
+1766147878: New connection from ::1:54068 on port 1883.
+1766147878: New client connected from ::1:54068 as auto-D4A9EB81-FB8B-C8E8-8929-6FCFAF7306D7 (p2, c1, k60).
+1766147878: Client auto-D4A9EB81-FB8B-C8E8-8929-6FCFAF7306D7 disconnected.
+1766147893: New connection from ::1:36726 on port 1883.
+1766147893: New client connected from ::1:36726 as auto-14D5EBF1-512C-F57D-46EA-06ECD148B93A (p2, c1, k60).
+1766147893: Client auto-14D5EBF1-512C-F57D-46EA-06ECD148B93A disconnected.
+1766147908: New connection from ::1:51402 on port 1883.
+1766147908: New client connected from ::1:51402 as auto-6F2D36EB-CA61-601A-692C-4D9574A9B14B (p2, c1, k60).
+1766147908: Client auto-6F2D36EB-CA61-601A-692C-4D9574A9B14B disconnected.
+1766147923: New connection from ::1:54532 on port 1883.
+1766147923: New client connected from ::1:54532 as auto-5A515388-0216-DC63-6D55-5F4AE42E70F7 (p2, c1, k60).
+1766147923: Client auto-5A515388-0216-DC63-6D55-5F4AE42E70F7 disconnected.
+1766147938: New connection from ::1:50060 on port 1883.
+1766147938: New client connected from ::1:50060 as auto-83683234-F2D5-F905-FBE5-9815D89A6410 (p2, c1, k60).
+1766147938: Client auto-83683234-F2D5-F905-FBE5-9815D89A6410 disconnected.
+1766147953: New connection from ::1:52492 on port 1883.
+1766147953: New client connected from ::1:52492 as auto-CB2DCF59-B1C9-E36F-1B65-2A0C1E9103A2 (p2, c1, k60).
+1766147953: Client auto-CB2DCF59-B1C9-E36F-1B65-2A0C1E9103A2 disconnected.
+1766147968: New connection from ::1:59928 on port 1883.
+1766147968: New client connected from ::1:59928 as auto-76571061-806B-E9D3-4FF3-F199BCB08F85 (p2, c1, k60).
+1766147968: Client auto-76571061-806B-E9D3-4FF3-F199BCB08F85 disconnected.
+1766147983: New connection from ::1:46392 on port 1883.
+1766147983: New client connected from ::1:46392 as auto-5D4E4761-6C67-B1CC-442E-DBA2988AA49E (p2, c1, k60).
+1766147983: Client auto-5D4E4761-6C67-B1CC-442E-DBA2988AA49E disconnected.
+1766147998: New connection from ::1:43586 on port 1883.
+1766147998: New client connected from ::1:43586 as auto-B8036532-649C-5A26-E22F-48CF333326CB (p2, c1, k60).
+1766147998: Client auto-B8036532-649C-5A26-E22F-48CF333326CB disconnected.
+1766148013: New connection from ::1:32984 on port 1883.
+1766148013: New client connected from ::1:32984 as auto-7F92BD5A-2284-29DF-0A24-957ED9C52B57 (p2, c1, k60).
+1766148013: Client auto-7F92BD5A-2284-29DF-0A24-957ED9C52B57 disconnected.
+1766148023: New connection from 172.18.0.1:48058 on port 1883.
+1766148023: New client connected from 172.18.0.1:48058 as AndroidApp-dd9c39db-86fe-4b09-8bae-6898c14f1bf4 (p5, c1, k60).
+1766148028: New connection from ::1:39220 on port 1883.
+1766148028: New client connected from ::1:39220 as auto-36FEBA52-7D03-7301-C968-951420C4CBEF (p2, c1, k60).
+1766148028: Client auto-36FEBA52-7D03-7301-C968-951420C4CBEF disconnected.
+1766148043: New connection from ::1:41548 on port 1883.
+1766148043: New client connected from ::1:41548 as auto-3E8D6EAD-E968-1617-12ED-4D4A2AE724E1 (p2, c1, k60).
+1766148043: Client auto-3E8D6EAD-E968-1617-12ED-4D4A2AE724E1 disconnected.
+1766148058: New connection from ::1:49806 on port 1883.
+1766148058: New client connected from ::1:49806 as auto-B4CE59F6-CD11-7F94-B151-E314A754BE0B (p2, c1, k60).
+1766148058: Client auto-B4CE59F6-CD11-7F94-B151-E314A754BE0B disconnected.
+1766148073: New connection from ::1:50788 on port 1883.
+1766148073: New client connected from ::1:50788 as auto-8464273F-A970-1928-AA42-6D60B9CE0B2C (p2, c1, k60).
+1766148073: Client auto-8464273F-A970-1928-AA42-6D60B9CE0B2C disconnected.
+1766148088: New connection from ::1:36122 on port 1883.
+1766148088: New client connected from ::1:36122 as auto-54062388-69A6-FCFA-3427-E086E029C363 (p2, c1, k60).
+1766148088: Client auto-54062388-69A6-FCFA-3427-E086E029C363 disconnected.
+1766148103: New connection from ::1:52502 on port 1883.
+1766148103: New client connected from ::1:52502 as auto-A04EF8D3-FF34-BEF8-E2A8-F5349F80AE24 (p2, c1, k60).
+1766148103: Client auto-A04EF8D3-FF34-BEF8-E2A8-F5349F80AE24 disconnected.
+1766148118: New connection from ::1:46866 on port 1883.
+1766148118: New client connected from ::1:46866 as auto-1652FF91-1ADA-F1E7-AA7D-86E0A05E5107 (p2, c1, k60).
+1766148118: Client auto-1652FF91-1ADA-F1E7-AA7D-86E0A05E5107 disconnected.
+1766148120: Client AndroidApp-dd9c39db-86fe-4b09-8bae-6898c14f1bf4 disconnected.
+1766148134: New connection from ::1:36922 on port 1883.
+1766148134: New client connected from ::1:36922 as auto-9CF26273-E0C6-D865-8833-C2E7F577AD2C (p2, c1, k60).
+1766148134: Client auto-9CF26273-E0C6-D865-8833-C2E7F577AD2C disconnected.
+1766148149: New connection from ::1:47036 on port 1883.
+1766148149: New client connected from ::1:47036 as auto-2EE21B6A-206E-67C9-0CA2-672B5C311FA6 (p2, c1, k60).
+1766148149: Client auto-2EE21B6A-206E-67C9-0CA2-672B5C311FA6 disconnected.
+1766148164: New connection from ::1:33560 on port 1883.
+1766148164: New client connected from ::1:33560 as auto-99B166C7-1AEC-75A6-6BCD-E16E39CBEAC7 (p2, c1, k60).
+1766148164: Client auto-99B166C7-1AEC-75A6-6BCD-E16E39CBEAC7 disconnected.
+1766148179: New connection from ::1:38716 on port 1883.
+1766148179: New client connected from ::1:38716 as auto-6B0D399F-E29E-03EB-1D38-79AC8414FAE3 (p2, c1, k60).
+1766148179: Client auto-6B0D399F-E29E-03EB-1D38-79AC8414FAE3 disconnected.
+1766148194: New connection from ::1:52102 on port 1883.
+1766148194: New client connected from ::1:52102 as auto-8F672FCA-BA61-1088-ADFC-1C1AA38CF119 (p2, c1, k60).
+1766148194: Client auto-8F672FCA-BA61-1088-ADFC-1C1AA38CF119 disconnected.
+1766148209: New connection from ::1:58688 on port 1883.
+1766148209: New client connected from ::1:58688 as auto-D4F941CA-4572-3F7A-6255-8941B44D784A (p2, c1, k60).
+1766148209: Client auto-D4F941CA-4572-3F7A-6255-8941B44D784A disconnected.
+1766148224: New connection from ::1:56650 on port 1883.
+1766148224: New client connected from ::1:56650 as auto-37DEDEA4-2738-10CA-DC5D-52441D949228 (p2, c1, k60).
+1766148224: Client auto-37DEDEA4-2738-10CA-DC5D-52441D949228 disconnected.
+1766148225: New connection from 172.18.0.1:51842 on port 1883.
+1766148225: New client connected from 172.18.0.1:51842 as AndroidApp-2b3557e1-3755-4095-8e92-5accce6ac0f9 (p5, c1, k60).
+1766148239: New connection from ::1:53098 on port 1883.
+1766148239: New client connected from ::1:53098 as auto-713F3369-120C-B9FC-6F43-1794078D5611 (p2, c1, k60).
+1766148239: Client auto-713F3369-120C-B9FC-6F43-1794078D5611 disconnected.
+1766148254: New connection from ::1:43408 on port 1883.
+1766148254: New client connected from ::1:43408 as auto-C3F0B9C9-E52D-4A3C-1191-BF87C25FC0F7 (p2, c1, k60).
+1766148254: Client auto-C3F0B9C9-E52D-4A3C-1191-BF87C25FC0F7 disconnected.
+1766148269: New connection from ::1:56708 on port 1883.
+1766148269: New client connected from ::1:56708 as auto-3847BB3F-8585-9754-D1C0-70854BEABE65 (p2, c1, k60).
+1766148269: Client auto-3847BB3F-8585-9754-D1C0-70854BEABE65 disconnected.
+1766148284: New connection from ::1:46020 on port 1883.
+1766148284: New client connected from ::1:46020 as auto-AE01C12E-61E6-3079-E6C0-D5CE9F2A6E5B (p2, c1, k60).
+1766148284: Client auto-AE01C12E-61E6-3079-E6C0-D5CE9F2A6E5B disconnected.
+1766148299: New connection from ::1:50214 on port 1883.
+1766148299: New client connected from ::1:50214 as auto-A302F486-0875-6588-145B-DBEAD12D8E27 (p2, c1, k60).
+1766148299: Client auto-A302F486-0875-6588-145B-DBEAD12D8E27 disconnected.
+1766148314: New connection from ::1:56210 on port 1883.
+1766148314: New client connected from ::1:56210 as auto-B9AD146F-2077-B6D8-34A3-7A2B8E14F357 (p2, c1, k60).
+1766148314: Client auto-B9AD146F-2077-B6D8-34A3-7A2B8E14F357 disconnected.
+1766148329: New connection from ::1:46630 on port 1883.
+1766148329: New client connected from ::1:46630 as auto-47E1D778-2888-A0C7-8B15-FC85592C107E (p2, c1, k60).
+1766148329: Client auto-47E1D778-2888-A0C7-8B15-FC85592C107E disconnected.
+1766148344: New connection from ::1:33522 on port 1883.
+1766148344: New client connected from ::1:33522 as auto-AF05D55F-2ABD-B43B-C7BA-18E455378345 (p2, c1, k60).
+1766148344: Client auto-AF05D55F-2ABD-B43B-C7BA-18E455378345 disconnected.
+1766148359: New connection from ::1:39626 on port 1883.
+1766148359: New client connected from ::1:39626 as auto-7164C143-F613-5B43-AD9B-6C01D4A1F5BF (p2, c1, k60).
+1766148359: Client auto-7164C143-F613-5B43-AD9B-6C01D4A1F5BF disconnected.
+1766148374: New connection from ::1:38442 on port 1883.
+1766148374: New client connected from ::1:38442 as auto-63BEF6D1-B6CB-50E6-F498-0259D028154F (p2, c1, k60).
+1766148374: Client auto-63BEF6D1-B6CB-50E6-F498-0259D028154F disconnected.
+1766148390: New connection from ::1:53028 on port 1883.
+1766148390: New client connected from ::1:53028 as auto-1AA7BF3F-C2E0-2D5E-337D-0F6DBEF96682 (p2, c1, k60).
+1766148390: Client auto-1AA7BF3F-C2E0-2D5E-337D-0F6DBEF96682 disconnected.
+1766148405: New connection from ::1:46788 on port 1883.
+1766148405: New client connected from ::1:46788 as auto-E1E6D88B-FEA3-444C-E8DC-56BBDBA23728 (p2, c1, k60).
+1766148405: Client auto-E1E6D88B-FEA3-444C-E8DC-56BBDBA23728 disconnected.
+1766148420: New connection from ::1:56270 on port 1883.
+1766148420: New client connected from ::1:56270 as auto-77CE19D4-0706-C782-5D0E-7008106CDABB (p2, c1, k60).
+1766148420: Client auto-77CE19D4-0706-C782-5D0E-7008106CDABB disconnected.
+1766148435: New connection from ::1:55802 on port 1883.
+1766148435: New client connected from ::1:55802 as auto-A8B8487D-7732-057E-5DDA-FF95236A9DD6 (p2, c1, k60).
+1766148435: Client auto-A8B8487D-7732-057E-5DDA-FF95236A9DD6 disconnected.
+1766148450: New connection from ::1:59028 on port 1883.
+1766148450: New client connected from ::1:59028 as auto-D617CC4D-16B5-F668-3A09-3B01F37895B6 (p2, c1, k60).
+1766148450: Client auto-D617CC4D-16B5-F668-3A09-3B01F37895B6 disconnected.
+1766148465: New connection from ::1:49052 on port 1883.
+1766148465: New client connected from ::1:49052 as auto-35A7572F-4274-3F58-5D0D-BE1E919805FC (p2, c1, k60).
+1766148465: Client auto-35A7572F-4274-3F58-5D0D-BE1E919805FC disconnected.
+1766148480: New connection from ::1:43862 on port 1883.
+1766148480: New client connected from ::1:43862 as auto-48BA66C0-2508-5D11-FAF0-46D69F247F4E (p2, c1, k60).
+1766148480: Client auto-48BA66C0-2508-5D11-FAF0-46D69F247F4E disconnected.
+1766148495: New connection from ::1:47884 on port 1883.
+1766148495: New client connected from ::1:47884 as auto-7E7FA13C-4DA0-5BB3-EA75-0FB1F26B52B5 (p2, c1, k60).
+1766148495: Client auto-7E7FA13C-4DA0-5BB3-EA75-0FB1F26B52B5 disconnected.
+1766148510: New connection from ::1:44318 on port 1883.
+1766148510: New client connected from ::1:44318 as auto-013E6033-6D50-EBA2-96FF-D2D3EC9938AA (p2, c1, k60).
+1766148510: Client auto-013E6033-6D50-EBA2-96FF-D2D3EC9938AA disconnected.
+1766148525: New connection from ::1:53534 on port 1883.
+1766148525: New client connected from ::1:53534 as auto-364F43B7-7330-6402-F6BB-C280E977DD4E (p2, c1, k60).
+1766148525: Client auto-364F43B7-7330-6402-F6BB-C280E977DD4E disconnected.
+1766148540: New connection from ::1:52124 on port 1883.
+1766148540: New client connected from ::1:52124 as auto-7060DE88-EA55-E61F-62F2-A761510C99C5 (p2, c1, k60).
+1766148540: Client auto-7060DE88-EA55-E61F-62F2-A761510C99C5 disconnected.
+1766148555: New connection from ::1:57224 on port 1883.
+1766148555: New client connected from ::1:57224 as auto-2C036E69-31DE-433D-BDA9-786EFDD9C33E (p2, c1, k60).
+1766148555: Client auto-2C036E69-31DE-433D-BDA9-786EFDD9C33E disconnected.
+1766148570: New connection from ::1:59218 on port 1883.
+1766148570: New client connected from ::1:59218 as auto-1CDCE111-2C0C-23CB-CA51-A197A20DC39C (p2, c1, k60).
+1766148570: Client auto-1CDCE111-2C0C-23CB-CA51-A197A20DC39C disconnected.
+1766148585: New connection from ::1:40202 on port 1883.
+1766148585: New client connected from ::1:40202 as auto-DCC36466-E697-1BE8-47F9-6974873E3ABA (p2, c1, k60).
+1766148585: Client auto-DCC36466-E697-1BE8-47F9-6974873E3ABA disconnected.
+1766148600: New connection from ::1:54638 on port 1883.
+1766148600: New client connected from ::1:54638 as auto-BE8EE79A-4873-41DB-850C-DD154582D599 (p2, c1, k60).
+1766148600: Client auto-BE8EE79A-4873-41DB-850C-DD154582D599 disconnected.
+1766148615: New connection from ::1:45624 on port 1883.
+1766148615: New client connected from ::1:45624 as auto-970B8A22-B568-A152-7F9B-2657FC9D0DD6 (p2, c1, k60).
+1766148615: Client auto-970B8A22-B568-A152-7F9B-2657FC9D0DD6 disconnected.
+1766148630: New connection from ::1:47358 on port 1883.
+1766148630: New client connected from ::1:47358 as auto-B46C41BB-0059-85C4-D419-5AA24B57A298 (p2, c1, k60).
+1766148630: Client auto-B46C41BB-0059-85C4-D419-5AA24B57A298 disconnected.
+1766148645: New connection from ::1:34060 on port 1883.
+1766148645: New client connected from ::1:34060 as auto-BA808377-0879-611D-FA2E-C0DE4804695A (p2, c1, k60).
+1766148645: Client auto-BA808377-0879-611D-FA2E-C0DE4804695A disconnected.
+1766148661: New connection from ::1:49482 on port 1883.
+1766148661: New client connected from ::1:49482 as auto-56DD686B-569D-1DDA-42DF-71AAC388B09A (p2, c1, k60).
+1766148661: Client auto-56DD686B-569D-1DDA-42DF-71AAC388B09A disconnected.
+1766148676: New connection from ::1:54080 on port 1883.
+1766148676: New client connected from ::1:54080 as auto-6274D250-745F-A0CB-753B-D1663A22F68B (p2, c1, k60).
+1766148676: Client auto-6274D250-745F-A0CB-753B-D1663A22F68B disconnected.
+1766148691: New connection from ::1:52140 on port 1883.
+1766148691: New client connected from ::1:52140 as auto-4926873D-253A-3EAC-6D12-343519303B3A (p2, c1, k60).
+1766148691: Client auto-4926873D-253A-3EAC-6D12-343519303B3A disconnected.
+1766148706: New connection from ::1:35086 on port 1883.
+1766148706: New client connected from ::1:35086 as auto-79263224-895C-4C8D-36E9-3907CC52CCFD (p2, c1, k60).
+1766148706: Client auto-79263224-895C-4C8D-36E9-3907CC52CCFD disconnected.
+1766148721: New connection from ::1:44556 on port 1883.
+1766148721: New client connected from ::1:44556 as auto-1CB97D38-1E77-5023-200B-C8ABD06158CE (p2, c1, k60).
+1766148721: Client auto-1CB97D38-1E77-5023-200B-C8ABD06158CE disconnected.
+1766148736: New connection from ::1:39082 on port 1883.
+1766148736: New client connected from ::1:39082 as auto-CBC607C9-22BD-9D5F-6948-16D457D528D9 (p2, c1, k60).
+1766148736: Client auto-CBC607C9-22BD-9D5F-6948-16D457D528D9 disconnected.
+1766148751: New connection from ::1:53188 on port 1883.
+1766148751: New client connected from ::1:53188 as auto-51E2DC20-1724-DD41-9633-D45263DF3FC1 (p2, c1, k60).
+1766148751: Client auto-51E2DC20-1724-DD41-9633-D45263DF3FC1 disconnected.
+1766148766: New connection from ::1:57524 on port 1883.
+1766148766: New client connected from ::1:57524 as auto-A43EE861-3168-22F6-4C5F-0D81D97C8CC7 (p2, c1, k60).
+1766148766: Client auto-A43EE861-3168-22F6-4C5F-0D81D97C8CC7 disconnected.
+1766148781: New connection from ::1:45136 on port 1883.
+1766148781: New client connected from ::1:45136 as auto-98B801C0-D89E-5673-2D70-9335505D0432 (p2, c1, k60).
+1766148781: Client auto-98B801C0-D89E-5673-2D70-9335505D0432 disconnected.
+1766148796: New connection from ::1:49170 on port 1883.
+1766148796: New client connected from ::1:49170 as auto-440F91E6-1173-BA37-F690-A878084F0C4A (p2, c1, k60).
+1766148796: Client auto-440F91E6-1173-BA37-F690-A878084F0C4A disconnected.
+1766148811: New connection from ::1:44548 on port 1883.
+1766148811: New client connected from ::1:44548 as auto-D170B9AB-3C51-64EA-92BF-71C6441EE5EC (p2, c1, k60).
+1766148811: Client auto-D170B9AB-3C51-64EA-92BF-71C6441EE5EC disconnected.
+1766148826: New connection from ::1:60544 on port 1883.
+1766148826: New client connected from ::1:60544 as auto-C3AAE4D7-1278-F5E2-E0EA-BAA16B1E3767 (p2, c1, k60).
+1766148826: Client auto-C3AAE4D7-1278-F5E2-E0EA-BAA16B1E3767 disconnected.
+1766148841: New connection from ::1:58204 on port 1883.
+1766148841: New client connected from ::1:58204 as auto-B5B4165C-91AA-F792-B73A-2EB81BAF4449 (p2, c1, k60).
+1766148841: Client auto-B5B4165C-91AA-F792-B73A-2EB81BAF4449 disconnected.
+1766148856: New connection from ::1:40352 on port 1883.
+1766148856: New client connected from ::1:40352 as auto-D37A8020-3DB5-1CD3-B4E6-C79F2E18F91B (p2, c1, k60).
+1766148856: Client auto-D37A8020-3DB5-1CD3-B4E6-C79F2E18F91B disconnected.
+1766148872: New connection from ::1:45152 on port 1883.
+1766148872: New client connected from ::1:45152 as auto-8186041E-C7F0-5EE7-B50D-31B3CB01A984 (p2, c1, k60).
+1766148872: Client auto-8186041E-C7F0-5EE7-B50D-31B3CB01A984 disconnected.
+1766148887: New connection from ::1:52248 on port 1883.
+1766148887: New client connected from ::1:52248 as auto-3A036E9A-D863-1B13-BA6E-53329CB6E094 (p2, c1, k60).
+1766148887: Client auto-3A036E9A-D863-1B13-BA6E-53329CB6E094 disconnected.
+1766148902: New connection from ::1:59692 on port 1883.
+1766148902: New client connected from ::1:59692 as auto-CBDDA7A8-96AE-BE8D-A42A-BC56BEBF73D8 (p2, c1, k60).
+1766148902: Client auto-CBDDA7A8-96AE-BE8D-A42A-BC56BEBF73D8 disconnected.
+1766148917: New connection from ::1:44646 on port 1883.
+1766148917: New client connected from ::1:44646 as auto-01CA09F7-821D-6DB3-D09C-7462ADF3D2B1 (p2, c1, k60).
+1766148917: Client auto-01CA09F7-821D-6DB3-D09C-7462ADF3D2B1 disconnected.
+1766148928: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1766148932: New connection from ::1:41064 on port 1883.
+1766148932: New client connected from ::1:41064 as auto-656F6102-86D3-BEA4-09C7-27BF13C54B2F (p2, c1, k60).
+1766148932: Client auto-656F6102-86D3-BEA4-09C7-27BF13C54B2F disconnected.
+1766148947: New connection from ::1:56684 on port 1883.
+1766148947: New client connected from ::1:56684 as auto-FFD4FA56-DFDB-5B41-2FA3-AF5242B9E34C (p2, c1, k60).
+1766148947: Client auto-FFD4FA56-DFDB-5B41-2FA3-AF5242B9E34C disconnected.
+1766148962: New connection from ::1:57234 on port 1883.
+1766148962: New client connected from ::1:57234 as auto-2D65DBBA-DC63-0042-E032-2B273805A9FE (p2, c1, k60).
+1766148962: Client auto-2D65DBBA-DC63-0042-E032-2B273805A9FE disconnected.
+1766148977: New connection from ::1:46548 on port 1883.
+1766148977: New client connected from ::1:46548 as auto-CB312188-B833-EBDC-2236-3F5339D8291C (p2, c1, k60).
+1766148977: Client auto-CB312188-B833-EBDC-2236-3F5339D8291C disconnected.
+1766148992: New connection from ::1:55636 on port 1883.
+1766148992: New client connected from ::1:55636 as auto-B561DAC1-08D4-60CF-8209-7D38BCCD7BF8 (p2, c1, k60).
+1766148992: Client auto-B561DAC1-08D4-60CF-8209-7D38BCCD7BF8 disconnected.
+1766149007: New connection from ::1:38614 on port 1883.
+1766149007: New client connected from ::1:38614 as auto-9968AEE4-C032-7D34-8E80-A6D1FEDA03B3 (p2, c1, k60).
+1766149007: Client auto-9968AEE4-C032-7D34-8E80-A6D1FEDA03B3 disconnected.
+1766149022: New connection from ::1:46688 on port 1883.
+1766149022: New client connected from ::1:46688 as auto-84F7D646-05EB-3E1C-9AF1-95E891F33345 (p2, c1, k60).
+1766149022: Client auto-84F7D646-05EB-3E1C-9AF1-95E891F33345 disconnected.
+1766149037: New connection from ::1:54838 on port 1883.
+1766149037: New client connected from ::1:54838 as auto-5566349B-6099-E349-B8B9-D4BEC10F9D34 (p2, c1, k60).
+1766149037: Client auto-5566349B-6099-E349-B8B9-D4BEC10F9D34 disconnected.
+1766149052: New connection from ::1:52454 on port 1883.
+1766149052: New client connected from ::1:52454 as auto-B39E8D28-FBED-8799-4556-21B09F82361E (p2, c1, k60).
+1766149052: Client auto-B39E8D28-FBED-8799-4556-21B09F82361E disconnected.
+1766149067: New connection from ::1:57998 on port 1883.
+1766149067: New client connected from ::1:57998 as auto-1C5B1F51-9118-3414-FC4A-B1DB1AAD4BDF (p2, c1, k60).
+1766149067: Client auto-1C5B1F51-9118-3414-FC4A-B1DB1AAD4BDF disconnected.
+1766149082: New connection from ::1:36674 on port 1883.
+1766149082: New client connected from ::1:36674 as auto-A81971E7-A543-89E9-33A3-4FBA30D15E8D (p2, c1, k60).
+1766149082: Client auto-A81971E7-A543-89E9-33A3-4FBA30D15E8D disconnected.
+1766149097: New connection from ::1:50920 on port 1883.
+1766149097: New client connected from ::1:50920 as auto-0AD9DD54-CAEB-E30E-17B7-E3DFC2910230 (p2, c1, k60).
+1766149097: Client auto-0AD9DD54-CAEB-E30E-17B7-E3DFC2910230 disconnected.
+1766149113: New connection from ::1:42168 on port 1883.
+1766149113: New client connected from ::1:42168 as auto-16AEF8DF-5FFF-8683-3346-B92D9E9CCEA1 (p2, c1, k60).
+1766149113: Client auto-16AEF8DF-5FFF-8683-3346-B92D9E9CCEA1 disconnected.
+1766149113: Client AndroidApp-2b3557e1-3755-4095-8e92-5accce6ac0f9 closed its connection.
+1766149124: New connection from 172.18.0.1:59292 on port 1883.
+1766149124: New client connected from 172.18.0.1:59292 as AndroidApp-d716c8a7-fdeb-4e88-b217-bcaf4f0d5dbb (p5, c1, k60).
+1766149128: New connection from ::1:43362 on port 1883.
+1766149128: New client connected from ::1:43362 as auto-54609726-5352-29B4-41EB-9A7F0C165AD7 (p2, c1, k60).
+1766149128: Client auto-54609726-5352-29B4-41EB-9A7F0C165AD7 disconnected.
+1766149143: New connection from ::1:33434 on port 1883.
+1766149143: New client connected from ::1:33434 as auto-2BA328B9-C7D3-4487-E859-1F6276E0C7B2 (p2, c1, k60).
+1766149143: Client auto-2BA328B9-C7D3-4487-E859-1F6276E0C7B2 disconnected.
+1766149146: Client AndroidApp-d716c8a7-fdeb-4e88-b217-bcaf4f0d5dbb closed its connection.
+1766149156: New connection from 172.18.0.1:37864 on port 1883.
+1766149156: New client connected from 172.18.0.1:37864 as AndroidApp-15519e1d-0894-44ea-8907-bf92d70dc699 (p5, c1, k60).
+1766149158: New connection from ::1:41692 on port 1883.
+1766149158: New client connected from ::1:41692 as auto-D6F69367-5E23-CC71-1363-06960B4D4CEE (p2, c1, k60).
+1766149158: Client auto-D6F69367-5E23-CC71-1363-06960B4D4CEE disconnected.
+1766149173: New connection from ::1:55232 on port 1883.
+1766149173: New client connected from ::1:55232 as auto-9DD3EF20-E2CA-FDF0-86A1-4162FDEF8F77 (p2, c1, k60).
+1766149173: Client auto-9DD3EF20-E2CA-FDF0-86A1-4162FDEF8F77 disconnected.
+1766149188: New connection from ::1:46194 on port 1883.
+1766149188: New client connected from ::1:46194 as auto-E49C7E50-AF21-A3F3-0D70-2B5428A16D39 (p2, c1, k60).
+1766149188: Client auto-E49C7E50-AF21-A3F3-0D70-2B5428A16D39 disconnected.
+1766149203: New connection from ::1:43288 on port 1883.
+1766149203: New client connected from ::1:43288 as auto-A06C3CFD-83B4-A0C4-7380-1D4D5E50C4C2 (p2, c1, k60).
+1766149203: Client auto-A06C3CFD-83B4-A0C4-7380-1D4D5E50C4C2 disconnected.
+1766149212: Client AndroidApp-15519e1d-0894-44ea-8907-bf92d70dc699 closed its connection.
+1766149218: New connection from ::1:46454 on port 1883.
+1766149218: New client connected from ::1:46454 as auto-F95E8B25-5D9C-F2CA-94F1-985DB2BF4435 (p2, c1, k60).
+1766149218: Client auto-F95E8B25-5D9C-F2CA-94F1-985DB2BF4435 disconnected.
+1766149219: New connection from 172.18.0.1:51032 on port 1883.
+1766149220: New client connected from 172.18.0.1:51032 as AndroidApp-4251924c-6b8b-443d-8688-9bdaede77fae (p5, c1, k60).
+1766149233: New connection from ::1:50442 on port 1883.
+1766149233: New client connected from ::1:50442 as auto-BC5300F8-C5E9-A277-82DF-D0370DF1B55D (p2, c1, k60).
+1766149233: Client auto-BC5300F8-C5E9-A277-82DF-D0370DF1B55D disconnected.
+1766149248: New connection from ::1:33122 on port 1883.
+1766149248: New client connected from ::1:33122 as auto-D25B90C5-74BC-2828-1575-774B06C3BB1C (p2, c1, k60).
+1766149248: Client auto-D25B90C5-74BC-2828-1575-774B06C3BB1C disconnected.
+1766149258: Client AndroidApp-4251924c-6b8b-443d-8688-9bdaede77fae closed its connection.
+1766149263: New connection from ::1:37796 on port 1883.
+1766149263: New client connected from ::1:37796 as auto-64CE02DD-C550-6694-0986-B2039A05CE8A (p2, c1, k60).
+1766149263: Client auto-64CE02DD-C550-6694-0986-B2039A05CE8A disconnected.
+1766149268: New connection from 172.18.0.1:45608 on port 1883.
+1766149269: New client connected from 172.18.0.1:45608 as AndroidApp-3179cdda-a7b5-46ac-be90-aaab5c21b879 (p5, c1, k60).
+1766149278: New connection from ::1:48104 on port 1883.
+1766149278: New client connected from ::1:48104 as auto-C9BB54F8-DD3A-40F1-69FA-CDFF742FEC98 (p2, c1, k60).
+1766149278: Client auto-C9BB54F8-DD3A-40F1-69FA-CDFF742FEC98 disconnected.
+1766149283: Client AndroidApp-3179cdda-a7b5-46ac-be90-aaab5c21b879 disconnected.
+1766149293: New connection from ::1:45906 on port 1883.
+1766149293: New client connected from ::1:45906 as auto-1F00EAC7-1443-2A0C-93B8-4EB2D4361039 (p2, c1, k60).
+1766149293: Client auto-1F00EAC7-1443-2A0C-93B8-4EB2D4361039 disconnected.
+1766149308: New connection from ::1:44820 on port 1883.
+1766149308: New client connected from ::1:44820 as auto-5A80B4B1-46A7-7BFA-42FF-9EB999808191 (p2, c1, k60).
+1766149308: Client auto-5A80B4B1-46A7-7BFA-42FF-9EB999808191 disconnected.
+1766149324: New connection from ::1:50088 on port 1883.
+1766149324: New client connected from ::1:50088 as auto-FFF258DB-CC4F-6CF8-B5CC-AE8A2A2FBC59 (p2, c1, k60).
+1766149324: Client auto-FFF258DB-CC4F-6CF8-B5CC-AE8A2A2FBC59 disconnected.
+1766149339: New connection from ::1:33264 on port 1883.
+1766149339: New client connected from ::1:33264 as auto-1F615321-5AA9-533C-E1B8-5B8DADFA2171 (p2, c1, k60).
+1766149339: Client auto-1F615321-5AA9-533C-E1B8-5B8DADFA2171 disconnected.
+1766149354: New connection from ::1:56672 on port 1883.
+1766149354: New client connected from ::1:56672 as auto-A3B87976-1CAF-8E93-707E-BF84E2D35B29 (p2, c1, k60).
+1766149354: Client auto-A3B87976-1CAF-8E93-707E-BF84E2D35B29 disconnected.
+1766149369: New connection from ::1:46286 on port 1883.
+1766149369: New client connected from ::1:46286 as auto-B79168CC-9BE0-71E6-0282-AA8AF83EF0D1 (p2, c1, k60).
+1766149369: Client auto-B79168CC-9BE0-71E6-0282-AA8AF83EF0D1 disconnected.
+1766149384: New connection from ::1:54366 on port 1883.
+1766149384: New client connected from ::1:54366 as auto-7B16C361-B1F7-CFFF-11F2-372BC772BD4A (p2, c1, k60).
+1766149384: Client auto-7B16C361-B1F7-CFFF-11F2-372BC772BD4A disconnected.
+1766149399: New connection from ::1:33944 on port 1883.
+1766149399: New client connected from ::1:33944 as auto-10595083-BAFB-3B72-15CB-C92FBA4D6338 (p2, c1, k60).
+1766149399: Client auto-10595083-BAFB-3B72-15CB-C92FBA4D6338 disconnected.
+1766149414: New connection from ::1:33982 on port 1883.
+1766149414: New client connected from ::1:33982 as auto-254DF363-0274-1D48-7B92-1D272ABE50F0 (p2, c1, k60).
+1766149414: Client auto-254DF363-0274-1D48-7B92-1D272ABE50F0 disconnected.
+1766149429: New connection from ::1:38028 on port 1883.
+1766149429: New client connected from ::1:38028 as auto-732C7F34-7D80-CA35-42C3-B13E10B972DE (p2, c1, k60).
+1766149429: Client auto-732C7F34-7D80-CA35-42C3-B13E10B972DE disconnected.
+1766149437: New connection from 172.18.0.1:36998 on port 1883.
+1766149437: New client connected from 172.18.0.1:36998 as AndroidApp-4960914c-e7e6-41d9-8332-05bc87181000 (p5, c1, k60).
+1766149444: New connection from ::1:47160 on port 1883.
+1766149444: New client connected from ::1:47160 as auto-6CF00A1B-237B-E0A1-9F80-1C08BD173018 (p2, c1, k60).
+1766149444: Client auto-6CF00A1B-237B-E0A1-9F80-1C08BD173018 disconnected.
+1766149459: New connection from ::1:41710 on port 1883.
+1766149459: New client connected from ::1:41710 as auto-8EF0ED5D-1270-E681-5921-100AB2BD84D3 (p2, c1, k60).
+1766149459: Client auto-8EF0ED5D-1270-E681-5921-100AB2BD84D3 disconnected.
+1766149474: New connection from ::1:32972 on port 1883.
+1766149474: New client connected from ::1:32972 as auto-BB97D0B8-2E8E-2869-82EA-01BC3AD4658C (p2, c1, k60).
+1766149474: Client auto-BB97D0B8-2E8E-2869-82EA-01BC3AD4658C disconnected.
+1766149489: New connection from ::1:53032 on port 1883.
+1766149489: New client connected from ::1:53032 as auto-38623D7B-E9B6-1859-9921-AA048DD522C3 (p2, c1, k60).
+1766149489: Client auto-38623D7B-E9B6-1859-9921-AA048DD522C3 disconnected.
+1766149504: New connection from ::1:52942 on port 1883.
+1766149504: New client connected from ::1:52942 as auto-A0BCE8CB-2F67-292F-71B8-88EF57FDA98B (p2, c1, k60).
+1766149504: Client auto-A0BCE8CB-2F67-292F-71B8-88EF57FDA98B disconnected.
+1766149519: New connection from ::1:56944 on port 1883.
+1766149519: New client connected from ::1:56944 as auto-03208042-C71D-5559-57D4-11C8907DA86E (p2, c1, k60).
+1766149519: Client auto-03208042-C71D-5559-57D4-11C8907DA86E disconnected.
+1766149534: New connection from ::1:49944 on port 1883.
+1766149534: New client connected from ::1:49944 as auto-37556A62-5302-7CDB-88DF-D7DE54BDF0C6 (p2, c1, k60).
+1766149534: Client auto-37556A62-5302-7CDB-88DF-D7DE54BDF0C6 disconnected.
+1766149539: Client AndroidApp-4960914c-e7e6-41d9-8332-05bc87181000 disconnected.
+1766149549: New connection from ::1:47148 on port 1883.
+1766149549: New client connected from ::1:47148 as auto-6D7ECDCF-126D-72DF-1E7E-3C7E7DAB1103 (p2, c1, k60).
+1766149549: Client auto-6D7ECDCF-126D-72DF-1E7E-3C7E7DAB1103 disconnected.
+1766149565: New connection from ::1:53276 on port 1883.
+1766149565: New client connected from ::1:53276 as auto-4622665E-EE46-E433-69D6-DD3CE7107A71 (p2, c1, k60).
+1766149565: Client auto-4622665E-EE46-E433-69D6-DD3CE7107A71 disconnected.
+1766149580: New connection from ::1:42804 on port 1883.
+1766149580: New client connected from ::1:42804 as auto-2DCE45C0-7BA8-69EF-D652-9FE3D916BA2C (p2, c1, k60).
+1766149580: Client auto-2DCE45C0-7BA8-69EF-D652-9FE3D916BA2C disconnected.
+1766149595: New connection from ::1:44710 on port 1883.
+1766149595: New client connected from ::1:44710 as auto-5E8E7A91-6774-980C-870F-4FFB6DC1C8F7 (p2, c1, k60).
+1766149595: Client auto-5E8E7A91-6774-980C-870F-4FFB6DC1C8F7 disconnected.
+1766149610: New connection from ::1:41220 on port 1883.
+1766149610: New client connected from ::1:41220 as auto-5C3277BF-9DC3-F512-96EA-8AC3409687ED (p2, c1, k60).
+1766149610: Client auto-5C3277BF-9DC3-F512-96EA-8AC3409687ED disconnected.
+1766149625: New connection from ::1:49432 on port 1883.
+1766149625: New client connected from ::1:49432 as auto-FEF02B97-0A91-5A7C-C44B-A9713D0ECF7E (p2, c1, k60).
+1766149625: Client auto-FEF02B97-0A91-5A7C-C44B-A9713D0ECF7E disconnected.
+1766149640: New connection from ::1:35420 on port 1883.
+1766149640: New client connected from ::1:35420 as auto-7F8C2ED0-4608-80B9-61DB-9AD03D8A5E6A (p2, c1, k60).
+1766149640: Client auto-7F8C2ED0-4608-80B9-61DB-9AD03D8A5E6A disconnected.
+1766149655: New connection from ::1:59194 on port 1883.
+1766149655: New client connected from ::1:59194 as auto-A8FC1476-5C54-999B-A257-05242833CB2E (p2, c1, k60).
+1766149655: Client auto-A8FC1476-5C54-999B-A257-05242833CB2E disconnected.
+1766149670: New connection from ::1:49874 on port 1883.
+1766149670: New client connected from ::1:49874 as auto-E3C31801-3012-CD80-483B-0AC36DFCB34F (p2, c1, k60).
+1766149670: Client auto-E3C31801-3012-CD80-483B-0AC36DFCB34F disconnected.
+1766149685: New connection from ::1:51028 on port 1883.
+1766149685: New client connected from ::1:51028 as auto-36DAFCA2-68CB-3E0A-933E-5C277EC972E5 (p2, c1, k60).
+1766149685: Client auto-36DAFCA2-68CB-3E0A-933E-5C277EC972E5 disconnected.
+1766149700: New connection from ::1:56968 on port 1883.
+1766149700: New client connected from ::1:56968 as auto-8A8743BE-32FB-652D-CF2A-EE86C8D190C6 (p2, c1, k60).
+1766149700: Client auto-8A8743BE-32FB-652D-CF2A-EE86C8D190C6 disconnected.
+1766149715: New connection from ::1:56000 on port 1883.
+1766149715: New client connected from ::1:56000 as auto-8D6505EE-537C-2352-F67D-128E31944E53 (p2, c1, k60).
+1766149715: Client auto-8D6505EE-537C-2352-F67D-128E31944E53 disconnected.
+1766149730: New connection from ::1:54766 on port 1883.
+1766149730: New client connected from ::1:54766 as auto-136F6380-E6DD-1890-2BF5-777C9F62644A (p2, c1, k60).
+1766149730: Client auto-136F6380-E6DD-1890-2BF5-777C9F62644A disconnected.
+1766149745: New connection from ::1:57808 on port 1883.
+1766149745: New client connected from ::1:57808 as auto-B814276E-7935-9EB1-6F62-02B7F095C747 (p2, c1, k60).
+1766149745: Client auto-B814276E-7935-9EB1-6F62-02B7F095C747 disconnected.
+1766149760: New connection from ::1:36790 on port 1883.
+1766149760: New client connected from ::1:36790 as auto-D244D542-A7A7-BCA6-BF24-8C655362DAD6 (p2, c1, k60).
+1766149760: Client auto-D244D542-A7A7-BCA6-BF24-8C655362DAD6 disconnected.
+1766149775: New connection from ::1:38972 on port 1883.
+1766149775: New client connected from ::1:38972 as auto-050A509F-84DF-747D-6F71-07360033DD6C (p2, c1, k60).
+1766149775: Client auto-050A509F-84DF-747D-6F71-07360033DD6C disconnected.
+1766149790: New connection from ::1:36908 on port 1883.
+1766149790: New client connected from ::1:36908 as auto-F99A0FD4-7712-45D0-C2C6-AAD588102D74 (p2, c1, k60).
+1766149790: Client auto-F99A0FD4-7712-45D0-C2C6-AAD588102D74 disconnected.
+1766149806: New connection from ::1:32774 on port 1883.
+1766149806: New client connected from ::1:32774 as auto-E49BACF4-5570-6C88-E732-C845E7C2C65B (p2, c1, k60).
+1766149806: Client auto-E49BACF4-5570-6C88-E732-C845E7C2C65B disconnected.
+1766149821: New connection from ::1:40008 on port 1883.
+1766149821: New client connected from ::1:40008 as auto-9A3CDDDE-FDBB-FEF7-C09E-8A459C39274F (p2, c1, k60).
+1766149821: Client auto-9A3CDDDE-FDBB-FEF7-C09E-8A459C39274F disconnected.
+1766149836: New connection from ::1:40660 on port 1883.
+1766149836: New client connected from ::1:40660 as auto-A571148F-A3DD-3ABE-4217-1CC0E4E78DE1 (p2, c1, k60).
+1766149836: Client auto-A571148F-A3DD-3ABE-4217-1CC0E4E78DE1 disconnected.
+1766149851: New connection from ::1:34190 on port 1883.
+1766149851: New client connected from ::1:34190 as auto-21A0CCFD-251C-3686-92D1-EDD34E8701B6 (p2, c1, k60).
+1766149851: Client auto-21A0CCFD-251C-3686-92D1-EDD34E8701B6 disconnected.
+1766149866: New connection from ::1:43858 on port 1883.
+1766149866: New client connected from ::1:43858 as auto-D9D90E14-3A27-1D12-C679-CBCE3305F215 (p2, c1, k60).
+1766149866: Client auto-D9D90E14-3A27-1D12-C679-CBCE3305F215 disconnected.
+1766149881: New connection from ::1:49980 on port 1883.
+1766149881: New client connected from ::1:49980 as auto-5B33EC88-4EE1-1549-0000-D4CD997152B9 (p2, c1, k60).
+1766149881: Client auto-5B33EC88-4EE1-1549-0000-D4CD997152B9 disconnected.
+1766149896: New connection from ::1:60904 on port 1883.
+1766149896: New client connected from ::1:60904 as auto-5751E73B-0558-33E0-BE14-6F91B330C72A (p2, c1, k60).
+1766149896: Client auto-5751E73B-0558-33E0-BE14-6F91B330C72A disconnected.
+1766149911: New connection from ::1:57304 on port 1883.
+1766149911: New client connected from ::1:57304 as auto-8653B335-C01A-0222-47C5-FE81A50071ED (p2, c1, k60).
+1766149911: Client auto-8653B335-C01A-0222-47C5-FE81A50071ED disconnected.
+1766149926: New connection from ::1:45184 on port 1883.
+1766149926: New client connected from ::1:45184 as auto-0A47E1A6-B30B-2CF7-BF50-D4D6C47DCDE8 (p2, c1, k60).
+1766149926: Client auto-0A47E1A6-B30B-2CF7-BF50-D4D6C47DCDE8 disconnected.
+1766149941: New connection from ::1:53838 on port 1883.
+1766149941: New client connected from ::1:53838 as auto-667F496D-61C2-C269-E06B-A8DBF5E96766 (p2, c1, k60).
+1766149941: Client auto-667F496D-61C2-C269-E06B-A8DBF5E96766 disconnected.
+1766149956: New connection from ::1:59808 on port 1883.
+1766149956: New client connected from ::1:59808 as auto-A6835B45-B5DD-E2F0-EA03-10189BF09DC3 (p2, c1, k60).
+1766149956: Client auto-A6835B45-B5DD-E2F0-EA03-10189BF09DC3 disconnected.
+1766149971: New connection from ::1:48642 on port 1883.
+1766149971: New client connected from ::1:48642 as auto-AA7AD199-0FE0-6C9F-3A54-D32FB15F215C (p2, c1, k60).
+1766149971: Client auto-AA7AD199-0FE0-6C9F-3A54-D32FB15F215C disconnected.
+1766149986: New connection from ::1:52788 on port 1883.
+1766149986: New client connected from ::1:52788 as auto-4C8D9506-CF1F-F853-57F9-9F56162EEC51 (p2, c1, k60).
+1766149986: Client auto-4C8D9506-CF1F-F853-57F9-9F56162EEC51 disconnected.
+1766150001: New connection from ::1:52548 on port 1883.
+1766150001: New client connected from ::1:52548 as auto-1DCA6AAE-6121-FFB0-7BFF-DCC44A77F403 (p2, c1, k60).
+1766150001: Client auto-1DCA6AAE-6121-FFB0-7BFF-DCC44A77F403 disconnected.
+1766150017: New connection from ::1:38950 on port 1883.
+1766150017: New client connected from ::1:38950 as auto-C776034A-ABDF-C3B6-C07D-56414266D553 (p2, c1, k60).
+1766150017: Client auto-C776034A-ABDF-C3B6-C07D-56414266D553 disconnected.
+1766150032: New connection from ::1:44892 on port 1883.
+1766150032: New client connected from ::1:44892 as auto-DE9CA522-1147-91D9-C162-466F68B0CF9A (p2, c1, k60).
+1766150032: Client auto-DE9CA522-1147-91D9-C162-466F68B0CF9A disconnected.
+1766150043: New connection from 172.18.0.1:50420 on port 1883.
+1766150043: New client connected from 172.18.0.1:50420 as AndroidApp-4c86c900-737a-4b33-a949-4c33efef9c84 (p5, c1, k60).
+1766150047: New connection from ::1:40530 on port 1883.
+1766150047: New client connected from ::1:40530 as auto-2704D157-0387-3F94-6431-388792CC5225 (p2, c1, k60).
+1766150047: Client auto-2704D157-0387-3F94-6431-388792CC5225 disconnected.
+1766150062: New connection from ::1:40874 on port 1883.
+1766150062: New client connected from ::1:40874 as auto-F4CDA5EA-DCDC-3F3C-A65F-C38E8675F639 (p2, c1, k60).
+1766150062: Client auto-F4CDA5EA-DCDC-3F3C-A65F-C38E8675F639 disconnected.
+1766150077: New connection from ::1:41102 on port 1883.
+1766150077: New client connected from ::1:41102 as auto-893CFAC1-6241-E49C-6A4F-9E8E76F97BC4 (p2, c1, k60).
+1766150077: Client auto-893CFAC1-6241-E49C-6A4F-9E8E76F97BC4 disconnected.
+1766150087: Client AndroidApp-4c86c900-737a-4b33-a949-4c33efef9c84 closed its connection.
+1766150092: New connection from ::1:34606 on port 1883.
+1766150092: New client connected from ::1:34606 as auto-2AA46184-E0E2-D487-29CF-CC790B13D6CB (p2, c1, k60).
+1766150092: Client auto-2AA46184-E0E2-D487-29CF-CC790B13D6CB disconnected.
+1766150097: New connection from 172.18.0.1:46340 on port 1883.
+1766150097: New client connected from 172.18.0.1:46340 as AndroidApp-63c22327-aef1-477d-8681-9585324a93f2 (p5, c1, k60).
+1766150107: New connection from ::1:47276 on port 1883.
+1766150107: New client connected from ::1:47276 as auto-1FC3275B-0F20-27DD-DADD-E5478B4A38EC (p2, c1, k60).
+1766150107: Client auto-1FC3275B-0F20-27DD-DADD-E5478B4A38EC disconnected.
+1766150122: New connection from ::1:36084 on port 1883.
+1766150122: New client connected from ::1:36084 as auto-3F3D5113-898E-48DA-A292-38A1284EF87D (p2, c1, k60).
+1766150122: Client auto-3F3D5113-898E-48DA-A292-38A1284EF87D disconnected.
+1766150137: New connection from ::1:36732 on port 1883.
+1766150137: New client connected from ::1:36732 as auto-B6114513-BD38-3FDD-0D52-1C846F327501 (p2, c1, k60).
+1766150137: Client auto-B6114513-BD38-3FDD-0D52-1C846F327501 disconnected.
+1766150152: New connection from ::1:56572 on port 1883.
+1766150152: New client connected from ::1:56572 as auto-BA0EEB1A-EAB8-BB1E-DB9A-50BDCE13F3D4 (p2, c1, k60).
+1766150152: Client auto-BA0EEB1A-EAB8-BB1E-DB9A-50BDCE13F3D4 disconnected.
+1766150154: Client AndroidApp-63c22327-aef1-477d-8681-9585324a93f2 disconnected.
+1766150167: New connection from ::1:33324 on port 1883.
+1766150167: New client connected from ::1:33324 as auto-5F2685CD-6799-30DF-5137-D7EFD0DEE5BA (p2, c1, k60).
+1766150167: Client auto-5F2685CD-6799-30DF-5137-D7EFD0DEE5BA disconnected.
+1766150182: New connection from ::1:41116 on port 1883.
+1766150182: New client connected from ::1:41116 as auto-E185376B-6DC9-EF8F-31EF-4E421CA95323 (p2, c1, k60).
+1766150182: Client auto-E185376B-6DC9-EF8F-31EF-4E421CA95323 disconnected.
+1766150197: New connection from ::1:40862 on port 1883.
+1766150197: New client connected from ::1:40862 as auto-514D2C85-3339-8AE0-0842-46E24C8C6057 (p2, c1, k60).
+1766150197: Client auto-514D2C85-3339-8AE0-0842-46E24C8C6057 disconnected.
+1766150212: New connection from ::1:46254 on port 1883.
+1766150212: New client connected from ::1:46254 as auto-B880A604-E2C6-DC18-B7A7-E9EC99769428 (p2, c1, k60).
+1766150212: Client auto-B880A604-E2C6-DC18-B7A7-E9EC99769428 disconnected.
+1766150227: New connection from ::1:36454 on port 1883.
+1766150227: New client connected from ::1:36454 as auto-24318385-AC44-9E61-718F-989D86BBFCCD (p2, c1, k60).
+1766150227: Client auto-24318385-AC44-9E61-718F-989D86BBFCCD disconnected.
+1766150243: New connection from ::1:38598 on port 1883.
+1766150243: New client connected from ::1:38598 as auto-E916A035-E1DB-F239-6B69-E1D484CEC925 (p2, c1, k60).
+1766150243: Client auto-E916A035-E1DB-F239-6B69-E1D484CEC925 disconnected.
+1766150258: New connection from ::1:38518 on port 1883.
+1766150258: New client connected from ::1:38518 as auto-6E09898B-28AC-8BF1-EE14-88F480096F6A (p2, c1, k60).
+1766150258: Client auto-6E09898B-28AC-8BF1-EE14-88F480096F6A disconnected.
+1766150273: New connection from ::1:59690 on port 1883.
+1766150273: New client connected from ::1:59690 as auto-ADECA390-72CA-F13E-C569-EDF6C097C5E2 (p2, c1, k60).
+1766150273: Client auto-ADECA390-72CA-F13E-C569-EDF6C097C5E2 disconnected.
+1766150288: New connection from ::1:42780 on port 1883.
+1766150288: New client connected from ::1:42780 as auto-8A187962-C2D2-ED59-673D-57AE3D5B827F (p2, c1, k60).
+1766150288: Client auto-8A187962-C2D2-ED59-673D-57AE3D5B827F disconnected.
+1766150303: New connection from ::1:35492 on port 1883.
+1766150303: New client connected from ::1:35492 as auto-7E27AD70-306A-DE98-B52E-7B9549D4BCE3 (p2, c1, k60).
+1766150303: Client auto-7E27AD70-306A-DE98-B52E-7B9549D4BCE3 disconnected.
+1766150318: New connection from ::1:37964 on port 1883.
+1766150318: New client connected from ::1:37964 as auto-F9B0333E-BCFF-66DB-A61E-3D0C6465C3DD (p2, c1, k60).
+1766150318: Client auto-F9B0333E-BCFF-66DB-A61E-3D0C6465C3DD disconnected.
+1766150333: New connection from ::1:50490 on port 1883.
+1766150333: New client connected from ::1:50490 as auto-6E5ADEA1-8207-7866-BD9B-ED6E7D0E3F24 (p2, c1, k60).
+1766150333: Client auto-6E5ADEA1-8207-7866-BD9B-ED6E7D0E3F24 disconnected.
+1766150348: New connection from ::1:53692 on port 1883.
+1766150348: New client connected from ::1:53692 as auto-3CB76B40-0D50-A9B6-56A1-D934DECFFB99 (p2, c1, k60).
+1766150348: Client auto-3CB76B40-0D50-A9B6-56A1-D934DECFFB99 disconnected.
+1766150363: New connection from ::1:59374 on port 1883.
+1766150363: New client connected from ::1:59374 as auto-04B2C914-E21A-FF61-5685-8390660E1B50 (p2, c1, k60).
+1766150363: Client auto-04B2C914-E21A-FF61-5685-8390660E1B50 disconnected.
+1766150378: New connection from ::1:56994 on port 1883.
+1766150378: New client connected from ::1:56994 as auto-F2FA1D87-3F14-05E0-E15A-F00D6FA8DF93 (p2, c1, k60).
+1766150378: Client auto-F2FA1D87-3F14-05E0-E15A-F00D6FA8DF93 disconnected.
+1766150393: New connection from ::1:43226 on port 1883.
+1766150393: New client connected from ::1:43226 as auto-B4349B7D-BF7C-3941-9FCD-A1849D2576DE (p2, c1, k60).
+1766150393: Client auto-B4349B7D-BF7C-3941-9FCD-A1849D2576DE disconnected.
+1766150408: New connection from ::1:59046 on port 1883.
+1766150408: New client connected from ::1:59046 as auto-9C08E042-84BC-D4F0-2265-5B159AAB9F5E (p2, c1, k60).
+1766150408: Client auto-9C08E042-84BC-D4F0-2265-5B159AAB9F5E disconnected.
+1766150423: New connection from ::1:35952 on port 1883.
+1766150423: New client connected from ::1:35952 as auto-3AC968D7-07C8-4A91-ED83-F1659816091A (p2, c1, k60).
+1766150423: Client auto-3AC968D7-07C8-4A91-ED83-F1659816091A disconnected.
+1766150438: New connection from ::1:58912 on port 1883.
+1766150438: New client connected from ::1:58912 as auto-C7BFF5A8-24DD-C657-A5DB-0B0BA9049DDF (p2, c1, k60).
+1766150438: Client auto-C7BFF5A8-24DD-C657-A5DB-0B0BA9049DDF disconnected.
+1766150453: New connection from ::1:34364 on port 1883.
+1766150453: New client connected from ::1:34364 as auto-3E7AD2BE-6748-386D-7A03-835B92763203 (p2, c1, k60).
+1766150453: Client auto-3E7AD2BE-6748-386D-7A03-835B92763203 disconnected.
+1766150468: New connection from ::1:58836 on port 1883.
+1766150468: New client connected from ::1:58836 as auto-B1D9C50E-D8BE-43BD-749E-A9428AE5ACE8 (p2, c1, k60).
+1766150468: Client auto-B1D9C50E-D8BE-43BD-749E-A9428AE5ACE8 disconnected.
+1766150483: New connection from ::1:46084 on port 1883.
+1766150483: New client connected from ::1:46084 as auto-AF960CA5-1184-B770-73F5-ED9DA3112DC3 (p2, c1, k60).
+1766150483: Client auto-AF960CA5-1184-B770-73F5-ED9DA3112DC3 disconnected.
+1766150499: New connection from ::1:58050 on port 1883.
+1766150499: New client connected from ::1:58050 as auto-2FA4CF55-A602-2EDB-E54E-80E1CD2B3EBE (p2, c1, k60).
+1766150499: Client auto-2FA4CF55-A602-2EDB-E54E-80E1CD2B3EBE disconnected.
+1766150514: New connection from ::1:43432 on port 1883.
+1766150514: New client connected from ::1:43432 as auto-45B5051E-B446-EB73-3849-EF18F401B7CF (p2, c1, k60).
+1766150514: Client auto-45B5051E-B446-EB73-3849-EF18F401B7CF disconnected.
+1766150529: New connection from ::1:43090 on port 1883.
+1766150529: New client connected from ::1:43090 as auto-66259325-23BD-B5D0-FA22-1CAA24492E12 (p2, c1, k60).
+1766150529: Client auto-66259325-23BD-B5D0-FA22-1CAA24492E12 disconnected.
+1766150544: New connection from ::1:55350 on port 1883.
+1766150544: New client connected from ::1:55350 as auto-D75A70E7-82A9-079A-198A-9FC241819696 (p2, c1, k60).
+1766150544: Client auto-D75A70E7-82A9-079A-198A-9FC241819696 disconnected.
+1766150559: New connection from ::1:43534 on port 1883.
+1766150559: New client connected from ::1:43534 as auto-086C3CC7-3133-C757-86E4-1D7510B196A8 (p2, c1, k60).
+1766150559: Client auto-086C3CC7-3133-C757-86E4-1D7510B196A8 disconnected.
+1766150574: New connection from ::1:56910 on port 1883.
+1766150574: New client connected from ::1:56910 as auto-42F588B3-6EBA-A129-E6FB-BB39495AF835 (p2, c1, k60).
+1766150574: Client auto-42F588B3-6EBA-A129-E6FB-BB39495AF835 disconnected.
+1766150589: New connection from ::1:51930 on port 1883.
+1766150589: New client connected from ::1:51930 as auto-3841F35F-88EB-1A35-1522-F1A20D7DC4EB (p2, c1, k60).
+1766150589: Client auto-3841F35F-88EB-1A35-1522-F1A20D7DC4EB disconnected.
+1766150604: New connection from ::1:46106 on port 1883.
+1766150604: New client connected from ::1:46106 as auto-F6AB9261-EA34-B164-F15D-DD1C4615319A (p2, c1, k60).
+1766150604: Client auto-F6AB9261-EA34-B164-F15D-DD1C4615319A disconnected.
+1766150619: New connection from ::1:51724 on port 1883.
+1766150619: New client connected from ::1:51724 as auto-940E4661-974C-44FE-5356-3F4C9D4BC9DB (p2, c1, k60).
+1766150619: Client auto-940E4661-974C-44FE-5356-3F4C9D4BC9DB disconnected.
+1766150634: New connection from ::1:40380 on port 1883.
+1766150634: New client connected from ::1:40380 as auto-3F269B76-6C93-7AD3-9EDD-C3A980AD6E20 (p2, c1, k60).
+1766150634: Client auto-3F269B76-6C93-7AD3-9EDD-C3A980AD6E20 disconnected.
+1766150649: New connection from ::1:47494 on port 1883.
+1766150649: New client connected from ::1:47494 as auto-A4783E64-B637-CE37-2418-F12F8E0CBE4C (p2, c1, k60).
+1766150649: Client auto-A4783E64-B637-CE37-2418-F12F8E0CBE4C disconnected.
+1766150664: New connection from ::1:45462 on port 1883.
+1766150664: New client connected from ::1:45462 as auto-DA80A7A8-FECC-3889-DD9C-A4BCB8EFE602 (p2, c1, k60).
+1766150664: Client auto-DA80A7A8-FECC-3889-DD9C-A4BCB8EFE602 disconnected.
+1766150679: New connection from ::1:48330 on port 1883.
+1766150679: New client connected from ::1:48330 as auto-441327C6-EE18-6CC6-DCB0-45848503AA7C (p2, c1, k60).
+1766150679: Client auto-441327C6-EE18-6CC6-DCB0-45848503AA7C disconnected.
+1766150694: New connection from ::1:55136 on port 1883.
+1766150694: New client connected from ::1:55136 as auto-FAE88BAC-641E-0BE1-A368-56AC0A49CAD4 (p2, c1, k60).
+1766150694: Client auto-FAE88BAC-641E-0BE1-A368-56AC0A49CAD4 disconnected.
+1766150709: New connection from ::1:37978 on port 1883.
+1766150709: New client connected from ::1:37978 as auto-AD3D6BB1-9129-AD84-D32A-CB7817246A0C (p2, c1, k60).
+1766150709: Client auto-AD3D6BB1-9129-AD84-D32A-CB7817246A0C disconnected.
+1766150724: New connection from ::1:53260 on port 1883.
+1766150724: New client connected from ::1:53260 as auto-34794DE9-3527-224A-5BD2-D3699C6D5E68 (p2, c1, k60).
+1766150724: Client auto-34794DE9-3527-224A-5BD2-D3699C6D5E68 disconnected.
+1766150731: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1766150740: New connection from ::1:37664 on port 1883.
+1766150740: New client connected from ::1:37664 as auto-F7CD5CA7-F51E-E6DF-9CEC-6BAD5C1AB6E3 (p2, c1, k60).
+1766150740: Client auto-F7CD5CA7-F51E-E6DF-9CEC-6BAD5C1AB6E3 disconnected.
+1766150755: New connection from ::1:39668 on port 1883.
+1766150755: New client connected from ::1:39668 as auto-240BD800-2F72-A746-6645-5881EA901412 (p2, c1, k60).
+1766150755: Client auto-240BD800-2F72-A746-6645-5881EA901412 disconnected.
+1766150770: New connection from ::1:51650 on port 1883.
+1766150770: New client connected from ::1:51650 as auto-E1A6AA6F-983B-8281-9D21-D5C2453B6ECE (p2, c1, k60).
+1766150770: Client auto-E1A6AA6F-983B-8281-9D21-D5C2453B6ECE disconnected.
+1766150785: New connection from ::1:42286 on port 1883.
+1766150785: New client connected from ::1:42286 as auto-06DDEA90-4BCD-FC00-2B9C-0E4B80579C33 (p2, c1, k60).
+1766150785: Client auto-06DDEA90-4BCD-FC00-2B9C-0E4B80579C33 disconnected.
+1766150800: New connection from ::1:48752 on port 1883.
+1766150800: New client connected from ::1:48752 as auto-729647F2-B650-FB14-B176-5DA5014F31B6 (p2, c1, k60).
+1766150800: Client auto-729647F2-B650-FB14-B176-5DA5014F31B6 disconnected.
+1766150815: New connection from ::1:56338 on port 1883.
+1766150815: New client connected from ::1:56338 as auto-39C0C102-7BF5-7F9C-F82A-930B9B8EFB5A (p2, c1, k60).
+1766150815: Client auto-39C0C102-7BF5-7F9C-F82A-930B9B8EFB5A disconnected.
+1766150830: New connection from ::1:51788 on port 1883.
+1766150830: New client connected from ::1:51788 as auto-32D14FAA-AC5B-82BC-0361-B7EA391116CA (p2, c1, k60).
+1766150830: Client auto-32D14FAA-AC5B-82BC-0361-B7EA391116CA disconnected.
+1766150845: New connection from ::1:55136 on port 1883.
+1766150845: New client connected from ::1:55136 as auto-3D76CBA6-EB44-926A-6E28-6BCF0BA736CA (p2, c1, k60).
+1766150845: Client auto-3D76CBA6-EB44-926A-6E28-6BCF0BA736CA disconnected.
+1766150860: New connection from ::1:56908 on port 1883.
+1766150860: New client connected from ::1:56908 as auto-854D6661-218B-D5B4-AC7D-ACF650641C82 (p2, c1, k60).
+1766150860: Client auto-854D6661-218B-D5B4-AC7D-ACF650641C82 disconnected.
+1766150875: New connection from ::1:33332 on port 1883.
+1766150875: New client connected from ::1:33332 as auto-12B1E41C-189E-8D00-44E0-5902F7E20C1A (p2, c1, k60).
+1766150875: Client auto-12B1E41C-189E-8D00-44E0-5902F7E20C1A disconnected.
+1766150891: New connection from ::1:49132 on port 1883.
+1766150891: New client connected from ::1:49132 as auto-5A1DE5B0-CD6F-BAC8-52DA-96F4B72C4518 (p2, c1, k60).
+1766150891: Client auto-5A1DE5B0-CD6F-BAC8-52DA-96F4B72C4518 disconnected.
+1766150906: New connection from ::1:39272 on port 1883.
+1766150906: New client connected from ::1:39272 as auto-89782A34-3E45-740C-C5AD-DAD021B6192D (p2, c1, k60).
+1766150906: Client auto-89782A34-3E45-740C-C5AD-DAD021B6192D disconnected.
+1766150921: New connection from ::1:56940 on port 1883.
+1766150921: New client connected from ::1:56940 as auto-1B1A6181-F86F-F45B-847A-939DE2C7411F (p2, c1, k60).
+1766150921: Client auto-1B1A6181-F86F-F45B-847A-939DE2C7411F disconnected.
+1766150936: New connection from ::1:46144 on port 1883.
+1766150936: New client connected from ::1:46144 as auto-43FF27DC-07C3-BF1B-B3B4-2A793809E254 (p2, c1, k60).
+1766150936: Client auto-43FF27DC-07C3-BF1B-B3B4-2A793809E254 disconnected.
+1766150951: New connection from ::1:43952 on port 1883.
+1766150951: New client connected from ::1:43952 as auto-A5F2B765-2BAB-1C50-5E35-CCC111767443 (p2, c1, k60).
+1766150951: Client auto-A5F2B765-2BAB-1C50-5E35-CCC111767443 disconnected.
+1766150966: New connection from ::1:41148 on port 1883.
+1766150966: New client connected from ::1:41148 as auto-E8A80CA9-A07F-E428-4F67-55E397E20328 (p2, c1, k60).
+1766150966: Client auto-E8A80CA9-A07F-E428-4F67-55E397E20328 disconnected.
+1766150981: New connection from ::1:56398 on port 1883.
+1766150981: New client connected from ::1:56398 as auto-3FFCC560-7C75-53B0-536F-0ACF8E25E424 (p2, c1, k60).
+1766150981: Client auto-3FFCC560-7C75-53B0-536F-0ACF8E25E424 disconnected.
+1766150996: New connection from ::1:36040 on port 1883.
+1766150996: New client connected from ::1:36040 as auto-FD46B26C-5FC1-DA6A-BB2B-944BE35FC6BA (p2, c1, k60).
+1766150996: Client auto-FD46B26C-5FC1-DA6A-BB2B-944BE35FC6BA disconnected.
+1766151011: New connection from ::1:36800 on port 1883.
+1766151011: New client connected from ::1:36800 as auto-CA064D80-427B-8B3E-1BB5-B0AD21006A54 (p2, c1, k60).
+1766151011: Client auto-CA064D80-427B-8B3E-1BB5-B0AD21006A54 disconnected.
+1766151026: New connection from ::1:42842 on port 1883.
+1766151026: New client connected from ::1:42842 as auto-910E376A-D5CA-56B0-B976-BE7516A87068 (p2, c1, k60).
+1766151026: Client auto-910E376A-D5CA-56B0-B976-BE7516A87068 disconnected.
+1766151041: New connection from ::1:37598 on port 1883.
+1766151041: New client connected from ::1:37598 as auto-F962325A-458D-441B-CE7E-18549D860A1A (p2, c1, k60).
+1766151041: Client auto-F962325A-458D-441B-CE7E-18549D860A1A disconnected.
+1766151056: New connection from ::1:33710 on port 1883.
+1766151056: New client connected from ::1:33710 as auto-3AA0B946-7CAE-36B2-C6DB-5AF0CE2FF6CE (p2, c1, k60).
+1766151056: Client auto-3AA0B946-7CAE-36B2-C6DB-5AF0CE2FF6CE disconnected.
+1766151071: New connection from ::1:36946 on port 1883.
+1766151071: New client connected from ::1:36946 as auto-824F3C97-2716-F745-52C0-2898027124F3 (p2, c1, k60).
+1766151071: Client auto-824F3C97-2716-F745-52C0-2898027124F3 disconnected.
+1766151087: New connection from ::1:59066 on port 1883.
+1766151087: New client connected from ::1:59066 as auto-89BA322D-5F1C-2CE8-794E-7A39B01B591F (p2, c1, k60).
+1766151087: Client auto-89BA322D-5F1C-2CE8-794E-7A39B01B591F disconnected.
+1766151102: New connection from ::1:55464 on port 1883.
+1766151102: New client connected from ::1:55464 as auto-13769D8E-57AC-000C-2DC2-F710E9A86CD0 (p2, c1, k60).
+1766151102: Client auto-13769D8E-57AC-000C-2DC2-F710E9A86CD0 disconnected.
+1766151117: New connection from ::1:43794 on port 1883.
+1766151117: New client connected from ::1:43794 as auto-8382CAF8-C843-6BB0-71B0-1DA8B0790369 (p2, c1, k60).
+1766151117: Client auto-8382CAF8-C843-6BB0-71B0-1DA8B0790369 disconnected.
+1766151132: New connection from ::1:41870 on port 1883.
+1766151132: New client connected from ::1:41870 as auto-E6CCAFB6-6458-43F9-A005-C5CC39159C2A (p2, c1, k60).
+1766151132: Client auto-E6CCAFB6-6458-43F9-A005-C5CC39159C2A disconnected.
+1766151147: New connection from ::1:58134 on port 1883.
+1766151147: New client connected from ::1:58134 as auto-DB358043-D8E8-FF53-A9E0-862A916A65B0 (p2, c1, k60).
+1766151147: Client auto-DB358043-D8E8-FF53-A9E0-862A916A65B0 disconnected.
+1766151162: New connection from ::1:60150 on port 1883.
+1766151162: New client connected from ::1:60150 as auto-620A82FE-499F-30A2-0DE1-8764D6FFD0C5 (p2, c1, k60).
+1766151162: Client auto-620A82FE-499F-30A2-0DE1-8764D6FFD0C5 disconnected.
+1766151177: New connection from ::1:56744 on port 1883.
+1766151177: New client connected from ::1:56744 as auto-107C8354-0768-FB0D-0248-DD3537A2439B (p2, c1, k60).
+1766151177: Client auto-107C8354-0768-FB0D-0248-DD3537A2439B disconnected.
+1766151192: New connection from ::1:52620 on port 1883.
+1766151192: New client connected from ::1:52620 as auto-8C3EA1FF-68EE-7954-F551-750D7C9B2CC9 (p2, c1, k60).
+1766151192: Client auto-8C3EA1FF-68EE-7954-F551-750D7C9B2CC9 disconnected.
+1766151207: New connection from ::1:50332 on port 1883.
+1766151207: New client connected from ::1:50332 as auto-DA707FDD-3E8D-BE17-4526-9949789C440E (p2, c1, k60).
+1766151207: Client auto-DA707FDD-3E8D-BE17-4526-9949789C440E disconnected.
+1766151222: New connection from ::1:40624 on port 1883.
+1766151222: New client connected from ::1:40624 as auto-034EAEEE-D479-29B6-ABC3-FE21BECFFDFB (p2, c1, k60).
+1766151222: Client auto-034EAEEE-D479-29B6-ABC3-FE21BECFFDFB disconnected.
+1766151237: New connection from ::1:33284 on port 1883.
+1766151237: New client connected from ::1:33284 as auto-C40B9753-D457-918D-CA89-4632C35452AB (p2, c1, k60).
+1766151237: Client auto-C40B9753-D457-918D-CA89-4632C35452AB disconnected.
+1766151252: New connection from ::1:46848 on port 1883.
+1766151252: New client connected from ::1:46848 as auto-538F3B27-B9B6-D3D1-C883-B1C0D63B626E (p2, c1, k60).
+1766151252: Client auto-538F3B27-B9B6-D3D1-C883-B1C0D63B626E disconnected.
+1766151267: New connection from ::1:44482 on port 1883.
+1766151267: New client connected from ::1:44482 as auto-E965D040-0D4E-7060-D55E-09ABB1F3BC57 (p2, c1, k60).
+1766151267: Client auto-E965D040-0D4E-7060-D55E-09ABB1F3BC57 disconnected.
+1766151282: New connection from ::1:60214 on port 1883.
+1766151282: New client connected from ::1:60214 as auto-33E54331-D661-5D67-D4C3-2337CD90795C (p2, c1, k60).
+1766151282: Client auto-33E54331-D661-5D67-D4C3-2337CD90795C disconnected.
+1766151298: New connection from ::1:37176 on port 1883.
+1766151298: New client connected from ::1:37176 as auto-95A90587-5B26-F1B1-00F5-074C2039BF9E (p2, c1, k60).
+1766151298: Client auto-95A90587-5B26-F1B1-00F5-074C2039BF9E disconnected.
+1766151313: New connection from ::1:33662 on port 1883.
+1766151313: New client connected from ::1:33662 as auto-F2D61A00-5DD6-F618-6B27-C43C4E08F209 (p2, c1, k60).
+1766151313: Client auto-F2D61A00-5DD6-F618-6B27-C43C4E08F209 disconnected.
+1766151328: New connection from ::1:43092 on port 1883.
+1766151328: New client connected from ::1:43092 as auto-267E6DBE-AA32-5065-DD70-DF44AE6C78A3 (p2, c1, k60).
+1766151328: Client auto-267E6DBE-AA32-5065-DD70-DF44AE6C78A3 disconnected.
+1766151343: New connection from ::1:58000 on port 1883.
+1766151343: New client connected from ::1:58000 as auto-51ADE897-674B-A75C-BCA6-0F282DF6B9BB (p2, c1, k60).
+1766151343: Client auto-51ADE897-674B-A75C-BCA6-0F282DF6B9BB disconnected.
+1766151358: New connection from ::1:49302 on port 1883.
+1766151358: New client connected from ::1:49302 as auto-BCDC0237-780D-07AF-68BD-E9694D4610E1 (p2, c1, k60).
+1766151358: Client auto-BCDC0237-780D-07AF-68BD-E9694D4610E1 disconnected.
+1766151373: New connection from ::1:52588 on port 1883.
+1766151373: New client connected from ::1:52588 as auto-26EE31BE-BD78-C063-89BB-7D4631BE6A0B (p2, c1, k60).
+1766151373: Client auto-26EE31BE-BD78-C063-89BB-7D4631BE6A0B disconnected.
+1766151388: New connection from ::1:37834 on port 1883.
+1766151388: New client connected from ::1:37834 as auto-0B6D91BC-0165-7C50-BD9A-B9DB487DF09C (p2, c1, k60).
+1766151388: Client auto-0B6D91BC-0165-7C50-BD9A-B9DB487DF09C disconnected.
+1766151403: New connection from ::1:37324 on port 1883.
+1766151403: New client connected from ::1:37324 as auto-9D5962C3-2861-460F-263B-76BB92FE8519 (p2, c1, k60).
+1766151403: Client auto-9D5962C3-2861-460F-263B-76BB92FE8519 disconnected.
+1766151418: New connection from ::1:54532 on port 1883.
+1766151418: New client connected from ::1:54532 as auto-4A003455-50B4-2C1C-3E22-2634370C38BC (p2, c1, k60).
+1766151418: Client auto-4A003455-50B4-2C1C-3E22-2634370C38BC disconnected.
+1766151433: New connection from ::1:34502 on port 1883.
+1766151433: New client connected from ::1:34502 as auto-F5BDEC2D-148A-6ABA-23E2-CEB5A8B48BD0 (p2, c1, k60).
+1766151433: Client auto-F5BDEC2D-148A-6ABA-23E2-CEB5A8B48BD0 disconnected.
+1766151448: New connection from ::1:59384 on port 1883.
+1766151448: New client connected from ::1:59384 as auto-3428460E-6CD8-F084-91BC-B867BC0BEFB2 (p2, c1, k60).
+1766151448: Client auto-3428460E-6CD8-F084-91BC-B867BC0BEFB2 disconnected.
+1766151463: New connection from ::1:46120 on port 1883.
+1766151463: New client connected from ::1:46120 as auto-DD552C1A-4AD2-429F-19D8-6FAC26A3D00F (p2, c1, k60).
+1766151463: Client auto-DD552C1A-4AD2-429F-19D8-6FAC26A3D00F disconnected.
+1766151478: New connection from ::1:59482 on port 1883.
+1766151478: New client connected from ::1:59482 as auto-D13A41A3-F8C2-6E01-7FDF-271C0ABB1799 (p2, c1, k60).
+1766151478: Client auto-D13A41A3-F8C2-6E01-7FDF-271C0ABB1799 disconnected.
+1766151493: New connection from ::1:60516 on port 1883.
+1766151493: New client connected from ::1:60516 as auto-8174E450-59AE-855C-14F6-BD4A9838F78E (p2, c1, k60).
+1766151493: Client auto-8174E450-59AE-855C-14F6-BD4A9838F78E disconnected.
+1766151509: New connection from ::1:59952 on port 1883.
+1766151509: New client connected from ::1:59952 as auto-36CB2CC9-762F-5B3C-4B4D-97A8944E0F32 (p2, c1, k60).
+1766151509: Client auto-36CB2CC9-762F-5B3C-4B4D-97A8944E0F32 disconnected.
+1766151524: New connection from ::1:42316 on port 1883.
+1766151524: New client connected from ::1:42316 as auto-613DE231-AB70-F258-340F-03750566535E (p2, c1, k60).
+1766151524: Client auto-613DE231-AB70-F258-340F-03750566535E disconnected.
+1766151539: New connection from ::1:45770 on port 1883.
+1766151539: New client connected from ::1:45770 as auto-970B0A3C-986D-EAAD-9459-FF06873624F8 (p2, c1, k60).
+1766151539: Client auto-970B0A3C-986D-EAAD-9459-FF06873624F8 disconnected.
+1766151554: New connection from ::1:45732 on port 1883.
+1766151554: New client connected from ::1:45732 as auto-2D902DFF-8499-5E18-9FF2-76BA878FE5FB (p2, c1, k60).
+1766151554: Client auto-2D902DFF-8499-5E18-9FF2-76BA878FE5FB disconnected.
+1766151569: New connection from ::1:46782 on port 1883.
+1766151569: New client connected from ::1:46782 as auto-AAB2C550-6080-5B9F-BDD3-334E73F1F008 (p2, c1, k60).
+1766151569: Client auto-AAB2C550-6080-5B9F-BDD3-334E73F1F008 disconnected.
+1766151584: New connection from ::1:58910 on port 1883.
+1766151584: New client connected from ::1:58910 as auto-B01F795C-FD62-AD7E-270B-6BBC06993AE0 (p2, c1, k60).
+1766151584: Client auto-B01F795C-FD62-AD7E-270B-6BBC06993AE0 disconnected.
+1766151599: New connection from ::1:44810 on port 1883.
+1766151599: New client connected from ::1:44810 as auto-09460926-3910-0505-7218-0D0B2F715B47 (p2, c1, k60).
+1766151599: Client auto-09460926-3910-0505-7218-0D0B2F715B47 disconnected.
+1766151614: New connection from ::1:33164 on port 1883.
+1766151614: New client connected from ::1:33164 as auto-0502807A-8A86-554B-666B-A47915BA3FAE (p2, c1, k60).
+1766151614: Client auto-0502807A-8A86-554B-666B-A47915BA3FAE disconnected.
+1766151629: New connection from ::1:49592 on port 1883.
+1766151629: New client connected from ::1:49592 as auto-D0EC4C5B-A507-5E8C-B9D8-059206C3C35C (p2, c1, k60).
+1766151629: Client auto-D0EC4C5B-A507-5E8C-B9D8-059206C3C35C disconnected.
+1766151644: New connection from ::1:40834 on port 1883.
+1766151644: New client connected from ::1:40834 as auto-1775EE41-0D33-B64A-5D2E-45EA2B209BA5 (p2, c1, k60).
+1766151644: Client auto-1775EE41-0D33-B64A-5D2E-45EA2B209BA5 disconnected.
+1766151659: New connection from ::1:40720 on port 1883.
+1766151659: New client connected from ::1:40720 as auto-586E0A2A-92AC-548C-54D1-7BD84E9547EA (p2, c1, k60).
+1766151659: Client auto-586E0A2A-92AC-548C-54D1-7BD84E9547EA disconnected.
+1766151674: New connection from ::1:53742 on port 1883.
+1766151674: New client connected from ::1:53742 as auto-39484EAE-A96F-836C-29E7-9356453A2D89 (p2, c1, k60).
+1766151674: Client auto-39484EAE-A96F-836C-29E7-9356453A2D89 disconnected.
+1766151690: New connection from ::1:60048 on port 1883.
+1766151690: New client connected from ::1:60048 as auto-CA908DF7-32AF-AA7F-0306-32F89423AD19 (p2, c1, k60).
+1766151690: Client auto-CA908DF7-32AF-AA7F-0306-32F89423AD19 disconnected.
+1766151705: New connection from ::1:39130 on port 1883.
+1766151705: New client connected from ::1:39130 as auto-1305D626-1771-022A-F247-6560FA598083 (p2, c1, k60).
+1766151705: Client auto-1305D626-1771-022A-F247-6560FA598083 disconnected.
+1766151720: New connection from ::1:60690 on port 1883.
+1766151720: New client connected from ::1:60690 as auto-BF20CE35-CCE1-E550-4D95-6FAD6D0433AB (p2, c1, k60).
+1766151720: Client auto-BF20CE35-CCE1-E550-4D95-6FAD6D0433AB disconnected.
+1766151735: New connection from ::1:46556 on port 1883.
+1766151735: New client connected from ::1:46556 as auto-85D2F0B7-01AB-B41C-D21C-B791C7BD807F (p2, c1, k60).
+1766151735: Client auto-85D2F0B7-01AB-B41C-D21C-B791C7BD807F disconnected.
+1766151750: New connection from ::1:37212 on port 1883.
+1766151750: New client connected from ::1:37212 as auto-13E0210E-2F1D-E883-EF1A-6975C9CFD943 (p2, c1, k60).
+1766151750: Client auto-13E0210E-2F1D-E883-EF1A-6975C9CFD943 disconnected.
+1766151765: New connection from ::1:49452 on port 1883.
+1766151765: New client connected from ::1:49452 as auto-9A4AA531-F456-68A4-D2CC-26695797A097 (p2, c1, k60).
+1766151765: Client auto-9A4AA531-F456-68A4-D2CC-26695797A097 disconnected.
+1766151780: New connection from ::1:35746 on port 1883.
+1766151780: New client connected from ::1:35746 as auto-379BC14C-DB00-B767-FB7B-F498A9CB3820 (p2, c1, k60).
+1766151780: Client auto-379BC14C-DB00-B767-FB7B-F498A9CB3820 disconnected.
+1766151795: New connection from ::1:36898 on port 1883.
+1766151795: New client connected from ::1:36898 as auto-2922067C-42AB-7C93-470D-413788BEE594 (p2, c1, k60).
+1766151795: Client auto-2922067C-42AB-7C93-470D-413788BEE594 disconnected.
+1766151810: New connection from ::1:58614 on port 1883.
+1766151810: New client connected from ::1:58614 as auto-34DC08AC-AE5E-FC73-03D3-6BCDEFBC1148 (p2, c1, k60).
+1766151810: Client auto-34DC08AC-AE5E-FC73-03D3-6BCDEFBC1148 disconnected.
+1766151825: New connection from ::1:36352 on port 1883.
+1766151825: New client connected from ::1:36352 as auto-8DC934D1-730D-95B6-E17E-5D9C1A7C7735 (p2, c1, k60).
+1766151825: Client auto-8DC934D1-730D-95B6-E17E-5D9C1A7C7735 disconnected.
+1766151840: New connection from ::1:52948 on port 1883.
+1766151840: New client connected from ::1:52948 as auto-55B5A2C3-8FFE-BAB8-218A-862A11BF8A9F (p2, c1, k60).
+1766151840: Client auto-55B5A2C3-8FFE-BAB8-218A-862A11BF8A9F disconnected.
+1766151855: New connection from ::1:41896 on port 1883.
+1766151855: New client connected from ::1:41896 as auto-811C4E18-3FE0-37DD-B364-2B71A7FF5B41 (p2, c1, k60).
+1766151855: Client auto-811C4E18-3FE0-37DD-B364-2B71A7FF5B41 disconnected.
+1766151870: New connection from ::1:40378 on port 1883.
+1766151870: New client connected from ::1:40378 as auto-A52335E8-6D55-272F-C329-240379C860C6 (p2, c1, k60).
+1766151870: Client auto-A52335E8-6D55-272F-C329-240379C860C6 disconnected.
+1766151885: New connection from ::1:44142 on port 1883.
+1766151885: New client connected from ::1:44142 as auto-FEBBDF3B-B131-F597-1F49-5C20E2BC18C8 (p2, c1, k60).
+1766151885: Client auto-FEBBDF3B-B131-F597-1F49-5C20E2BC18C8 disconnected.
+1766151900: New connection from ::1:44826 on port 1883.
+1766151900: New client connected from ::1:44826 as auto-4A298337-2CBC-C7EA-64BB-D0FC2210583A (p2, c1, k60).
+1766151901: Client auto-4A298337-2CBC-C7EA-64BB-D0FC2210583A disconnected.
+1766151916: New connection from ::1:47266 on port 1883.
+1766151916: New client connected from ::1:47266 as auto-84D95CDE-AF91-8C7B-02BB-C6B594871AD4 (p2, c1, k60).
+1766151916: Client auto-84D95CDE-AF91-8C7B-02BB-C6B594871AD4 disconnected.
+1766151931: New connection from ::1:42160 on port 1883.
+1766151931: New client connected from ::1:42160 as auto-80604878-AFEB-F6E4-41ED-C7F7B826F98B (p2, c1, k60).
+1766151931: Client auto-80604878-AFEB-F6E4-41ED-C7F7B826F98B disconnected.
+1766151946: New connection from ::1:36520 on port 1883.
+1766151946: New client connected from ::1:36520 as auto-35C0E072-D00E-18C1-AF30-C5A831A41370 (p2, c1, k60).
+1766151946: Client auto-35C0E072-D00E-18C1-AF30-C5A831A41370 disconnected.
+1766151961: New connection from ::1:52388 on port 1883.
+1766151961: New client connected from ::1:52388 as auto-8AE5FD2D-68A8-37AC-E3EE-C1CFDEE74B28 (p2, c1, k60).
+1766151961: Client auto-8AE5FD2D-68A8-37AC-E3EE-C1CFDEE74B28 disconnected.
+1766151976: New connection from ::1:58030 on port 1883.
+1766151976: New client connected from ::1:58030 as auto-33692333-8332-2B9C-C1A4-835E5A8B69FB (p2, c1, k60).
+1766151976: Client auto-33692333-8332-2B9C-C1A4-835E5A8B69FB disconnected.
+1766151991: New connection from ::1:37554 on port 1883.
+1766151991: New client connected from ::1:37554 as auto-A7B6EF0B-B8B0-E604-66B8-20D0B2A37030 (p2, c1, k60).
+1766151991: Client auto-A7B6EF0B-B8B0-E604-66B8-20D0B2A37030 disconnected.
+1766152006: New connection from ::1:38212 on port 1883.
+1766152006: New client connected from ::1:38212 as auto-62FA5403-173D-D783-9E0D-B6B0A1DD9D98 (p2, c1, k60).
+1766152006: Client auto-62FA5403-173D-D783-9E0D-B6B0A1DD9D98 disconnected.
+1766152021: New connection from ::1:38084 on port 1883.
+1766152021: New client connected from ::1:38084 as auto-3FE4B9B0-9EE5-7F3A-BC5D-BDB65ED2E70E (p2, c1, k60).
+1766152021: Client auto-3FE4B9B0-9EE5-7F3A-BC5D-BDB65ED2E70E disconnected.
+1766152036: New connection from ::1:49420 on port 1883.
+1766152036: New client connected from ::1:49420 as auto-DB4CB846-CE4F-CEC4-1E19-14DE89398433 (p2, c1, k60).
+1766152036: Client auto-DB4CB846-CE4F-CEC4-1E19-14DE89398433 disconnected.
+1766152051: New connection from ::1:44054 on port 1883.
+1766152051: New client connected from ::1:44054 as auto-F97AA73C-8752-874C-05C0-CD9094CD635B (p2, c1, k60).
+1766152051: Client auto-F97AA73C-8752-874C-05C0-CD9094CD635B disconnected.
+1766152066: New connection from ::1:36142 on port 1883.
+1766152066: New client connected from ::1:36142 as auto-D8D1B744-AB3B-6BAF-A8BD-DAD1BE79DDAB (p2, c1, k60).
+1766152066: Client auto-D8D1B744-AB3B-6BAF-A8BD-DAD1BE79DDAB disconnected.
+1766152081: New connection from ::1:34432 on port 1883.
+1766152081: New client connected from ::1:34432 as auto-9CEEF93C-3587-2E94-F714-5CBAB54B8708 (p2, c1, k60).
+1766152081: Client auto-9CEEF93C-3587-2E94-F714-5CBAB54B8708 disconnected.
+1766152096: New connection from ::1:38686 on port 1883.
+1766152096: New client connected from ::1:38686 as auto-F2F2AFE9-6EBA-4447-DEEE-05FA1945B753 (p2, c1, k60).
+1766152096: Client auto-F2F2AFE9-6EBA-4447-DEEE-05FA1945B753 disconnected.
+1766152111: New connection from ::1:48206 on port 1883.
+1766152111: New client connected from ::1:48206 as auto-50DFB2F4-DEFE-8841-6A5A-53868975E45B (p2, c1, k60).
+1766152111: Client auto-50DFB2F4-DEFE-8841-6A5A-53868975E45B disconnected.
+1766152126: New connection from ::1:58936 on port 1883.
+1766152126: New client connected from ::1:58936 as auto-CD580C5C-BE74-CA9B-0659-5A65297EB92F (p2, c1, k60).
+1766152126: Client auto-CD580C5C-BE74-CA9B-0659-5A65297EB92F disconnected.
+1766152142: New connection from ::1:53994 on port 1883.
+1766152142: New client connected from ::1:53994 as auto-1BF4734F-FCE6-888B-4289-D2D906652701 (p2, c1, k60).
+1766152142: Client auto-1BF4734F-FCE6-888B-4289-D2D906652701 disconnected.
+1766152157: New connection from ::1:40342 on port 1883.
+1766152157: New client connected from ::1:40342 as auto-0278B9D2-AD11-7105-E4AD-5B7950C35429 (p2, c1, k60).
+1766152157: Client auto-0278B9D2-AD11-7105-E4AD-5B7950C35429 disconnected.
+1766152172: New connection from ::1:41054 on port 1883.
+1766152172: New client connected from ::1:41054 as auto-5ADE02BE-43C1-E89D-21E5-D7D202563BFF (p2, c1, k60).
+1766152172: Client auto-5ADE02BE-43C1-E89D-21E5-D7D202563BFF disconnected.
+1766152187: New connection from ::1:54732 on port 1883.
+1766152187: New client connected from ::1:54732 as auto-068853C3-ED08-20E2-F4F4-2BF75BF65433 (p2, c1, k60).
+1766152187: Client auto-068853C3-ED08-20E2-F4F4-2BF75BF65433 disconnected.
+1766152202: New connection from ::1:52434 on port 1883.
+1766152202: New client connected from ::1:52434 as auto-A91E8935-1E8F-01C0-F5C6-91F9363662A4 (p2, c1, k60).
+1766152202: Client auto-A91E8935-1E8F-01C0-F5C6-91F9363662A4 disconnected.
+1766152217: New connection from ::1:50232 on port 1883.
+1766152217: New client connected from ::1:50232 as auto-609AAC7F-868F-F96A-4917-F0AEF48A02CE (p2, c1, k60).
+1766152217: Client auto-609AAC7F-868F-F96A-4917-F0AEF48A02CE disconnected.
+1766152232: New connection from ::1:51752 on port 1883.
+1766152232: New client connected from ::1:51752 as auto-E08320DE-DDB7-E1A3-E064-CED91E725CC1 (p2, c1, k60).
+1766152232: Client auto-E08320DE-DDB7-E1A3-E064-CED91E725CC1 disconnected.
+1766152247: New connection from ::1:54856 on port 1883.
+1766152247: New client connected from ::1:54856 as auto-648DF423-0BE0-5D01-CC52-777BFE2FF30E (p2, c1, k60).
+1766152247: Client auto-648DF423-0BE0-5D01-CC52-777BFE2FF30E disconnected.
+1766152262: New connection from ::1:39742 on port 1883.
+1766152262: New client connected from ::1:39742 as auto-A7C7D6F6-706F-02C5-948E-5CB56F68085A (p2, c1, k60).
+1766152262: Client auto-A7C7D6F6-706F-02C5-948E-5CB56F68085A disconnected.
+1766152277: New connection from ::1:33302 on port 1883.
+1766152277: New client connected from ::1:33302 as auto-3EC584D7-2CBE-DAF0-F187-EE7E72C937EC (p2, c1, k60).
+1766152277: Client auto-3EC584D7-2CBE-DAF0-F187-EE7E72C937EC disconnected.
+1766152292: New connection from ::1:33354 on port 1883.
+1766152292: New client connected from ::1:33354 as auto-902E1B73-7C9F-1671-CE9F-37C7592A42F7 (p2, c1, k60).
+1766152292: Client auto-902E1B73-7C9F-1671-CE9F-37C7592A42F7 disconnected.
+1766152307: New connection from ::1:43948 on port 1883.
+1766152307: New client connected from ::1:43948 as auto-8E42E0E9-3299-B2C3-F648-04B13CA5F841 (p2, c1, k60).
+1766152307: Client auto-8E42E0E9-3299-B2C3-F648-04B13CA5F841 disconnected.
+1766152323: New connection from ::1:52252 on port 1883.
+1766152323: New client connected from ::1:52252 as auto-B2DF922F-5CFD-F858-F7E6-0F8136E043E9 (p2, c1, k60).
+1766152323: Client auto-B2DF922F-5CFD-F858-F7E6-0F8136E043E9 disconnected.
+1766152338: New connection from ::1:59246 on port 1883.
+1766152338: New client connected from ::1:59246 as auto-DFAD8B51-86FF-EC54-F802-9410018178FD (p2, c1, k60).
+1766152338: Client auto-DFAD8B51-86FF-EC54-F802-9410018178FD disconnected.
+1766152353: New connection from ::1:42746 on port 1883.
+1766152353: New client connected from ::1:42746 as auto-D3D8405C-BEE4-27EF-4F33-1309C06710BC (p2, c1, k60).
+1766152353: Client auto-D3D8405C-BEE4-27EF-4F33-1309C06710BC disconnected.
+1766152368: New connection from ::1:47340 on port 1883.
+1766152368: New client connected from ::1:47340 as auto-01AE433F-862D-B594-BE71-055969ECCBC8 (p2, c1, k60).
+1766152368: Client auto-01AE433F-862D-B594-BE71-055969ECCBC8 disconnected.
+1766152383: New connection from ::1:45218 on port 1883.
+1766152383: New client connected from ::1:45218 as auto-B2CBE6DF-9C8B-B2A7-261B-81B8E8A3EEBE (p2, c1, k60).
+1766152383: Client auto-B2CBE6DF-9C8B-B2A7-261B-81B8E8A3EEBE disconnected.
+1766152398: New connection from ::1:57978 on port 1883.
+1766152398: New client connected from ::1:57978 as auto-0F84BF35-D373-5745-7E49-E691BDF19010 (p2, c1, k60).
+1766152398: Client auto-0F84BF35-D373-5745-7E49-E691BDF19010 disconnected.
+1766152413: New connection from ::1:38848 on port 1883.
+1766152413: New client connected from ::1:38848 as auto-71846D63-3728-CF15-5A1F-811BF1C7D582 (p2, c1, k60).
+1766152413: Client auto-71846D63-3728-CF15-5A1F-811BF1C7D582 disconnected.
+1766152428: New connection from ::1:55060 on port 1883.
+1766152428: New client connected from ::1:55060 as auto-AA0A4813-5D3F-EE7B-6891-45F3C613F3CE (p2, c1, k60).
+1766152428: Client auto-AA0A4813-5D3F-EE7B-6891-45F3C613F3CE disconnected.
+1766152443: New connection from ::1:46052 on port 1883.
+1766152443: New client connected from ::1:46052 as auto-995D2913-17EA-FED0-690D-49873F85781D (p2, c1, k60).
+1766152443: Client auto-995D2913-17EA-FED0-690D-49873F85781D disconnected.
+1766152458: New connection from ::1:55886 on port 1883.
+1766152458: New client connected from ::1:55886 as auto-494E3A3A-2D87-E23A-8751-5F9A3F41C85F (p2, c1, k60).
+1766152458: Client auto-494E3A3A-2D87-E23A-8751-5F9A3F41C85F disconnected.
+1766152473: New connection from ::1:37284 on port 1883.
+1766152473: New client connected from ::1:37284 as auto-3D3044C3-8A04-6884-A34D-205FCB99D2F2 (p2, c1, k60).
+1766152473: Client auto-3D3044C3-8A04-6884-A34D-205FCB99D2F2 disconnected.
+1766152489: New connection from ::1:58766 on port 1883.
+1766152489: New client connected from ::1:58766 as auto-936E0E6A-9360-1668-CABA-C0970BD6C944 (p2, c1, k60).
+1766152489: Client auto-936E0E6A-9360-1668-CABA-C0970BD6C944 disconnected.
+1766152504: New connection from ::1:42112 on port 1883.
+1766152504: New client connected from ::1:42112 as auto-65C904B5-2C63-1AF8-EDFF-7263DBE87F4C (p2, c1, k60).
+1766152504: Client auto-65C904B5-2C63-1AF8-EDFF-7263DBE87F4C disconnected.
+1766152519: New connection from ::1:53888 on port 1883.
+1766152519: New client connected from ::1:53888 as auto-6CA02E6B-B614-8894-2C18-1CAF03F54E2F (p2, c1, k60).
+1766152519: Client auto-6CA02E6B-B614-8894-2C18-1CAF03F54E2F disconnected.
+1766152533: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1766152534: New connection from ::1:60462 on port 1883.
+1766152534: New client connected from ::1:60462 as auto-00E865FF-52A6-82CB-E13F-E5917DC67C1D (p2, c1, k60).
+1766152534: Client auto-00E865FF-52A6-82CB-E13F-E5917DC67C1D disconnected.
+1766152549: New connection from ::1:55516 on port 1883.
+1766152549: New client connected from ::1:55516 as auto-0053658C-6D74-10F7-78CB-621378246B09 (p2, c1, k60).
+1766152549: Client auto-0053658C-6D74-10F7-78CB-621378246B09 disconnected.
+1766152564: New connection from ::1:48494 on port 1883.
+1766152564: New client connected from ::1:48494 as auto-1D81CF00-5EF2-C135-4B32-B834B4D92B71 (p2, c1, k60).
+1766152564: Client auto-1D81CF00-5EF2-C135-4B32-B834B4D92B71 disconnected.
+1766152579: New connection from ::1:37394 on port 1883.
+1766152579: New client connected from ::1:37394 as auto-39692BA5-306E-5D63-CC58-7AF04B9078AB (p2, c1, k60).
+1766152579: Client auto-39692BA5-306E-5D63-CC58-7AF04B9078AB disconnected.
+1766152594: New connection from ::1:58802 on port 1883.
+1766152594: New client connected from ::1:58802 as auto-15CF7F38-7E26-E861-ED62-2837EB1F89B1 (p2, c1, k60).
+1766152594: Client auto-15CF7F38-7E26-E861-ED62-2837EB1F89B1 disconnected.
+1766152609: New connection from ::1:44978 on port 1883.
+1766152609: New client connected from ::1:44978 as auto-87F0A33B-7A10-B263-6F5C-14363D06C52A (p2, c1, k60).
+1766152609: Client auto-87F0A33B-7A10-B263-6F5C-14363D06C52A disconnected.
+1766152624: New connection from ::1:48938 on port 1883.
+1766152624: New client connected from ::1:48938 as auto-E17CAC72-A72A-9C85-2878-604B3EC2EDE0 (p2, c1, k60).
+1766152624: Client auto-E17CAC72-A72A-9C85-2878-604B3EC2EDE0 disconnected.
+1766152639: New connection from ::1:58412 on port 1883.
+1766152639: New client connected from ::1:58412 as auto-FBD0AC34-99E1-D5E7-D03A-8B48608A082A (p2, c1, k60).
+1766152639: Client auto-FBD0AC34-99E1-D5E7-D03A-8B48608A082A disconnected.
+1766152655: New connection from ::1:49196 on port 1883.
+1766152655: New client connected from ::1:49196 as auto-C9041192-8D21-808F-186B-8573FF5157E9 (p2, c1, k60).
+1766152655: Client auto-C9041192-8D21-808F-186B-8573FF5157E9 disconnected.
+1766152670: New connection from ::1:45326 on port 1883.
+1766152670: New client connected from ::1:45326 as auto-7C1DED22-AC3D-254F-52F1-FEDF7BB87777 (p2, c1, k60).
+1766152670: Client auto-7C1DED22-AC3D-254F-52F1-FEDF7BB87777 disconnected.
+1766152685: New connection from ::1:51408 on port 1883.
+1766152685: New client connected from ::1:51408 as auto-381F37A6-4F52-BD3A-084A-DC49281AECAD (p2, c1, k60).
+1766152685: Client auto-381F37A6-4F52-BD3A-084A-DC49281AECAD disconnected.
+1766152700: New connection from ::1:49474 on port 1883.
+1766152700: New client connected from ::1:49474 as auto-E3F5811B-149A-7B5A-1377-1BB82887D79E (p2, c1, k60).
+1766152700: Client auto-E3F5811B-149A-7B5A-1377-1BB82887D79E disconnected.
+1766152715: New connection from ::1:37338 on port 1883.
+1766152715: New client connected from ::1:37338 as auto-44EA6699-553D-DD10-628B-CF69C8E3090E (p2, c1, k60).
+1766152715: Client auto-44EA6699-553D-DD10-628B-CF69C8E3090E disconnected.
+1766152730: New connection from ::1:41216 on port 1883.
+1766152730: New client connected from ::1:41216 as auto-C656CAEE-8FCE-7D5D-EEA0-0ECD5E4A78DF (p2, c1, k60).
+1766152730: Client auto-C656CAEE-8FCE-7D5D-EEA0-0ECD5E4A78DF disconnected.
+1766152745: New connection from ::1:47484 on port 1883.
+1766152745: New client connected from ::1:47484 as auto-53CE9B98-22ED-E800-85E8-8FA0F37896EA (p2, c1, k60).
+1766152745: Client auto-53CE9B98-22ED-E800-85E8-8FA0F37896EA disconnected.
+1766152760: New connection from ::1:54844 on port 1883.
+1766152760: New client connected from ::1:54844 as auto-023A077A-82EC-A0B7-1E13-1703CB527FDE (p2, c1, k60).
+1766152760: Client auto-023A077A-82EC-A0B7-1E13-1703CB527FDE disconnected.
+1766152775: New connection from ::1:36862 on port 1883.
+1766152775: New client connected from ::1:36862 as auto-193EACA6-85F1-B763-731F-6AD27FD759D9 (p2, c1, k60).
+1766152775: Client auto-193EACA6-85F1-B763-731F-6AD27FD759D9 disconnected.
+1766152790: New connection from ::1:48778 on port 1883.
+1766152790: New client connected from ::1:48778 as auto-D02B82BE-5F21-6349-500E-0BDD31E3C2B6 (p2, c1, k60).
+1766152790: Client auto-D02B82BE-5F21-6349-500E-0BDD31E3C2B6 disconnected.
+1766152805: New connection from ::1:39554 on port 1883.
+1766152805: New client connected from ::1:39554 as auto-3A1FBA9E-FFF4-5F7E-9D89-08E325AD9151 (p2, c1, k60).
+1766152805: Client auto-3A1FBA9E-FFF4-5F7E-9D89-08E325AD9151 disconnected.
+1766152820: New connection from ::1:51378 on port 1883.
+1766152820: New client connected from ::1:51378 as auto-24C113A8-5F6B-CE82-39C2-892731168EA6 (p2, c1, k60).
+1766152820: Client auto-24C113A8-5F6B-CE82-39C2-892731168EA6 disconnected.
+1766152836: New connection from ::1:50978 on port 1883.
+1766152836: New client connected from ::1:50978 as auto-DFBB4CAD-BDC6-99F9-BCBD-1B601DB9EA11 (p2, c1, k60).
+1766152836: Client auto-DFBB4CAD-BDC6-99F9-BCBD-1B601DB9EA11 disconnected.
+1766152851: New connection from ::1:47734 on port 1883.
+1766152851: New client connected from ::1:47734 as auto-5685AE51-49A4-4D3B-C4DC-E6AD70089CA8 (p2, c1, k60).
+1766152851: Client auto-5685AE51-49A4-4D3B-C4DC-E6AD70089CA8 disconnected.
+1766152866: New connection from ::1:60138 on port 1883.
+1766152866: New client connected from ::1:60138 as auto-DE6AAA31-4FE9-EE50-E10D-D859B0BF8124 (p2, c1, k60).
+1766152866: Client auto-DE6AAA31-4FE9-EE50-E10D-D859B0BF8124 disconnected.
+1766152881: New connection from ::1:60872 on port 1883.
+1766152881: New client connected from ::1:60872 as auto-6FC4FE40-7A0F-C78B-C25E-9A09C799EA11 (p2, c1, k60).
+1766152881: Client auto-6FC4FE40-7A0F-C78B-C25E-9A09C799EA11 disconnected.
+1766152896: New connection from ::1:34718 on port 1883.
+1766152896: New client connected from ::1:34718 as auto-DFADF3BA-95A0-01F6-7DD6-A77B4D394BD6 (p2, c1, k60).
+1766152896: Client auto-DFADF3BA-95A0-01F6-7DD6-A77B4D394BD6 disconnected.
+1766152911: New connection from ::1:39802 on port 1883.
+1766152911: New client connected from ::1:39802 as auto-E6E87A4D-0DFC-6F2C-E3A0-F387E971F093 (p2, c1, k60).
+1766152911: Client auto-E6E87A4D-0DFC-6F2C-E3A0-F387E971F093 disconnected.
+1766152926: New connection from ::1:51380 on port 1883.
+1766152926: New client connected from ::1:51380 as auto-8684BF14-D379-63CF-1459-4A87C9A7A091 (p2, c1, k60).
+1766152926: Client auto-8684BF14-D379-63CF-1459-4A87C9A7A091 disconnected.
+1766152941: New connection from ::1:53798 on port 1883.
+1766152941: New client connected from ::1:53798 as auto-C0493B6D-EB02-8D58-B44C-96618F04ADD6 (p2, c1, k60).
+1766152941: Client auto-C0493B6D-EB02-8D58-B44C-96618F04ADD6 disconnected.
+1766152956: New connection from ::1:46038 on port 1883.
+1766152956: New client connected from ::1:46038 as auto-476ACD04-6655-0A5F-6DFF-02B4312EBAD0 (p2, c1, k60).
+1766152956: Client auto-476ACD04-6655-0A5F-6DFF-02B4312EBAD0 disconnected.
+1766152971: New connection from ::1:37078 on port 1883.
+1766152971: New client connected from ::1:37078 as auto-9693914A-C87B-BB3F-7686-3A7EE778A1AF (p2, c1, k60).
+1766152971: Client auto-9693914A-C87B-BB3F-7686-3A7EE778A1AF disconnected.
+1766152986: New connection from ::1:43618 on port 1883.
+1766152986: New client connected from ::1:43618 as auto-93082194-1AFE-400E-0DCA-E93016CF17FF (p2, c1, k60).
+1766152986: Client auto-93082194-1AFE-400E-0DCA-E93016CF17FF disconnected.
+1766153002: New connection from ::1:59660 on port 1883.
+1766153002: New client connected from ::1:59660 as auto-AC30FE06-84FD-BE22-A680-BFB82E111CC1 (p2, c1, k60).
+1766153002: Client auto-AC30FE06-84FD-BE22-A680-BFB82E111CC1 disconnected.
+1766153017: New connection from ::1:52814 on port 1883.
+1766153017: New client connected from ::1:52814 as auto-340387EF-B009-1984-E457-E8FA98B8A8E7 (p2, c1, k60).
+1766153017: Client auto-340387EF-B009-1984-E457-E8FA98B8A8E7 disconnected.
+1766153032: New connection from ::1:39196 on port 1883.
+1766153032: New client connected from ::1:39196 as auto-CCF9DEAD-55FD-6B40-0219-A619B6DE668D (p2, c1, k60).
+1766153032: Client auto-CCF9DEAD-55FD-6B40-0219-A619B6DE668D disconnected.
+1766153047: New connection from ::1:39838 on port 1883.
+1766153047: New client connected from ::1:39838 as auto-C331AFDF-6607-FEFF-7188-86F7723398D3 (p2, c1, k60).
+1766153047: Client auto-C331AFDF-6607-FEFF-7188-86F7723398D3 disconnected.
+1766153062: New connection from ::1:58310 on port 1883.
+1766153062: New client connected from ::1:58310 as auto-F65A5403-338B-9DAD-33EB-299DFB118166 (p2, c1, k60).
+1766153062: Client auto-F65A5403-338B-9DAD-33EB-299DFB118166 disconnected.
+1766153077: New connection from ::1:59662 on port 1883.
+1766153077: New client connected from ::1:59662 as auto-B184718B-A02E-752E-F623-9902328365F4 (p2, c1, k60).
+1766153077: Client auto-B184718B-A02E-752E-F623-9902328365F4 disconnected.
+1766153092: New connection from ::1:44314 on port 1883.
+1766153092: New client connected from ::1:44314 as auto-22606C4A-3A2E-8DD6-1C4C-1C7B72BD715B (p2, c1, k60).
+1766153092: Client auto-22606C4A-3A2E-8DD6-1C4C-1C7B72BD715B disconnected.
+1766153107: New connection from ::1:34966 on port 1883.
+1766153107: New client connected from ::1:34966 as auto-22D4CDE0-DD97-3398-BEFE-4FB8A68F3C29 (p2, c1, k60).
+1766153107: Client auto-22D4CDE0-DD97-3398-BEFE-4FB8A68F3C29 disconnected.
+1766153122: New connection from ::1:47298 on port 1883.
+1766153122: New client connected from ::1:47298 as auto-24471992-56F1-974A-3540-2B077576A912 (p2, c1, k60).
+1766153122: Client auto-24471992-56F1-974A-3540-2B077576A912 disconnected.
+1766153137: New connection from ::1:50080 on port 1883.
+1766153137: New client connected from ::1:50080 as auto-0CD3165A-366D-D1DE-41A0-B01F4A9716DD (p2, c1, k60).
+1766153137: Client auto-0CD3165A-366D-D1DE-41A0-B01F4A9716DD disconnected.
+1766153152: New connection from ::1:36262 on port 1883.
+1766153152: New client connected from ::1:36262 as auto-99D36ECD-AE2A-3439-3DDA-27DCB6C0F80E (p2, c1, k60).
+1766153152: Client auto-99D36ECD-AE2A-3439-3DDA-27DCB6C0F80E disconnected.
+1766153167: New connection from ::1:59298 on port 1883.
+1766153167: New client connected from ::1:59298 as auto-79B87B66-E0C9-E118-81ED-F7EBC63968EE (p2, c1, k60).
+1766153167: Client auto-79B87B66-E0C9-E118-81ED-F7EBC63968EE disconnected.
+1766153183: New connection from ::1:48626 on port 1883.
+1766153183: New client connected from ::1:48626 as auto-ACA4D5E5-03F8-6742-35C8-D12E9086C1FE (p2, c1, k60).
+1766153183: Client auto-ACA4D5E5-03F8-6742-35C8-D12E9086C1FE disconnected.
+1766153198: New connection from ::1:48924 on port 1883.
+1766153198: New client connected from ::1:48924 as auto-6BA86B59-CC0F-63CA-E743-0651F1C3CF61 (p2, c1, k60).
+1766153198: Client auto-6BA86B59-CC0F-63CA-E743-0651F1C3CF61 disconnected.
+1766153213: New connection from ::1:56330 on port 1883.
+1766153213: New client connected from ::1:56330 as auto-92FEC699-F2AF-5B11-C01D-D3B08259694C (p2, c1, k60).
+1766153213: Client auto-92FEC699-F2AF-5B11-C01D-D3B08259694C disconnected.
+1766153228: New connection from ::1:52530 on port 1883.
+1766153228: New client connected from ::1:52530 as auto-89F166F8-B8FC-B14E-F51E-375BCF7AE608 (p2, c1, k60).
+1766153228: Client auto-89F166F8-B8FC-B14E-F51E-375BCF7AE608 disconnected.
+1766153243: New connection from ::1:60370 on port 1883.
+1766153243: New client connected from ::1:60370 as auto-0B208DCE-6E19-CD73-C829-CC375C07A6F6 (p2, c1, k60).
+1766153243: Client auto-0B208DCE-6E19-CD73-C829-CC375C07A6F6 disconnected.
+1766153258: New connection from ::1:58954 on port 1883.
+1766153258: New client connected from ::1:58954 as auto-41406628-13B1-C4D8-39F2-8D237454FEAC (p2, c1, k60).
+1766153258: Client auto-41406628-13B1-C4D8-39F2-8D237454FEAC disconnected.
+1766153273: New connection from ::1:40952 on port 1883.
+1766153273: New client connected from ::1:40952 as auto-3EF1313D-FF40-5526-4520-A1BB3B25A7E7 (p2, c1, k60).
+1766153273: Client auto-3EF1313D-FF40-5526-4520-A1BB3B25A7E7 disconnected.
+1766153288: New connection from ::1:36388 on port 1883.
+1766153288: New client connected from ::1:36388 as auto-F3647DA9-20B8-2E04-A298-E38D13024DA2 (p2, c1, k60).
+1766153288: Client auto-F3647DA9-20B8-2E04-A298-E38D13024DA2 disconnected.
+1766153303: New connection from ::1:60278 on port 1883.
+1766153303: New client connected from ::1:60278 as auto-22EA4BFB-C071-A33D-7B09-27AD5CF77907 (p2, c1, k60).
+1766153303: Client auto-22EA4BFB-C071-A33D-7B09-27AD5CF77907 disconnected.
+1766153318: New connection from ::1:44566 on port 1883.
+1766153318: New client connected from ::1:44566 as auto-68290504-6B39-06A5-DC2B-0655EF99001C (p2, c1, k60).
+1766153318: Client auto-68290504-6B39-06A5-DC2B-0655EF99001C disconnected.
+1766153334: New connection from ::1:57312 on port 1883.
+1766153334: New client connected from ::1:57312 as auto-21C64EE1-B0BA-FEBF-1587-E728755B7393 (p2, c1, k60).
+1766153334: Client auto-21C64EE1-B0BA-FEBF-1587-E728755B7393 disconnected.
+1766153349: New connection from ::1:48738 on port 1883.
+1766153349: New client connected from ::1:48738 as auto-35A01627-560B-C95E-3B7A-3408C47D3DA5 (p2, c1, k60).
+1766153349: Client auto-35A01627-560B-C95E-3B7A-3408C47D3DA5 disconnected.
+1766153364: New connection from ::1:59230 on port 1883.
+1766153364: New client connected from ::1:59230 as auto-ADDF8280-1C4E-0DCF-7565-D40CC23A4789 (p2, c1, k60).
+1766153364: Client auto-ADDF8280-1C4E-0DCF-7565-D40CC23A4789 disconnected.
+1766153379: New connection from ::1:50964 on port 1883.
+1766153379: New client connected from ::1:50964 as auto-1D4F3831-BB37-BE68-3441-E5C637581A6B (p2, c1, k60).
+1766153379: Client auto-1D4F3831-BB37-BE68-3441-E5C637581A6B disconnected.
+1766153394: New connection from ::1:58564 on port 1883.
+1766153394: New client connected from ::1:58564 as auto-149F91F4-A758-05A7-1144-4B0385EA5EB7 (p2, c1, k60).
+1766153394: Client auto-149F91F4-A758-05A7-1144-4B0385EA5EB7 disconnected.
+1766153409: New connection from ::1:43636 on port 1883.
+1766153409: New client connected from ::1:43636 as auto-6B020E79-7534-D276-E916-CC3CA0C04D25 (p2, c1, k60).
+1766153409: Client auto-6B020E79-7534-D276-E916-CC3CA0C04D25 disconnected.
+1766153424: New connection from ::1:48574 on port 1883.
+1766153424: New client connected from ::1:48574 as auto-D46AF990-5129-6AFC-54C2-EA0299B9E4C8 (p2, c1, k60).
+1766153424: Client auto-D46AF990-5129-6AFC-54C2-EA0299B9E4C8 disconnected.
+1766153439: New connection from ::1:34630 on port 1883.
+1766153439: New client connected from ::1:34630 as auto-19F66829-8925-5638-D58B-072283A11C31 (p2, c1, k60).
+1766153439: Client auto-19F66829-8925-5638-D58B-072283A11C31 disconnected.
+1766153454: New connection from ::1:39662 on port 1883.
+1766153454: New client connected from ::1:39662 as auto-B62FDDC9-A300-9356-3CB8-A16A77CA16C7 (p2, c1, k60).
+1766153454: Client auto-B62FDDC9-A300-9356-3CB8-A16A77CA16C7 disconnected.
+1766153469: New connection from ::1:47106 on port 1883.
+1766153469: New client connected from ::1:47106 as auto-5E16A578-6FD3-4010-F6CD-0DDF2308C25F (p2, c1, k60).
+1766153469: Client auto-5E16A578-6FD3-4010-F6CD-0DDF2308C25F disconnected.
+1766153484: New connection from ::1:56364 on port 1883.
+1766153484: New client connected from ::1:56364 as auto-D7DF421A-F511-E977-34AD-2DCAFDB24BF0 (p2, c1, k60).
+1766153484: Client auto-D7DF421A-F511-E977-34AD-2DCAFDB24BF0 disconnected.
+1766153500: New connection from ::1:58522 on port 1883.
+1766153500: New client connected from ::1:58522 as auto-6DA2A087-AAA0-D22D-8E29-0C4B86A6937A (p2, c1, k60).
+1766153500: Client auto-6DA2A087-AAA0-D22D-8E29-0C4B86A6937A disconnected.
+1766153515: New connection from ::1:56550 on port 1883.
+1766153515: New client connected from ::1:56550 as auto-6E4841A8-A1F3-5226-DF15-4D1B5654C5D0 (p2, c1, k60).
+1766153515: Client auto-6E4841A8-A1F3-5226-DF15-4D1B5654C5D0 disconnected.
+1766153530: New connection from ::1:53180 on port 1883.
+1766153530: New client connected from ::1:53180 as auto-E40724FA-EF18-3705-38BD-3C09548E5BCA (p2, c1, k60).
+1766153530: Client auto-E40724FA-EF18-3705-38BD-3C09548E5BCA disconnected.
+1766153545: New connection from ::1:55460 on port 1883.
+1766153545: New client connected from ::1:55460 as auto-B4869F4D-1653-49AD-3608-9F73DEBFE441 (p2, c1, k60).
+1766153545: Client auto-B4869F4D-1653-49AD-3608-9F73DEBFE441 disconnected.
+1766153560: New connection from ::1:38214 on port 1883.
+1766153560: New client connected from ::1:38214 as auto-04C3E7BB-7ADC-CAAF-00B7-AD8B400E01F8 (p2, c1, k60).
+1766153560: Client auto-04C3E7BB-7ADC-CAAF-00B7-AD8B400E01F8 disconnected.
+1766153575: New connection from ::1:47706 on port 1883.
+1766153575: New client connected from ::1:47706 as auto-10503E68-A1C2-12FF-529E-E2D20340E0FB (p2, c1, k60).
+1766153575: Client auto-10503E68-A1C2-12FF-529E-E2D20340E0FB disconnected.
+1766153590: New connection from ::1:59672 on port 1883.
+1766153590: New client connected from ::1:59672 as auto-4EAA3AE1-2ADA-0C6F-3265-E15246A37975 (p2, c1, k60).
+1766153590: Client auto-4EAA3AE1-2ADA-0C6F-3265-E15246A37975 disconnected.
+1766153605: New connection from ::1:58188 on port 1883.
+1766153605: New client connected from ::1:58188 as auto-3EE739A2-7204-2460-9C48-D8057CE3FA47 (p2, c1, k60).
+1766153605: Client auto-3EE739A2-7204-2460-9C48-D8057CE3FA47 disconnected.
+1766153620: New connection from ::1:54030 on port 1883.
+1766153620: New client connected from ::1:54030 as auto-290F17B5-B447-DAF8-AE02-730DA7706914 (p2, c1, k60).
+1766153620: Client auto-290F17B5-B447-DAF8-AE02-730DA7706914 disconnected.
+1766153635: New connection from ::1:43494 on port 1883.
+1766153635: New client connected from ::1:43494 as auto-6975CD37-1486-42B4-5237-685CF064A6A1 (p2, c1, k60).
+1766153635: Client auto-6975CD37-1486-42B4-5237-685CF064A6A1 disconnected.
+1766153650: New connection from ::1:42216 on port 1883.
+1766153650: New client connected from ::1:42216 as auto-914A4B1A-4B56-3DCE-C88E-C82953ED4523 (p2, c1, k60).
+1766153650: Client auto-914A4B1A-4B56-3DCE-C88E-C82953ED4523 disconnected.
+1766153666: New connection from ::1:44086 on port 1883.
+1766153666: New client connected from ::1:44086 as auto-ED199140-D91C-1D06-A685-F20F47EE622E (p2, c1, k60).
+1766153666: Client auto-ED199140-D91C-1D06-A685-F20F47EE622E disconnected.
+1766153681: New connection from ::1:39766 on port 1883.
+1766153681: New client connected from ::1:39766 as auto-3473647B-552C-65AC-2323-E99CBC7F80A3 (p2, c1, k60).
+1766153681: Client auto-3473647B-552C-65AC-2323-E99CBC7F80A3 disconnected.
+1766153696: New connection from ::1:35892 on port 1883.
+1766153696: New client connected from ::1:35892 as auto-5EFC4735-E980-FEA8-2226-59B58D391F08 (p2, c1, k60).
+1766153696: Client auto-5EFC4735-E980-FEA8-2226-59B58D391F08 disconnected.
+1766153711: New connection from ::1:59386 on port 1883.
+1766153711: New client connected from ::1:59386 as auto-E0C4C332-B2E6-ADF7-C73A-28A965628799 (p2, c1, k60).
+1766153711: Client auto-E0C4C332-B2E6-ADF7-C73A-28A965628799 disconnected.
+1766153726: New connection from ::1:42282 on port 1883.
+1766153726: New client connected from ::1:42282 as auto-6FF09A78-8629-7A6C-CCD5-22A802A5483C (p2, c1, k60).
+1766153726: Client auto-6FF09A78-8629-7A6C-CCD5-22A802A5483C disconnected.
+1766153741: New connection from ::1:32840 on port 1883.
+1766153741: New client connected from ::1:32840 as auto-7852DA84-0454-C127-D712-A407948022B5 (p2, c1, k60).
+1766153741: Client auto-7852DA84-0454-C127-D712-A407948022B5 disconnected.
+1766153756: New connection from ::1:54858 on port 1883.
+1766153756: New client connected from ::1:54858 as auto-9651C129-083E-B391-6A0A-7D4A5A8D8827 (p2, c1, k60).
+1766153756: Client auto-9651C129-083E-B391-6A0A-7D4A5A8D8827 disconnected.
+1766153771: New connection from ::1:35880 on port 1883.
+1766153771: New client connected from ::1:35880 as auto-683AD9CD-A3D6-C967-99B0-08E49F72D497 (p2, c1, k60).
+1766153771: Client auto-683AD9CD-A3D6-C967-99B0-08E49F72D497 disconnected.
+1766153786: New connection from ::1:48886 on port 1883.
+1766153786: New client connected from ::1:48886 as auto-6F4409AA-AF31-3511-6334-867AABD51315 (p2, c1, k60).
+1766153786: Client auto-6F4409AA-AF31-3511-6334-867AABD51315 disconnected.
+1766153788: Client mqtt-explorer-a64ba892 closed its connection.
+1766153801: New connection from ::1:43542 on port 1883.
+1766153801: New client connected from ::1:43542 as auto-DC3FB187-2980-DA49-858B-C3C2A4F8093D (p2, c1, k60).
+1766153801: Client auto-DC3FB187-2980-DA49-858B-C3C2A4F8093D disconnected.
+1766153816: New connection from ::1:45166 on port 1883.
+1766153816: New client connected from ::1:45166 as auto-27065DF9-2F41-2AFE-1EC8-7BCAD764D633 (p2, c1, k60).
+1766153816: Client auto-27065DF9-2F41-2AFE-1EC8-7BCAD764D633 disconnected.
+1766153831: New connection from ::1:50796 on port 1883.
+1766153831: New client connected from ::1:50796 as auto-5F12319C-ADA2-2FA8-CFFF-CDF3688F9C3D (p2, c1, k60).
+1766153831: Client auto-5F12319C-ADA2-2FA8-CFFF-CDF3688F9C3D disconnected.
+1766153847: New connection from ::1:34614 on port 1883.
+1766153847: New client connected from ::1:34614 as auto-BD177060-575A-70AA-8C21-F03CFD5D919F (p2, c1, k60).
+1766153847: Client auto-BD177060-575A-70AA-8C21-F03CFD5D919F disconnected.
+1766153862: New connection from ::1:56602 on port 1883.
+1766153862: New client connected from ::1:56602 as auto-00B06425-CFDE-613F-7334-DF676B32C904 (p2, c1, k60).
+1766153862: Client auto-00B06425-CFDE-613F-7334-DF676B32C904 disconnected.
+1766153877: New connection from ::1:43780 on port 1883.
+1766153877: New client connected from ::1:43780 as auto-93C27DCB-1524-193F-8839-BFB28988D3DA (p2, c1, k60).
+1766153877: Client auto-93C27DCB-1524-193F-8839-BFB28988D3DA disconnected.
+1766153892: New connection from ::1:34032 on port 1883.
+1766153892: New client connected from ::1:34032 as auto-F4191B17-AFD6-4464-5AA8-5E06082AE60A (p2, c1, k60).
+1766153892: Client auto-F4191B17-AFD6-4464-5AA8-5E06082AE60A disconnected.
+1766153907: New connection from ::1:48514 on port 1883.
+1766153907: New client connected from ::1:48514 as auto-CB3F7AF4-3E92-B69F-A1B0-24AE69D46F44 (p2, c1, k60).
+1766153907: Client auto-CB3F7AF4-3E92-B69F-A1B0-24AE69D46F44 disconnected.
+1766153922: New connection from ::1:55196 on port 1883.
+1766153922: New client connected from ::1:55196 as auto-518518F3-3E2E-D18C-064E-CEE61EDC3D4B (p2, c1, k60).
+1766153922: Client auto-518518F3-3E2E-D18C-064E-CEE61EDC3D4B disconnected.
+1766153937: New connection from ::1:48942 on port 1883.
+1766153937: New client connected from ::1:48942 as auto-B9B0A0D8-5BDF-BEF1-88DA-2D7D86856095 (p2, c1, k60).
+1766153937: Client auto-B9B0A0D8-5BDF-BEF1-88DA-2D7D86856095 disconnected.
+1766153952: New connection from ::1:57884 on port 1883.
+1766153952: New client connected from ::1:57884 as auto-4F5A07A9-A1A1-CCFD-1E78-13040B166206 (p2, c1, k60).
+1766153952: Client auto-4F5A07A9-A1A1-CCFD-1E78-13040B166206 disconnected.
+1766153967: New connection from ::1:37604 on port 1883.
+1766153967: New client connected from ::1:37604 as auto-742E7AA4-CD6F-6C14-76A5-B7DDA8053A17 (p2, c1, k60).
+1766153967: Client auto-742E7AA4-CD6F-6C14-76A5-B7DDA8053A17 disconnected.
+1766153983: New connection from ::1:57872 on port 1883.
+1766153983: New client connected from ::1:57872 as auto-7F404B78-651B-C61D-4AE6-54B2327EE9A8 (p2, c1, k60).
+1766153983: Client auto-7F404B78-651B-C61D-4AE6-54B2327EE9A8 disconnected.
+1766153998: New connection from ::1:60598 on port 1883.
+1766153998: New client connected from ::1:60598 as auto-B2227273-CCA2-A688-3F81-E5FAC6FF2064 (p2, c1, k60).
+1766153998: Client auto-B2227273-CCA2-A688-3F81-E5FAC6FF2064 disconnected.
+1766154013: New connection from ::1:36840 on port 1883.
+1766154013: New client connected from ::1:36840 as auto-D9EE1130-29F3-DF2D-6FE1-C3E558EBB0EA (p2, c1, k60).
+1766154013: Client auto-D9EE1130-29F3-DF2D-6FE1-C3E558EBB0EA disconnected.
+1766154028: New connection from ::1:45818 on port 1883.
+1766154028: New client connected from ::1:45818 as auto-FAC414DE-E050-A1F6-DCBC-CE4FE7BE1633 (p2, c1, k60).
+1766154028: Client auto-FAC414DE-E050-A1F6-DCBC-CE4FE7BE1633 disconnected.
+1766154043: New connection from ::1:58326 on port 1883.
+1766154043: New client connected from ::1:58326 as auto-7707139C-21A3-DCA5-3DE0-09D3A5C5C07F (p2, c1, k60).
+1766154043: Client auto-7707139C-21A3-DCA5-3DE0-09D3A5C5C07F disconnected.
+1766154058: New connection from ::1:39374 on port 1883.
+1766154058: New client connected from ::1:39374 as auto-DCB99867-8DA6-B4B8-FFC2-91EB4D0B9C86 (p2, c1, k60).
+1766154058: Client auto-DCB99867-8DA6-B4B8-FFC2-91EB4D0B9C86 disconnected.
+1766154073: New connection from ::1:56840 on port 1883.
+1766154073: New client connected from ::1:56840 as auto-6F805848-94E1-7316-712C-1273C1AC2C02 (p2, c1, k60).
+1766154073: Client auto-6F805848-94E1-7316-712C-1273C1AC2C02 disconnected.
+1766154088: New connection from ::1:46900 on port 1883.
+1766154088: New client connected from ::1:46900 as auto-69B2BB53-B4F9-B33E-0245-087CCE3D6A62 (p2, c1, k60).
+1766154088: Client auto-69B2BB53-B4F9-B33E-0245-087CCE3D6A62 disconnected.
+1766154103: New connection from ::1:35370 on port 1883.
+1766154103: New client connected from ::1:35370 as auto-0EBACBF1-0AC7-30B3-EB8F-AEAF1FD9F5F4 (p2, c1, k60).
+1766154103: Client auto-0EBACBF1-0AC7-30B3-EB8F-AEAF1FD9F5F4 disconnected.
+1766154118: New connection from ::1:46308 on port 1883.
+1766154118: New client connected from ::1:46308 as auto-85F545DE-A874-25CB-20A6-68434B06F0FE (p2, c1, k60).
+1766154118: Client auto-85F545DE-A874-25CB-20A6-68434B06F0FE disconnected.
+1766154133: New connection from ::1:57996 on port 1883.
+1766154133: New client connected from ::1:57996 as auto-43902052-1137-EFFD-6E9A-972FC7E827CC (p2, c1, k60).
+1766154133: Client auto-43902052-1137-EFFD-6E9A-972FC7E827CC disconnected.
+1766154148: New connection from ::1:48568 on port 1883.
+1766154148: New client connected from ::1:48568 as auto-D8E48955-5373-CBD2-7394-BB01FB2C9279 (p2, c1, k60).
+1766154148: Client auto-D8E48955-5373-CBD2-7394-BB01FB2C9279 disconnected.
+1766154164: New connection from ::1:45344 on port 1883.
+1766154164: New client connected from ::1:45344 as auto-80BEECCE-8262-5ED0-74A8-77FBB803B9AB (p2, c1, k60).
+1766154164: Client auto-80BEECCE-8262-5ED0-74A8-77FBB803B9AB disconnected.
+1766154179: New connection from ::1:58110 on port 1883.
+1766154179: New client connected from ::1:58110 as auto-802BEE14-0743-6F01-8730-A12B193D7979 (p2, c1, k60).
+1766154179: Client auto-802BEE14-0743-6F01-8730-A12B193D7979 disconnected.
+1766154194: New connection from ::1:51698 on port 1883.
+1766154194: New client connected from ::1:51698 as auto-0AD25406-AF65-6B83-41B3-0534C9438950 (p2, c1, k60).
+1766154194: Client auto-0AD25406-AF65-6B83-41B3-0534C9438950 disconnected.
+1766154209: New connection from ::1:35064 on port 1883.
+1766154209: New client connected from ::1:35064 as auto-09F601CD-112C-0923-D700-8DA9B0420BFA (p2, c1, k60).
+1766154209: Client auto-09F601CD-112C-0923-D700-8DA9B0420BFA disconnected.
+1766154224: New connection from ::1:42674 on port 1883.
+1766154224: New client connected from ::1:42674 as auto-E029BBA6-FA88-0235-4FBC-D3C605BF03E2 (p2, c1, k60).
+1766154224: Client auto-E029BBA6-FA88-0235-4FBC-D3C605BF03E2 disconnected.
+1766154239: New connection from ::1:56088 on port 1883.
+1766154239: New client connected from ::1:56088 as auto-4B4117FC-4A8E-7601-13D6-B60B08431F98 (p2, c1, k60).
+1766154239: Client auto-4B4117FC-4A8E-7601-13D6-B60B08431F98 disconnected.
+1766154254: New connection from ::1:49812 on port 1883.
+1766154254: New client connected from ::1:49812 as auto-6CC74671-BB82-595C-AD9A-6035E7FEAC5A (p2, c1, k60).
+1766154254: Client auto-6CC74671-BB82-595C-AD9A-6035E7FEAC5A disconnected.
+1766154269: New connection from ::1:41424 on port 1883.
+1766154269: New client connected from ::1:41424 as auto-838F64D8-A53A-1DD0-FD5C-C5E98FE2D3A2 (p2, c1, k60).
+1766154269: Client auto-838F64D8-A53A-1DD0-FD5C-C5E98FE2D3A2 disconnected.
+1766154284: New connection from ::1:57422 on port 1883.
+1766154284: New client connected from ::1:57422 as auto-1C37C104-FF4A-10F2-2E1F-6372D236C15F (p2, c1, k60).
+1766154284: Client auto-1C37C104-FF4A-10F2-2E1F-6372D236C15F disconnected.
+1766154299: New connection from ::1:60346 on port 1883.
+1766154299: New client connected from ::1:60346 as auto-4FDD37E4-C30A-3F99-E937-DB59883439DF (p2, c1, k60).
+1766154299: Client auto-4FDD37E4-C30A-3F99-E937-DB59883439DF disconnected.
+1766154314: New connection from ::1:47154 on port 1883.
+1766154314: New client connected from ::1:47154 as auto-3D5FC577-ED0D-6563-C3AE-295858B97240 (p2, c1, k60).
+1766154314: Client auto-3D5FC577-ED0D-6563-C3AE-295858B97240 disconnected.
+1766154329: New connection from ::1:53392 on port 1883.
+1766154329: New client connected from ::1:53392 as auto-977CF771-019D-B297-9735-EAA54F0152D0 (p2, c1, k60).
+1766154329: Client auto-977CF771-019D-B297-9735-EAA54F0152D0 disconnected.
+1766154338: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1766154344: New connection from ::1:43004 on port 1883.
+1766154344: New client connected from ::1:43004 as auto-5F58015E-3B19-4635-AB4B-C3CA1C16ED18 (p2, c1, k60).
+1766154344: Client auto-5F58015E-3B19-4635-AB4B-C3CA1C16ED18 disconnected.
+1766154360: New connection from ::1:50796 on port 1883.
+1766154360: New client connected from ::1:50796 as auto-43AE1E75-7256-B21D-0426-385204FCDBB4 (p2, c1, k60).
+1766154360: Client auto-43AE1E75-7256-B21D-0426-385204FCDBB4 disconnected.
+1766154375: New connection from ::1:41370 on port 1883.
+1766154375: New client connected from ::1:41370 as auto-C2239BDA-B9EC-8B04-2F21-F1E9021B5F0D (p2, c1, k60).
+1766154375: Client auto-C2239BDA-B9EC-8B04-2F21-F1E9021B5F0D disconnected.
+1766154390: New connection from ::1:56096 on port 1883.
+1766154390: New client connected from ::1:56096 as auto-D5CAB314-763A-2B34-5DD6-77BFB3DC17B9 (p2, c1, k60).
+1766154390: Client auto-D5CAB314-763A-2B34-5DD6-77BFB3DC17B9 disconnected.
+1766154405: New connection from ::1:46490 on port 1883.
+1766154405: New client connected from ::1:46490 as auto-9B49144F-12D2-4171-9331-6612268C1D8A (p2, c1, k60).
+1766154405: Client auto-9B49144F-12D2-4171-9331-6612268C1D8A disconnected.
+1766154420: New connection from ::1:34112 on port 1883.
+1766154420: New client connected from ::1:34112 as auto-6F24335B-B2DC-FC0B-D429-1E0312B0F7EB (p2, c1, k60).
+1766154420: Client auto-6F24335B-B2DC-FC0B-D429-1E0312B0F7EB disconnected.
+1766154435: New connection from ::1:54414 on port 1883.
+1766154435: New client connected from ::1:54414 as auto-7CA14E18-4322-5FF9-A109-6D53BC7E6BA5 (p2, c1, k60).
+1766154435: Client auto-7CA14E18-4322-5FF9-A109-6D53BC7E6BA5 disconnected.
+1766154450: New connection from ::1:34598 on port 1883.
+1766154450: New client connected from ::1:34598 as auto-A2EA0C9F-53A7-7A9E-58CA-CE602B90F92B (p2, c1, k60).
+1766154450: Client auto-A2EA0C9F-53A7-7A9E-58CA-CE602B90F92B disconnected.
+1766154465: New connection from ::1:47316 on port 1883.
+1766154465: New client connected from ::1:47316 as auto-42F0B74D-0793-94B1-E4C4-91539D56EB76 (p2, c1, k60).
+1766154465: Client auto-42F0B74D-0793-94B1-E4C4-91539D56EB76 disconnected.
+1766154480: New connection from ::1:38594 on port 1883.
+1766154480: New client connected from ::1:38594 as auto-07AEFC44-0921-6486-34B2-2A6CD6577699 (p2, c1, k60).
+1766154480: Client auto-07AEFC44-0921-6486-34B2-2A6CD6577699 disconnected.
+1766154495: New connection from ::1:52894 on port 1883.
+1766154495: New client connected from ::1:52894 as auto-E66833A4-ED17-600B-78CA-525CF186594A (p2, c1, k60).
+1766154495: Client auto-E66833A4-ED17-600B-78CA-525CF186594A disconnected.
+1766154510: New connection from ::1:54498 on port 1883.
+1766154510: New client connected from ::1:54498 as auto-8F426B41-3FF1-A014-F652-E3E1B56AADE0 (p2, c1, k60).
+1766154510: Client auto-8F426B41-3FF1-A014-F652-E3E1B56AADE0 disconnected.
+1766154526: New connection from ::1:44774 on port 1883.
+1766154526: New client connected from ::1:44774 as auto-AB7EDB07-4A09-19E5-6D92-FAB64FA542C1 (p2, c1, k60).
+1766154526: Client auto-AB7EDB07-4A09-19E5-6D92-FAB64FA542C1 disconnected.
+1766154541: New connection from ::1:44312 on port 1883.
+1766154541: New client connected from ::1:44312 as auto-8C66F4E9-7105-C98F-8D67-F0B0C1A2FB09 (p2, c1, k60).
+1766154541: Client auto-8C66F4E9-7105-C98F-8D67-F0B0C1A2FB09 disconnected.
+1766154556: New connection from ::1:50360 on port 1883.
+1766154556: New client connected from ::1:50360 as auto-403D1F68-BB09-1926-8C87-6B533217030D (p2, c1, k60).
+1766154556: Client auto-403D1F68-BB09-1926-8C87-6B533217030D disconnected.
+1766154571: New connection from ::1:45096 on port 1883.
+1766154571: New client connected from ::1:45096 as auto-ECB45691-01D7-84F7-4E98-D8E1B817C3FE (p2, c1, k60).
+1766154571: Client auto-ECB45691-01D7-84F7-4E98-D8E1B817C3FE disconnected.
+1766154586: New connection from ::1:34314 on port 1883.
+1766154586: New client connected from ::1:34314 as auto-559CA081-321F-1A37-A65F-F55162E80733 (p2, c1, k60).
+1766154586: Client auto-559CA081-321F-1A37-A65F-F55162E80733 disconnected.
+1766154601: New connection from ::1:39948 on port 1883.
+1766154601: New client connected from ::1:39948 as auto-450CA6C7-3EB9-5888-5B20-367735FEDDAD (p2, c1, k60).
+1766154601: Client auto-450CA6C7-3EB9-5888-5B20-367735FEDDAD disconnected.
+1766154616: New connection from ::1:55354 on port 1883.
+1766154616: New client connected from ::1:55354 as auto-9D23FF9A-FEE4-2177-EA30-3337DD1678D3 (p2, c1, k60).
+1766154616: Client auto-9D23FF9A-FEE4-2177-EA30-3337DD1678D3 disconnected.
+1766154631: New connection from ::1:54876 on port 1883.
+1766154631: New client connected from ::1:54876 as auto-733CBCAF-B9BB-82D0-998B-6605BC1B2478 (p2, c1, k60).
+1766154631: Client auto-733CBCAF-B9BB-82D0-998B-6605BC1B2478 disconnected.
+1766154646: New connection from ::1:43910 on port 1883.
+1766154646: New client connected from ::1:43910 as auto-502FD88E-53D4-8CE7-FD75-671A47652F4B (p2, c1, k60).
+1766154646: Client auto-502FD88E-53D4-8CE7-FD75-671A47652F4B disconnected.
+1766154661: New connection from ::1:35122 on port 1883.
+1766154661: New client connected from ::1:35122 as auto-05AFBC3B-FD56-5FFA-502D-4D6B721A9D47 (p2, c1, k60).
+1766154661: Client auto-05AFBC3B-FD56-5FFA-502D-4D6B721A9D47 disconnected.
+1766154676: New connection from ::1:34980 on port 1883.
+1766154676: New client connected from ::1:34980 as auto-684159BD-7561-DB27-353C-E57C69E4430C (p2, c1, k60).
+1766154676: Client auto-684159BD-7561-DB27-353C-E57C69E4430C disconnected.
+1766154691: New connection from ::1:45722 on port 1883.
+1766154691: New client connected from ::1:45722 as auto-2ABC0943-660E-8BEF-E73C-E70021603748 (p2, c1, k60).
+1766154691: Client auto-2ABC0943-660E-8BEF-E73C-E70021603748 disconnected.
+1766154707: New connection from ::1:47632 on port 1883.
+1766154707: New client connected from ::1:47632 as auto-90CFB3AC-984D-E8A7-1A89-ED168F629058 (p2, c1, k60).
+1766154707: Client auto-90CFB3AC-984D-E8A7-1A89-ED168F629058 disconnected.
+1766154722: New connection from ::1:43314 on port 1883.
+1766154722: New client connected from ::1:43314 as auto-246785C7-29ED-E99A-0767-5F6C0916536E (p2, c1, k60).
+1766154722: Client auto-246785C7-29ED-E99A-0767-5F6C0916536E disconnected.
+1766154737: New connection from ::1:32964 on port 1883.
+1766154737: New client connected from ::1:32964 as auto-6606F7E2-4DF2-79E8-6191-3617F19332E1 (p2, c1, k60).
+1766154737: Client auto-6606F7E2-4DF2-79E8-6191-3617F19332E1 disconnected.
+1766154752: New connection from ::1:49456 on port 1883.
+1766154752: New client connected from ::1:49456 as auto-F5063B9D-FA72-93AB-029A-B13EF45B7026 (p2, c1, k60).
+1766154752: Client auto-F5063B9D-FA72-93AB-029A-B13EF45B7026 disconnected.
+1766154767: New connection from ::1:38318 on port 1883.
+1766154767: New client connected from ::1:38318 as auto-B2F67B32-6A23-EE08-D8F1-863518D29015 (p2, c1, k60).
+1766154767: Client auto-B2F67B32-6A23-EE08-D8F1-863518D29015 disconnected.
+1766154782: New connection from ::1:50644 on port 1883.
+1766154782: New client connected from ::1:50644 as auto-68E0FB19-74FE-3659-8029-85F620539795 (p2, c1, k60).
+1766154782: Client auto-68E0FB19-74FE-3659-8029-85F620539795 disconnected.
+1766154797: New connection from ::1:48386 on port 1883.
+1766154797: New client connected from ::1:48386 as auto-8F71F0C1-30D9-F90B-1FE9-EBB7C757A564 (p2, c1, k60).
+1766154797: Client auto-8F71F0C1-30D9-F90B-1FE9-EBB7C757A564 disconnected.
+1766154812: New connection from ::1:35954 on port 1883.
+1766154812: New client connected from ::1:35954 as auto-88D8B529-7D84-26F1-F179-B30553340D83 (p2, c1, k60).
+1766154812: Client auto-88D8B529-7D84-26F1-F179-B30553340D83 disconnected.
+1766154827: New connection from ::1:58748 on port 1883.
+1766154827: New client connected from ::1:58748 as auto-26B9F18E-0ABD-625B-E952-E17EC8FF80F6 (p2, c1, k60).
+1766154827: Client auto-26B9F18E-0ABD-625B-E952-E17EC8FF80F6 disconnected.
+1766154842: New connection from ::1:36090 on port 1883.
+1766154842: New client connected from ::1:36090 as auto-4123CA93-CA62-2260-DE34-AA66DD604D40 (p2, c1, k60).
+1766154842: Client auto-4123CA93-CA62-2260-DE34-AA66DD604D40 disconnected.
+1766154857: New connection from ::1:50206 on port 1883.
+1766154857: New client connected from ::1:50206 as auto-63197004-D181-DEF9-73BB-9A14CACE57C0 (p2, c1, k60).
+1766154857: Client auto-63197004-D181-DEF9-73BB-9A14CACE57C0 disconnected.
+1766154873: New connection from ::1:49468 on port 1883.
+1766154873: New client connected from ::1:49468 as auto-33C523AC-711A-59F0-738E-E4096CD4D764 (p2, c1, k60).
+1766154873: Client auto-33C523AC-711A-59F0-738E-E4096CD4D764 disconnected.
+1766154888: New connection from ::1:34828 on port 1883.
+1766154888: New client connected from ::1:34828 as auto-0BC1BD1B-24AD-1A85-22DD-178A60ADA7AB (p2, c1, k60).
+1766154888: Client auto-0BC1BD1B-24AD-1A85-22DD-178A60ADA7AB disconnected.
+1766154903: New connection from ::1:35744 on port 1883.
+1766154903: New client connected from ::1:35744 as auto-45D5815F-6564-A7B8-D641-DA3759E3A936 (p2, c1, k60).
+1766154903: Client auto-45D5815F-6564-A7B8-D641-DA3759E3A936 disconnected.
+1766154918: New connection from ::1:55242 on port 1883.
+1766154918: New client connected from ::1:55242 as auto-40CE344D-3CDA-6427-2289-CE428069E8B4 (p2, c1, k60).
+1766154918: Client auto-40CE344D-3CDA-6427-2289-CE428069E8B4 disconnected.
+1766154933: New connection from ::1:41434 on port 1883.
+1766154933: New client connected from ::1:41434 as auto-A2B73479-2A0A-2358-5D72-FAD3A97DBF3A (p2, c1, k60).
+1766154933: Client auto-A2B73479-2A0A-2358-5D72-FAD3A97DBF3A disconnected.
+1766154948: New connection from ::1:58780 on port 1883.
+1766154948: New client connected from ::1:58780 as auto-2CBEDC60-C017-CCB6-92C2-124129FC4393 (p2, c1, k60).
+1766154948: Client auto-2CBEDC60-C017-CCB6-92C2-124129FC4393 disconnected.
+1766154963: New connection from ::1:44022 on port 1883.
+1766154963: New client connected from ::1:44022 as auto-BD7DE6EC-4310-7717-96D1-F920E5B5FD7A (p2, c1, k60).
+1766154963: Client auto-BD7DE6EC-4310-7717-96D1-F920E5B5FD7A disconnected.
+1766154978: New connection from ::1:57666 on port 1883.
+1766154978: New client connected from ::1:57666 as auto-1807ECC8-0CC0-6991-E9CF-F27972036B89 (p2, c1, k60).
+1766154978: Client auto-1807ECC8-0CC0-6991-E9CF-F27972036B89 disconnected.
+1766154993: New connection from ::1:51350 on port 1883.
+1766154993: New client connected from ::1:51350 as auto-28514B55-BBDE-D055-78C3-160570963956 (p2, c1, k60).
+1766154993: Client auto-28514B55-BBDE-D055-78C3-160570963956 disconnected.
+1766155008: New connection from ::1:52256 on port 1883.
+1766155008: New client connected from ::1:52256 as auto-1B30A1F9-B356-38B7-7DCE-A78C6A607A8E (p2, c1, k60).
+1766155008: Client auto-1B30A1F9-B356-38B7-7DCE-A78C6A607A8E disconnected.
+1766155023: New connection from ::1:58316 on port 1883.
+1766155023: New client connected from ::1:58316 as auto-C3E471A1-3CBE-A438-BABA-1D4355A7FD5E (p2, c1, k60).
+1766155023: Client auto-C3E471A1-3CBE-A438-BABA-1D4355A7FD5E disconnected.
+1766155038: New connection from ::1:58002 on port 1883.
+1766155038: New client connected from ::1:58002 as auto-A7622207-2809-1098-7859-CAE861F96A5C (p2, c1, k60).
+1766155038: Client auto-A7622207-2809-1098-7859-CAE861F96A5C disconnected.
+1766155054: New connection from ::1:56472 on port 1883.
+1766155054: New client connected from ::1:56472 as auto-2ABAEF6F-13E8-A574-4FC4-5B6D1FF1B9EF (p2, c1, k60).
+1766155054: Client auto-2ABAEF6F-13E8-A574-4FC4-5B6D1FF1B9EF disconnected.
+1766155069: New connection from ::1:33138 on port 1883.
+1766155069: New client connected from ::1:33138 as auto-C3F3CF57-AD9D-D61A-AD3C-ADA42681C39D (p2, c1, k60).
+1766155069: Client auto-C3F3CF57-AD9D-D61A-AD3C-ADA42681C39D disconnected.
+1766155084: New connection from ::1:42764 on port 1883.
+1766155084: New client connected from ::1:42764 as auto-0D072252-108F-61CB-D595-62D7588E9461 (p2, c1, k60).
+1766155084: Client auto-0D072252-108F-61CB-D595-62D7588E9461 disconnected.
+1766155099: New connection from ::1:44094 on port 1883.
+1766155099: New client connected from ::1:44094 as auto-3F325EEE-AA30-6D90-4E5C-D1D6DA7E1D7C (p2, c1, k60).
+1766155099: Client auto-3F325EEE-AA30-6D90-4E5C-D1D6DA7E1D7C disconnected.
+1766155114: New connection from ::1:45322 on port 1883.
+1766155114: New client connected from ::1:45322 as auto-30A18489-A346-221D-F406-03D69163D4FD (p2, c1, k60).
+1766155114: Client auto-30A18489-A346-221D-F406-03D69163D4FD disconnected.
+1766155129: New connection from ::1:56464 on port 1883.
+1766155129: New client connected from ::1:56464 as auto-23DA9E33-AB2D-9E40-59C5-E0BB3DF85EDD (p2, c1, k60).
+1766155129: Client auto-23DA9E33-AB2D-9E40-59C5-E0BB3DF85EDD disconnected.
+1766155144: New connection from ::1:54128 on port 1883.
+1766155144: New client connected from ::1:54128 as auto-B937F360-4B4B-80EC-E2A8-24AF7C0C0367 (p2, c1, k60).
+1766155144: Client auto-B937F360-4B4B-80EC-E2A8-24AF7C0C0367 disconnected.
+1766155159: New connection from ::1:38430 on port 1883.
+1766155159: New client connected from ::1:38430 as auto-8A591135-64AF-AA2B-9D94-36B070F2D4BB (p2, c1, k60).
+1766155159: Client auto-8A591135-64AF-AA2B-9D94-36B070F2D4BB disconnected.
+1766155174: New connection from ::1:60322 on port 1883.
+1766155174: New client connected from ::1:60322 as auto-8EC7EBCA-2CB0-E3ED-CD51-4515A06B579F (p2, c1, k60).
+1766155174: Client auto-8EC7EBCA-2CB0-E3ED-CD51-4515A06B579F disconnected.
+1766155189: New connection from ::1:46896 on port 1883.
+1766155189: New client connected from ::1:46896 as auto-9ADC15B7-D5EB-7F47-ED49-04AE5C319279 (p2, c1, k60).
+1766155189: Client auto-9ADC15B7-D5EB-7F47-ED49-04AE5C319279 disconnected.
+1766155204: New connection from ::1:46352 on port 1883.
+1766155204: New client connected from ::1:46352 as auto-053CD50C-7DB7-3C64-B414-3CAD14AF18ED (p2, c1, k60).
+1766155204: Client auto-053CD50C-7DB7-3C64-B414-3CAD14AF18ED disconnected.
+1766155220: New connection from ::1:59512 on port 1883.
+1766155220: New client connected from ::1:59512 as auto-FFAF3510-65F2-59ED-001F-960C26830655 (p2, c1, k60).
+1766155220: Client auto-FFAF3510-65F2-59ED-001F-960C26830655 disconnected.
+1766155235: New connection from ::1:37998 on port 1883.
+1766155235: New client connected from ::1:37998 as auto-AE8345CF-C107-340A-2E2D-80E4EEC68012 (p2, c1, k60).
+1766155235: Client auto-AE8345CF-C107-340A-2E2D-80E4EEC68012 disconnected.
+1766155250: New connection from ::1:38478 on port 1883.
+1766155250: New client connected from ::1:38478 as auto-BA0F1C81-1FC9-A4DB-80D7-C6EC310EA166 (p2, c1, k60).
+1766155250: Client auto-BA0F1C81-1FC9-A4DB-80D7-C6EC310EA166 disconnected.
+1766155265: New connection from ::1:36992 on port 1883.
+1766155265: New client connected from ::1:36992 as auto-34D55B92-90C0-7FA2-F93A-4E70464D669A (p2, c1, k60).
+1766155265: Client auto-34D55B92-90C0-7FA2-F93A-4E70464D669A disconnected.
+1766155280: New connection from ::1:38168 on port 1883.
+1766155280: New client connected from ::1:38168 as auto-29E817BA-5502-B0B4-7960-0764CEE092EF (p2, c1, k60).
+1766155280: Client auto-29E817BA-5502-B0B4-7960-0764CEE092EF disconnected.
+1766155295: New connection from ::1:37536 on port 1883.
+1766155295: New client connected from ::1:37536 as auto-9CA8359A-AA1B-F9BF-9258-3A797B5A734C (p2, c1, k60).
+1766155295: Client auto-9CA8359A-AA1B-F9BF-9258-3A797B5A734C disconnected.
+1766155310: New connection from ::1:41826 on port 1883.
+1766155310: New client connected from ::1:41826 as auto-9448BF04-8571-2955-2C28-4843C724A530 (p2, c1, k60).
+1766155310: Client auto-9448BF04-8571-2955-2C28-4843C724A530 disconnected.
+1766155325: New connection from ::1:41954 on port 1883.
+1766155325: New client connected from ::1:41954 as auto-BAF6F828-47AD-CD0F-947C-22E869606DC5 (p2, c1, k60).
+1766155325: Client auto-BAF6F828-47AD-CD0F-947C-22E869606DC5 disconnected.
+1766155340: New connection from ::1:44242 on port 1883.
+1766155340: New client connected from ::1:44242 as auto-27E09721-913D-67FA-75D7-0C9AB94FD432 (p2, c1, k60).
+1766155340: Client auto-27E09721-913D-67FA-75D7-0C9AB94FD432 disconnected.
+1766155355: New connection from ::1:37334 on port 1883.
+1766155355: New client connected from ::1:37334 as auto-D47C2208-D8BB-E349-B3F9-8510AA68AF31 (p2, c1, k60).
+1766155355: Client auto-D47C2208-D8BB-E349-B3F9-8510AA68AF31 disconnected.
+1766155371: New connection from ::1:47912 on port 1883.
+1766155371: New client connected from ::1:47912 as auto-45662930-AF8E-947C-E530-AE96662BE8C2 (p2, c1, k60).
+1766155371: Client auto-45662930-AF8E-947C-E530-AE96662BE8C2 disconnected.
+1766155386: New connection from ::1:56508 on port 1883.
+1766155386: New client connected from ::1:56508 as auto-14F0D126-8815-C050-F981-F87ED2F8E880 (p2, c1, k60).
+1766155386: Client auto-14F0D126-8815-C050-F981-F87ED2F8E880 disconnected.
+1766155401: New connection from ::1:56288 on port 1883.
+1766155401: New client connected from ::1:56288 as auto-6BFC809E-C1CB-0CF6-919A-CDBBE2C6E53A (p2, c1, k60).
+1766155401: Client auto-6BFC809E-C1CB-0CF6-919A-CDBBE2C6E53A disconnected.
+1766155416: New connection from ::1:57844 on port 1883.
+1766155416: New client connected from ::1:57844 as auto-C338DA32-875F-B4C0-1B73-C9B7D1FAA5B5 (p2, c1, k60).
+1766155416: Client auto-C338DA32-875F-B4C0-1B73-C9B7D1FAA5B5 disconnected.
+1766155431: New connection from ::1:47190 on port 1883.
+1766155431: New client connected from ::1:47190 as auto-286DDDCC-0BD1-00FC-6EB6-DFFA30C8BA98 (p2, c1, k60).
+1766155431: Client auto-286DDDCC-0BD1-00FC-6EB6-DFFA30C8BA98 disconnected.
+1766155446: New connection from ::1:58016 on port 1883.
+1766155446: New client connected from ::1:58016 as auto-3AC218D4-24C0-4664-B774-CFDC5FC380B1 (p2, c1, k60).
+1766155446: Client auto-3AC218D4-24C0-4664-B774-CFDC5FC380B1 disconnected.
+1766155461: New connection from ::1:50348 on port 1883.
+1766155461: New client connected from ::1:50348 as auto-3C95B9FE-EB46-7FF4-534A-FD749315A760 (p2, c1, k60).
+1766155461: Client auto-3C95B9FE-EB46-7FF4-534A-FD749315A760 disconnected.
+1766155476: New connection from ::1:50152 on port 1883.
+1766155476: New client connected from ::1:50152 as auto-C1802EE0-8BD6-D671-50E0-5DE8A7D8A1EF (p2, c1, k60).
+1766155476: Client auto-C1802EE0-8BD6-D671-50E0-5DE8A7D8A1EF disconnected.
+1766155491: New connection from ::1:36190 on port 1883.
+1766155491: New client connected from ::1:36190 as auto-059AF7F2-1BAF-4A0A-16E6-2899C419FA2A (p2, c1, k60).
+1766155491: Client auto-059AF7F2-1BAF-4A0A-16E6-2899C419FA2A disconnected.
+1766155506: New connection from ::1:56356 on port 1883.
+1766155506: New client connected from ::1:56356 as auto-4ACF7C0D-BE22-94CC-4C65-97755DD0E214 (p2, c1, k60).
+1766155506: Client auto-4ACF7C0D-BE22-94CC-4C65-97755DD0E214 disconnected.
+1766155521: New connection from ::1:56806 on port 1883.
+1766155521: New client connected from ::1:56806 as auto-303FC214-563B-7FF1-C518-1774CC47DE1B (p2, c1, k60).
+1766155521: Client auto-303FC214-563B-7FF1-C518-1774CC47DE1B disconnected.
+1766155537: New connection from ::1:41880 on port 1883.
+1766155537: New client connected from ::1:41880 as auto-4EA67C33-0B70-5A62-D1EF-C7D7AB3EB999 (p2, c1, k60).
+1766155537: Client auto-4EA67C33-0B70-5A62-D1EF-C7D7AB3EB999 disconnected.
+1766155552: New connection from ::1:51524 on port 1883.
+1766155552: New client connected from ::1:51524 as auto-E866F87A-E5DB-38FC-5721-643918B03355 (p2, c1, k60).
+1766155552: Client auto-E866F87A-E5DB-38FC-5721-643918B03355 disconnected.
+1766155567: New connection from ::1:46056 on port 1883.
+1766155567: New client connected from ::1:46056 as auto-039EE39A-759E-236F-3CCD-DFC534393AFC (p2, c1, k60).
+1766155567: Client auto-039EE39A-759E-236F-3CCD-DFC534393AFC disconnected.
+1766155582: New connection from ::1:32772 on port 1883.
+1766155582: New client connected from ::1:32772 as auto-B54177C8-6EA6-34B2-FDB8-A432C536D81F (p2, c1, k60).
+1766155582: Client auto-B54177C8-6EA6-34B2-FDB8-A432C536D81F disconnected.
+1766155597: New connection from ::1:48234 on port 1883.
+1766155597: New client connected from ::1:48234 as auto-3B222F93-F1E5-56A0-1DD0-8C40D1F07FEF (p2, c1, k60).
+1766155597: Client auto-3B222F93-F1E5-56A0-1DD0-8C40D1F07FEF disconnected.
+1766155612: New connection from ::1:37968 on port 1883.
+1766155612: New client connected from ::1:37968 as auto-735AC0AB-5936-73A0-8AA8-824A41FA0840 (p2, c1, k60).
+1766155612: Client auto-735AC0AB-5936-73A0-8AA8-824A41FA0840 disconnected.
+1766155627: New connection from ::1:43974 on port 1883.
+1766155627: New client connected from ::1:43974 as auto-FBAAFA8D-5CA9-A868-B05B-5C10DF8AE897 (p2, c1, k60).
+1766155627: Client auto-FBAAFA8D-5CA9-A868-B05B-5C10DF8AE897 disconnected.
+1766155642: New connection from ::1:35606 on port 1883.
+1766155642: New client connected from ::1:35606 as auto-3948C31D-0B10-BC32-2C43-0C2556A1088F (p2, c1, k60).
+1766155642: Client auto-3948C31D-0B10-BC32-2C43-0C2556A1088F disconnected.
+1766155657: New connection from ::1:44958 on port 1883.
+1766155657: New client connected from ::1:44958 as auto-EC078B9C-4641-8FF3-00DA-360531289C2F (p2, c1, k60).
+1766155657: Client auto-EC078B9C-4641-8FF3-00DA-360531289C2F disconnected.
+1766155672: New connection from ::1:38380 on port 1883.
+1766155672: New client connected from ::1:38380 as auto-0D8949DE-1CCB-9E72-35E1-1B088F449950 (p2, c1, k60).
+1766155672: Client auto-0D8949DE-1CCB-9E72-35E1-1B088F449950 disconnected.
+1766155688: New connection from ::1:52568 on port 1883.
+1766155688: New client connected from ::1:52568 as auto-61AA7170-5569-38EA-6183-36E9968D2E67 (p2, c1, k60).
+1766155688: Client auto-61AA7170-5569-38EA-6183-36E9968D2E67 disconnected.
+1766155703: New connection from ::1:57472 on port 1883.
+1766155703: New client connected from ::1:57472 as auto-B70A1396-3B7F-D8A0-0D60-830FF8D76022 (p2, c1, k60).
+1766155703: Client auto-B70A1396-3B7F-D8A0-0D60-830FF8D76022 disconnected.
+1766155718: New connection from ::1:52754 on port 1883.
+1766155718: New client connected from ::1:52754 as auto-F742F2E6-173B-20B4-91E1-3731D1FE0813 (p2, c1, k60).
+1766155718: Client auto-F742F2E6-173B-20B4-91E1-3731D1FE0813 disconnected.
+1766155733: New connection from ::1:39648 on port 1883.
+1766155733: New client connected from ::1:39648 as auto-BE187227-877F-946D-1C02-1B7055EBF0F5 (p2, c1, k60).
+1766155733: Client auto-BE187227-877F-946D-1C02-1B7055EBF0F5 disconnected.
+1766155748: New connection from ::1:51436 on port 1883.
+1766155748: New client connected from ::1:51436 as auto-529BBA43-AABD-9E9F-E02A-98242BBE01B1 (p2, c1, k60).
+1766155748: Client auto-529BBA43-AABD-9E9F-E02A-98242BBE01B1 disconnected.
+1766155763: New connection from ::1:58348 on port 1883.
+1766155763: New client connected from ::1:58348 as auto-B65A98E3-60E0-2AC0-6F66-9D5815F5A50B (p2, c1, k60).
+1766155763: Client auto-B65A98E3-60E0-2AC0-6F66-9D5815F5A50B disconnected.
+1766155778: New connection from ::1:49058 on port 1883.
+1766155778: New client connected from ::1:49058 as auto-C304B837-3CD5-3897-4239-F88952059DB4 (p2, c1, k60).
+1766155778: Client auto-C304B837-3CD5-3897-4239-F88952059DB4 disconnected.
+1766155793: New connection from ::1:47036 on port 1883.
+1766155793: New client connected from ::1:47036 as auto-B4BC9425-D195-A4DC-6DD0-E7388AF55B70 (p2, c1, k60).
+1766155793: Client auto-B4BC9425-D195-A4DC-6DD0-E7388AF55B70 disconnected.
+1766155808: New connection from ::1:44854 on port 1883.
+1766155808: New client connected from ::1:44854 as auto-E418AA71-65CB-7C81-32C8-875D7BF3A211 (p2, c1, k60).
+1766155808: Client auto-E418AA71-65CB-7C81-32C8-875D7BF3A211 disconnected.
+1766155823: New connection from ::1:46348 on port 1883.
+1766155823: New client connected from ::1:46348 as auto-B21ED9F8-FC81-43E8-89F5-B188C9CC4895 (p2, c1, k60).
+1766155823: Client auto-B21ED9F8-FC81-43E8-89F5-B188C9CC4895 disconnected.
+1766155838: New connection from ::1:44648 on port 1883.
+1766155838: New client connected from ::1:44648 as auto-300DE85B-F3FD-AA48-01F1-60B89A8A9A56 (p2, c1, k60).
+1766155838: Client auto-300DE85B-F3FD-AA48-01F1-60B89A8A9A56 disconnected.
+1766155853: New connection from ::1:47766 on port 1883.
+1766155853: New client connected from ::1:47766 as auto-73547FA3-A8FA-A0CC-48D0-4B0C620DA61F (p2, c1, k60).
+1766155853: Client auto-73547FA3-A8FA-A0CC-48D0-4B0C620DA61F disconnected.
+1766155869: New connection from ::1:41724 on port 1883.
+1766155869: New client connected from ::1:41724 as auto-F975B03D-F89D-ED4F-0DAD-5388A39EB2EC (p2, c1, k60).
+1766155869: Client auto-F975B03D-F89D-ED4F-0DAD-5388A39EB2EC disconnected.
+1766155884: New connection from ::1:49550 on port 1883.
+1766155884: New client connected from ::1:49550 as auto-43127E6D-BE33-663D-B2E9-D2680198B668 (p2, c1, k60).
+1766155884: Client auto-43127E6D-BE33-663D-B2E9-D2680198B668 disconnected.
+1766155899: New connection from ::1:37898 on port 1883.
+1766155899: New client connected from ::1:37898 as auto-EDEAC4A2-FAAE-086F-E2CD-B3FE99CC573D (p2, c1, k60).
+1766155899: Client auto-EDEAC4A2-FAAE-086F-E2CD-B3FE99CC573D disconnected.
+1766155914: New connection from ::1:49420 on port 1883.
+1766155914: New client connected from ::1:49420 as auto-EA56594B-08CB-FE3B-1FF3-C538980477E2 (p2, c1, k60).
+1766155914: Client auto-EA56594B-08CB-FE3B-1FF3-C538980477E2 disconnected.
+1766155929: New connection from ::1:52694 on port 1883.
+1766155929: New client connected from ::1:52694 as auto-FD846E28-5BFC-6D08-49C2-893088260D2C (p2, c1, k60).
+1766155929: Client auto-FD846E28-5BFC-6D08-49C2-893088260D2C disconnected.
+1766155944: New connection from ::1:60718 on port 1883.
+1766155944: New client connected from ::1:60718 as auto-113BF5FB-5D00-82DF-6F34-48F2A367C2C3 (p2, c1, k60).
+1766155944: Client auto-113BF5FB-5D00-82DF-6F34-48F2A367C2C3 disconnected.
+1766155959: New connection from ::1:47186 on port 1883.
+1766155959: New client connected from ::1:47186 as auto-02F572E7-0A96-643F-47A9-D7115C6A7526 (p2, c1, k60).
+1766155959: Client auto-02F572E7-0A96-643F-47A9-D7115C6A7526 disconnected.
+1766155974: New connection from ::1:48576 on port 1883.
+1766155974: New client connected from ::1:48576 as auto-729A8FEE-E5D5-5EBB-E242-707ABF71A1B9 (p2, c1, k60).
+1766155974: Client auto-729A8FEE-E5D5-5EBB-E242-707ABF71A1B9 disconnected.
+1766155989: New connection from ::1:35436 on port 1883.
+1766155989: New client connected from ::1:35436 as auto-5D5696E3-7B67-992B-E2AF-F42480CDF160 (p2, c1, k60).
+1766155989: Client auto-5D5696E3-7B67-992B-E2AF-F42480CDF160 disconnected.
+1766156004: New connection from ::1:46386 on port 1883.
+1766156004: New client connected from ::1:46386 as auto-A21E6E8E-C8FE-CB35-EF1E-29821FC3B28F (p2, c1, k60).
+1766156004: Client auto-A21E6E8E-C8FE-CB35-EF1E-29821FC3B28F disconnected.
+1766156020: New connection from ::1:56746 on port 1883.
+1766156020: New client connected from ::1:56746 as auto-041B8FDE-8517-3A1B-24FC-6E755532C2C8 (p2, c1, k60).
+1766156020: Client auto-041B8FDE-8517-3A1B-24FC-6E755532C2C8 disconnected.
+1766156035: New connection from ::1:52528 on port 1883.
+1766156035: New client connected from ::1:52528 as auto-B2684BC1-D116-4D1B-94BD-BA522B77AFA8 (p2, c1, k60).
+1766156035: Client auto-B2684BC1-D116-4D1B-94BD-BA522B77AFA8 disconnected.
+1766156050: New connection from ::1:38822 on port 1883.
+1766156050: New client connected from ::1:38822 as auto-DCEE9E23-F52E-3971-B393-FD19DB771579 (p2, c1, k60).
+1766156050: Client auto-DCEE9E23-F52E-3971-B393-FD19DB771579 disconnected.
+1766156065: New connection from ::1:43936 on port 1883.
+1766156065: New client connected from ::1:43936 as auto-C4B0F326-5921-A0E7-740A-985DB7C5390F (p2, c1, k60).
+1766156065: Client auto-C4B0F326-5921-A0E7-740A-985DB7C5390F disconnected.
+1766156080: New connection from ::1:35532 on port 1883.
+1766156080: New client connected from ::1:35532 as auto-0BF1A453-12AF-4C01-F1A2-C96A1DAF4E12 (p2, c1, k60).
+1766156080: Client auto-0BF1A453-12AF-4C01-F1A2-C96A1DAF4E12 disconnected.
+1766156095: New connection from ::1:53694 on port 1883.
+1766156095: New client connected from ::1:53694 as auto-07C30B4F-D2F5-E34F-0C40-F1AFF7AB529F (p2, c1, k60).
+1766156095: Client auto-07C30B4F-D2F5-E34F-0C40-F1AFF7AB529F disconnected.
+1766156110: New connection from ::1:54700 on port 1883.
+1766156110: New client connected from ::1:54700 as auto-308F9A0F-BCE8-A301-C3D9-F4490D6D0B45 (p2, c1, k60).
+1766156110: Client auto-308F9A0F-BCE8-A301-C3D9-F4490D6D0B45 disconnected.
+1766156125: New connection from ::1:35728 on port 1883.
+1766156125: New client connected from ::1:35728 as auto-7931A18A-258E-422A-3C03-FCA020C6F19B (p2, c1, k60).
+1766156125: Client auto-7931A18A-258E-422A-3C03-FCA020C6F19B disconnected.
+1766156140: New connection from ::1:47816 on port 1883.
+1766156140: New client connected from ::1:47816 as auto-17ED0E45-F0CF-5ABE-46F2-7DFE617E4580 (p2, c1, k60).
+1766156140: Client auto-17ED0E45-F0CF-5ABE-46F2-7DFE617E4580 disconnected.
+1766156144: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1766156155: New connection from ::1:48812 on port 1883.
+1766156155: New client connected from ::1:48812 as auto-714D052F-E9E9-0BCD-9471-83FEC4F3EBEB (p2, c1, k60).
+1766156155: Client auto-714D052F-E9E9-0BCD-9471-83FEC4F3EBEB disconnected.
+1766156171: New connection from ::1:51324 on port 1883.
+1766156171: New client connected from ::1:51324 as auto-2EBD5E77-4AE7-5483-97BD-7DB5F5B1605E (p2, c1, k60).
+1766156171: Client auto-2EBD5E77-4AE7-5483-97BD-7DB5F5B1605E disconnected.
+1766156186: New connection from ::1:47352 on port 1883.
+1766156186: New client connected from ::1:47352 as auto-11DBD8BB-01FC-03F1-A7D5-21EF294932ED (p2, c1, k60).
+1766156186: Client auto-11DBD8BB-01FC-03F1-A7D5-21EF294932ED disconnected.
+1766156201: New connection from ::1:35644 on port 1883.
+1766156201: New client connected from ::1:35644 as auto-FCD3DB46-F6AA-ABB0-BA94-64F71BCD02F2 (p2, c1, k60).
+1766156201: Client auto-FCD3DB46-F6AA-ABB0-BA94-64F71BCD02F2 disconnected.
+1766156216: New connection from ::1:45666 on port 1883.
+1766156216: New client connected from ::1:45666 as auto-FE80ACB2-5B18-92C0-B3EA-76A30EAB447C (p2, c1, k60).
+1766156216: Client auto-FE80ACB2-5B18-92C0-B3EA-76A30EAB447C disconnected.
+1766162219: New connection from ::1:34398 on port 1883.
+1766162219: New client connected from ::1:34398 as auto-E67DF352-6F66-3FCF-55B2-10D830430BCC (p2, c1, k60).
+1766162219: Client auto-E67DF352-6F66-3FCF-55B2-10D830430BCC disconnected.
+1766162234: New connection from ::1:40482 on port 1883.
+1766162234: New client connected from ::1:40482 as auto-81C411EC-6C3D-FE30-5320-7CFA98D34E08 (p2, c1, k60).
+1766162234: Client auto-81C411EC-6C3D-FE30-5320-7CFA98D34E08 disconnected.
+1766162250: New connection from ::1:52002 on port 1883.
+1766162250: New client connected from ::1:52002 as auto-436A85B1-410B-136D-7A08-0D06D88CB789 (p2, c1, k60).
+1766162250: Client auto-436A85B1-410B-136D-7A08-0D06D88CB789 disconnected.
+1766162265: New connection from ::1:51536 on port 1883.
+1766162265: New client connected from ::1:51536 as auto-0B9C151E-05A2-80E2-64B2-97751BB2D376 (p2, c1, k60).
+1766162265: Client auto-0B9C151E-05A2-80E2-64B2-97751BB2D376 disconnected.
+1766162280: New connection from ::1:49854 on port 1883.
+1766162280: New client connected from ::1:49854 as auto-2377E966-A38B-462B-4EAF-5A072B3B7664 (p2, c1, k60).
+1766162280: Client auto-2377E966-A38B-462B-4EAF-5A072B3B7664 disconnected.
+1766162296: New connection from ::1:39630 on port 1883.
+1766162296: New client connected from ::1:39630 as auto-B2A89431-CCDE-B638-AB21-3901841A23F3 (p2, c1, k60).
+1766162296: Client auto-B2A89431-CCDE-B638-AB21-3901841A23F3 disconnected.
+1766162311: New connection from ::1:47072 on port 1883.
+1766162311: New client connected from ::1:47072 as auto-1EEE693A-BF40-CD91-DF27-F78AB9B7C39F (p2, c1, k60).
+1766162311: Client auto-1EEE693A-BF40-CD91-DF27-F78AB9B7C39F disconnected.
+1766162316: New connection from 172.18.0.1:39440 on port 1883.
+1766162316: New client connected from 172.18.0.1:39440 as AndroidApp-fa7c9a14-6425-4adf-801b-4a4e5024c0bb (p5, c1, k60).
+1766162326: New connection from ::1:44778 on port 1883.
+1766162326: New client connected from ::1:44778 as auto-404DD490-B587-CF56-BE7E-E0A0BA4D7C2C (p2, c1, k60).
+1766162326: Client auto-404DD490-B587-CF56-BE7E-E0A0BA4D7C2C disconnected.
+1766162327: New connection from 172.18.0.1:49516 on port 1883.
+1766162327: New client connected from 172.18.0.1:49516 as mqtt-explorer-a64ba892 (p2, c1, k60).
+1766162342: New connection from ::1:57082 on port 1883.
+1766162342: New client connected from ::1:57082 as auto-D007CC3A-E30B-48A2-0CE1-4548F2F08094 (p2, c1, k60).
+1766162342: Client auto-D007CC3A-E30B-48A2-0CE1-4548F2F08094 disconnected.
+1766162357: New connection from ::1:54424 on port 1883.
+1766162357: New client connected from ::1:54424 as auto-C2B1A059-40E7-7AFC-32AA-E99ACAF34088 (p2, c1, k60).
+1766162357: Client auto-C2B1A059-40E7-7AFC-32AA-E99ACAF34088 disconnected.
+1766162368: Client AndroidApp-fa7c9a14-6425-4adf-801b-4a4e5024c0bb disconnected.
+1766162372: New connection from ::1:60228 on port 1883.
+1766162372: New client connected from ::1:60228 as auto-93B6737B-D6AA-09F5-37B0-83FBE75235A2 (p2, c1, k60).
+1766162372: Client auto-93B6737B-D6AA-09F5-37B0-83FBE75235A2 disconnected.
+1766162387: New connection from ::1:36108 on port 1883.
+1766162387: New client connected from ::1:36108 as auto-32E47B2E-8023-83A4-2A58-23D655C7ADB1 (p2, c1, k60).
+1766162387: Client auto-32E47B2E-8023-83A4-2A58-23D655C7ADB1 disconnected.
+1766162403: New connection from ::1:42866 on port 1883.
+1766162403: New client connected from ::1:42866 as auto-26E74300-C667-38B0-67D1-E10BB5CA0620 (p2, c1, k60).
+1766162403: Client auto-26E74300-C667-38B0-67D1-E10BB5CA0620 disconnected.
+1766162418: New connection from ::1:38428 on port 1883.
+1766162418: New client connected from ::1:38428 as auto-E1A199C0-F8C1-FB82-6498-66ECEEA45EE2 (p2, c1, k60).
+1766162418: Client auto-E1A199C0-F8C1-FB82-6498-66ECEEA45EE2 disconnected.
+1766162421: New connection from 172.18.0.1:47564 on port 1883.
+1766162421: New client connected from 172.18.0.1:47564 as AndroidApp-e358bb27-5c01-473c-afa3-2a6b06591cad (p5, c1, k60).
+1766162423: Client AndroidApp-e358bb27-5c01-473c-afa3-2a6b06591cad disconnected.
+1766162433: New connection from ::1:34946 on port 1883.
+1766162433: New client connected from ::1:34946 as auto-5235240C-AE68-2A34-F923-FFDB56AEE6F9 (p2, c1, k60).
+1766162433: Client auto-5235240C-AE68-2A34-F923-FFDB56AEE6F9 disconnected.
+1766162448: New connection from ::1:54058 on port 1883.
+1766162448: New client connected from ::1:54058 as auto-32BC9462-9C04-5836-671A-3333AE082C98 (p2, c1, k60).
+1766162448: Client auto-32BC9462-9C04-5836-671A-3333AE082C98 disconnected.
+1766162464: New connection from ::1:37026 on port 1883.
+1766162464: New client connected from ::1:37026 as auto-D4806287-1C90-58FC-3AFC-70A28D00D245 (p2, c1, k60).
+1766162464: Client auto-D4806287-1C90-58FC-3AFC-70A28D00D245 disconnected.
+1766162479: New connection from ::1:58458 on port 1883.
+1766162479: New client connected from ::1:58458 as auto-E9A54E19-BAA4-440E-3E2D-D7ACD509B983 (p2, c1, k60).
+1766162479: Client auto-E9A54E19-BAA4-440E-3E2D-D7ACD509B983 disconnected.
+1766162495: New connection from ::1:37180 on port 1883.
+1766162495: New client connected from ::1:37180 as auto-4DC35F22-D85F-97B4-6A89-517754E14934 (p2, c1, k60).
+1766162495: Client auto-4DC35F22-D85F-97B4-6A89-517754E14934 disconnected.
+1766162510: New connection from ::1:46714 on port 1883.
+1766162510: New client connected from ::1:46714 as auto-193E63D1-3391-08A5-5C63-8273CC7A2F3E (p2, c1, k60).
+1766162510: Client auto-193E63D1-3391-08A5-5C63-8273CC7A2F3E disconnected.
+1766162526: New connection from ::1:41830 on port 1883.
+1766162526: New client connected from ::1:41830 as auto-494E76D6-B993-8540-976F-F984BFD3E7D0 (p2, c1, k60).
+1766162526: Client auto-494E76D6-B993-8540-976F-F984BFD3E7D0 disconnected.
+1766162541: New connection from ::1:45268 on port 1883.
+1766162541: New client connected from ::1:45268 as auto-3D1E1CFF-A248-CB6D-10E7-99834E01585F (p2, c1, k60).
+1766162541: Client auto-3D1E1CFF-A248-CB6D-10E7-99834E01585F disconnected.
+1766162557: New connection from ::1:33278 on port 1883.
+1766162557: New client connected from ::1:33278 as auto-97F2D7E1-7F7A-3FA2-5F29-8DF9783494D9 (p2, c1, k60).
+1766162557: Client auto-97F2D7E1-7F7A-3FA2-5F29-8DF9783494D9 disconnected.
+1766162572: New connection from ::1:48178 on port 1883.
+1766162572: New client connected from ::1:48178 as auto-F1CE357E-EF7E-F625-2FFF-4D788A7E587C (p2, c1, k60).
+1766162572: Client auto-F1CE357E-EF7E-F625-2FFF-4D788A7E587C disconnected.
+1766162587: New connection from ::1:50102 on port 1883.
+1766162587: New client connected from ::1:50102 as auto-95C200EA-FBF2-164B-52D4-B2A70F39E0B3 (p2, c1, k60).
+1766162587: Client auto-95C200EA-FBF2-164B-52D4-B2A70F39E0B3 disconnected.
+1766162602: New connection from ::1:35076 on port 1883.
+1766162602: New client connected from ::1:35076 as auto-7199D0C3-48DD-07D4-98DD-9204BA8F18FB (p2, c1, k60).
+1766162602: Client auto-7199D0C3-48DD-07D4-98DD-9204BA8F18FB disconnected.
+1766162618: New connection from ::1:32794 on port 1883.
+1766162618: New client connected from ::1:32794 as auto-13DB2FF8-A759-9827-C312-D529A34892A7 (p2, c1, k60).
+1766162618: Client auto-13DB2FF8-A759-9827-C312-D529A34892A7 disconnected.
+1766162633: New connection from ::1:45506 on port 1883.
+1766162633: New client connected from ::1:45506 as auto-D8C56883-9257-2E66-E8FF-F208F22F9625 (p2, c1, k60).
+1766162633: Client auto-D8C56883-9257-2E66-E8FF-F208F22F9625 disconnected.
+1766162649: New connection from ::1:48742 on port 1883.
+1766162649: New client connected from ::1:48742 as auto-0A54B87C-C811-B802-B966-82EB27E41057 (p2, c1, k60).
+1766162649: Client auto-0A54B87C-C811-B802-B966-82EB27E41057 disconnected.
+1766162664: New connection from ::1:53246 on port 1883.
+1766162664: New client connected from ::1:53246 as auto-BAF1A5D3-256F-CCB0-2074-F046224CDA04 (p2, c1, k60).
+1766162664: Client auto-BAF1A5D3-256F-CCB0-2074-F046224CDA04 disconnected.
+1766162680: New connection from ::1:46088 on port 1883.
+1766162680: New client connected from ::1:46088 as auto-5909741F-A3FE-589A-E5CB-6F72C5E65455 (p2, c1, k60).
+1766162680: Client auto-5909741F-A3FE-589A-E5CB-6F72C5E65455 disconnected.
+1766162695: New connection from ::1:59870 on port 1883.
+1766162695: New client connected from ::1:59870 as auto-50CCE5B0-6FD3-4546-5A6C-9EAE7BB63169 (p2, c1, k60).
+1766162695: Client auto-50CCE5B0-6FD3-4546-5A6C-9EAE7BB63169 disconnected.
+1766162711: New connection from ::1:52976 on port 1883.
+1766162711: New client connected from ::1:52976 as auto-F6D940F0-68F6-4635-9559-230B19671B24 (p2, c1, k60).
+1766162711: Client auto-F6D940F0-68F6-4635-9559-230B19671B24 disconnected.
+1766162726: New connection from ::1:38936 on port 1883.
+1766162726: New client connected from ::1:38936 as auto-6994CD6A-1BD6-4B9B-25B4-15DADBD4D3AC (p2, c1, k60).
+1766162726: Client auto-6994CD6A-1BD6-4B9B-25B4-15DADBD4D3AC disconnected.
+1766162742: New connection from ::1:49088 on port 1883.
+1766162742: New client connected from ::1:49088 as auto-9D82404F-83DB-D39F-2538-78C388F51114 (p2, c1, k60).
+1766162742: Client auto-9D82404F-83DB-D39F-2538-78C388F51114 disconnected.
+1766162757: New connection from ::1:44974 on port 1883.
+1766162757: New client connected from ::1:44974 as auto-FA62D1B5-471E-1CFF-72F6-572C19A00872 (p2, c1, k60).
+1766162757: Client auto-FA62D1B5-471E-1CFF-72F6-572C19A00872 disconnected.
+1766162773: New connection from ::1:55546 on port 1883.
+1766162773: New client connected from ::1:55546 as auto-3D46F651-A1FB-F0A4-2241-2507B7E6EDA7 (p2, c1, k60).
+1766162773: Client auto-3D46F651-A1FB-F0A4-2241-2507B7E6EDA7 disconnected.
+1766162788: New connection from ::1:56302 on port 1883.
+1766162788: New client connected from ::1:56302 as auto-4695CFAF-8EF5-5A93-86F5-E4103C111AD5 (p2, c1, k60).
+1766162788: Client auto-4695CFAF-8EF5-5A93-86F5-E4103C111AD5 disconnected.
+1766162803: New connection from ::1:43992 on port 1883.
+1766162803: New client connected from ::1:43992 as auto-F684E819-F038-CCE9-0D43-99E1C20E69ED (p2, c1, k60).
+1766162803: Client auto-F684E819-F038-CCE9-0D43-99E1C20E69ED disconnected.
+1766162818: New connection from ::1:55842 on port 1883.
+1766162818: New client connected from ::1:55842 as auto-1EC50C38-FDA3-7F4A-DF3B-60059DF7FD7F (p2, c1, k60).
+1766162818: Client auto-1EC50C38-FDA3-7F4A-DF3B-60059DF7FD7F disconnected.
+1766162834: New connection from ::1:41020 on port 1883.
+1766162834: New client connected from ::1:41020 as auto-D174408F-F8D1-F246-B690-6B5AA2503018 (p2, c1, k60).
+1766162834: Client auto-D174408F-F8D1-F246-B690-6B5AA2503018 disconnected.
+1766162849: New connection from ::1:32834 on port 1883.
+1766162849: New client connected from ::1:32834 as auto-5CAB5FA6-35D2-6061-B1AA-F310135F2B67 (p2, c1, k60).
+1766162849: Client auto-5CAB5FA6-35D2-6061-B1AA-F310135F2B67 disconnected.
+1766162865: New connection from ::1:37842 on port 1883.
+1766162865: New client connected from ::1:37842 as auto-9F5D38DD-C549-5BBA-94CF-390077086268 (p2, c1, k60).
+1766162865: Client auto-9F5D38DD-C549-5BBA-94CF-390077086268 disconnected.
+1766162880: New connection from ::1:38876 on port 1883.
+1766162880: New client connected from ::1:38876 as auto-0B0DE5E6-8BC9-D67B-89D7-AB5FAAD27697 (p2, c1, k60).
+1766162880: Client auto-0B0DE5E6-8BC9-D67B-89D7-AB5FAAD27697 disconnected.
+1766162896: New connection from ::1:44164 on port 1883.
+1766162896: New client connected from ::1:44164 as auto-70622E6A-80BB-BEE3-3B91-C24D7B135B3B (p2, c1, k60).
+1766162896: Client auto-70622E6A-80BB-BEE3-3B91-C24D7B135B3B disconnected.
+1766162911: New connection from ::1:54444 on port 1883.
+1766162911: New client connected from ::1:54444 as auto-CF15F803-C249-65DA-56E5-04CA7B863E68 (p2, c1, k60).
+1766162911: Client auto-CF15F803-C249-65DA-56E5-04CA7B863E68 disconnected.
+1766162927: New connection from ::1:56640 on port 1883.
+1766162927: New client connected from ::1:56640 as auto-A9203AA5-1A4A-8F64-ECAB-F26B9458E2DF (p2, c1, k60).
+1766162927: Client auto-A9203AA5-1A4A-8F64-ECAB-F26B9458E2DF disconnected.
+1766162942: New connection from ::1:56914 on port 1883.
+1766162942: New client connected from ::1:56914 as auto-D918AC2D-2438-7FC0-EF6A-E79ECFCFD4DE (p2, c1, k60).
+1766162942: Client auto-D918AC2D-2438-7FC0-EF6A-E79ECFCFD4DE disconnected.
+1766162958: New connection from ::1:40058 on port 1883.
+1766162958: New client connected from ::1:40058 as auto-64CA24D1-68D0-ABD1-8D3B-100E4ECF8629 (p2, c1, k60).
+1766162958: Client auto-64CA24D1-68D0-ABD1-8D3B-100E4ECF8629 disconnected.
+1766162973: New connection from ::1:39332 on port 1883.
+1766162973: New client connected from ::1:39332 as auto-F30D2AC7-773B-8B0E-65B7-459A1472870A (p2, c1, k60).
+1766162973: Client auto-F30D2AC7-773B-8B0E-65B7-459A1472870A disconnected.
+1766162988: New connection from ::1:52640 on port 1883.
+1766162988: New client connected from ::1:52640 as auto-9372D2C6-1E51-E9E0-6E10-1EE4D5C30568 (p2, c1, k60).
+1766162988: Client auto-9372D2C6-1E51-E9E0-6E10-1EE4D5C30568 disconnected.
+1766163004: New connection from ::1:38762 on port 1883.
+1766163004: New client connected from ::1:38762 as auto-1C1405B4-C706-CF65-5912-8A5C0B44B957 (p2, c1, k60).
+1766163004: Client auto-1C1405B4-C706-CF65-5912-8A5C0B44B957 disconnected.
+1766163019: New connection from ::1:41254 on port 1883.
+1766163019: New client connected from ::1:41254 as auto-FD44FE72-18B0-9BEB-E698-2DD2BA7D0587 (p2, c1, k60).
+1766163019: Client auto-FD44FE72-18B0-9BEB-E698-2DD2BA7D0587 disconnected.
+1766163034: New connection from ::1:32900 on port 1883.
+1766163034: New client connected from ::1:32900 as auto-7345FF89-992E-C66C-596E-0EFA4223817A (p2, c1, k60).
+1766163034: Client auto-7345FF89-992E-C66C-596E-0EFA4223817A disconnected.
+1766163050: New connection from ::1:36942 on port 1883.
+1766163050: New client connected from ::1:36942 as auto-1890DFE1-4E77-AAA2-5B6E-20E62D254C00 (p2, c1, k60).
+1766163050: Client auto-1890DFE1-4E77-AAA2-5B6E-20E62D254C00 disconnected.
+1766163065: New connection from ::1:45286 on port 1883.
+1766163065: New client connected from ::1:45286 as auto-BD243F09-F0AE-5600-FA4D-7A0D572EACF2 (p2, c1, k60).
+1766163065: Client auto-BD243F09-F0AE-5600-FA4D-7A0D572EACF2 disconnected.
+1766163081: New connection from ::1:42818 on port 1883.
+1766163081: New client connected from ::1:42818 as auto-47920529-DA8D-B966-CA33-A0BCA7CD159D (p2, c1, k60).
+1766163081: Client auto-47920529-DA8D-B966-CA33-A0BCA7CD159D disconnected.
+1766163096: New connection from ::1:53512 on port 1883.
+1766163096: New client connected from ::1:53512 as auto-FA2902D5-67FB-08C0-01AA-F09A195444BE (p2, c1, k60).
+1766163096: Client auto-FA2902D5-67FB-08C0-01AA-F09A195444BE disconnected.
+1766163112: New connection from ::1:52910 on port 1883.
+1766163112: New client connected from ::1:52910 as auto-F31B808F-74D8-4399-FB2D-CCB7D53FB3DA (p2, c1, k60).
+1766163112: Client auto-F31B808F-74D8-4399-FB2D-CCB7D53FB3DA disconnected.
+1766163127: New connection from ::1:44976 on port 1883.
+1766163127: New client connected from ::1:44976 as auto-0F3D6C1C-BE3B-8E65-0924-81617B785174 (p2, c1, k60).
+1766163127: Client auto-0F3D6C1C-BE3B-8E65-0924-81617B785174 disconnected.
+1766163143: New connection from ::1:41802 on port 1883.
+1766163143: New client connected from ::1:41802 as auto-82E037E5-BB0E-0FAE-A83B-FF7DD147D9FA (p2, c1, k60).
+1766163143: Client auto-82E037E5-BB0E-0FAE-A83B-FF7DD147D9FA disconnected.
+1766163158: New connection from ::1:53622 on port 1883.
+1766163158: New client connected from ::1:53622 as auto-7A2E4016-441C-BEDA-C012-3538CE06EF5F (p2, c1, k60).
+1766163158: Client auto-7A2E4016-441C-BEDA-C012-3538CE06EF5F disconnected.
+1766163174: New connection from ::1:54024 on port 1883.
+1766163174: New client connected from ::1:54024 as auto-9ABF4EDF-9075-CA3C-FDDA-CC11F4B226B2 (p2, c1, k60).
+1766163174: Client auto-9ABF4EDF-9075-CA3C-FDDA-CC11F4B226B2 disconnected.
+1766163189: New connection from ::1:56516 on port 1883.
+1766163189: New client connected from ::1:56516 as auto-85828E45-FC5C-9FD9-948A-31792AAC7E28 (p2, c1, k60).
+1766163189: Client auto-85828E45-FC5C-9FD9-948A-31792AAC7E28 disconnected.
+1766163205: New connection from ::1:59806 on port 1883.
+1766163205: New client connected from ::1:59806 as auto-FA6A60AA-9E30-68ED-2083-3E616B00C1BD (p2, c1, k60).
+1766163205: Client auto-FA6A60AA-9E30-68ED-2083-3E616B00C1BD disconnected.
+1766163220: New connection from ::1:56040 on port 1883.
+1766163220: New client connected from ::1:56040 as auto-8F4756F9-2A18-DC80-2E03-8F0E1338FD28 (p2, c1, k60).
+1766163220: Client auto-8F4756F9-2A18-DC80-2E03-8F0E1338FD28 disconnected.
+1766163235: New connection from ::1:52154 on port 1883.
+1766163235: New client connected from ::1:52154 as auto-FB94EC2F-9A93-5F00-1D02-AD676B50FFAE (p2, c1, k60).
+1766163235: Client auto-FB94EC2F-9A93-5F00-1D02-AD676B50FFAE disconnected.
+1766163250: New connection from ::1:59548 on port 1883.
+1766163250: New client connected from ::1:59548 as auto-74042081-3341-8044-7AFE-C4EC7DEB5612 (p2, c1, k60).
+1766163250: Client auto-74042081-3341-8044-7AFE-C4EC7DEB5612 disconnected.
+1766163266: New connection from ::1:44506 on port 1883.
+1766163266: New client connected from ::1:44506 as auto-CBF6F59D-8794-585C-17A0-DA885B3B3B52 (p2, c1, k60).
+1766163266: Client auto-CBF6F59D-8794-585C-17A0-DA885B3B3B52 disconnected.
+1766163281: New connection from ::1:37180 on port 1883.
+1766163281: New client connected from ::1:37180 as auto-840EB0ED-3804-80A4-DCDF-DB0E67F6A1A0 (p2, c1, k60).
+1766163281: Client auto-840EB0ED-3804-80A4-DCDF-DB0E67F6A1A0 disconnected.
+1766163297: New connection from ::1:44056 on port 1883.
+1766163297: New client connected from ::1:44056 as auto-F0CB063E-BD6F-BC1D-4392-D29365EC3F95 (p2, c1, k60).
+1766163297: Client auto-F0CB063E-BD6F-BC1D-4392-D29365EC3F95 disconnected.
+1766163313: New connection from ::1:46186 on port 1883.
+1766163313: New client connected from ::1:46186 as auto-BDD9DCF5-ED82-4438-0C29-7FBAD124EC7C (p2, c1, k60).
+1766163313: Client auto-BDD9DCF5-ED82-4438-0C29-7FBAD124EC7C disconnected.
+1766163328: New connection from ::1:48194 on port 1883.
+1766163328: New client connected from ::1:48194 as auto-123CC3DA-0037-BF1A-7C21-7F204834B528 (p2, c1, k60).
+1766163328: Client auto-123CC3DA-0037-BF1A-7C21-7F204834B528 disconnected.
+1766163343: New connection from ::1:57282 on port 1883.
+1766163343: New client connected from ::1:57282 as auto-E625171E-5328-1227-2D33-DEEF7EE37436 (p2, c1, k60).
+1766163343: Client auto-E625171E-5328-1227-2D33-DEEF7EE37436 disconnected.
+1766163359: New connection from ::1:56388 on port 1883.
+1766163359: New client connected from ::1:56388 as auto-34614D24-08BF-D935-256A-C24E506E7B72 (p2, c1, k60).
+1766163359: Client auto-34614D24-08BF-D935-256A-C24E506E7B72 disconnected.
+1766163374: New connection from ::1:46528 on port 1883.
+1766163374: New client connected from ::1:46528 as auto-318D8D29-CAD4-92A8-1F86-92EF2BD86AB3 (p2, c1, k60).
+1766163374: Client auto-318D8D29-CAD4-92A8-1F86-92EF2BD86AB3 disconnected.
+1766163390: New connection from ::1:42234 on port 1883.
+1766163390: New client connected from ::1:42234 as auto-544403EE-0D02-0588-4693-65EC6238F00A (p2, c1, k60).
+1766163390: Client auto-544403EE-0D02-0588-4693-65EC6238F00A disconnected.
+1766163405: New connection from ::1:49558 on port 1883.
+1766163405: New client connected from ::1:49558 as auto-43293FF2-8CFC-ED31-63DB-309AE74A2D88 (p2, c1, k60).
+1766163405: Client auto-43293FF2-8CFC-ED31-63DB-309AE74A2D88 disconnected.
+1766163421: New connection from ::1:36928 on port 1883.
+1766163421: New client connected from ::1:36928 as auto-1D0B76E4-8B68-E062-3502-DCC26E9C2C00 (p2, c1, k60).
+1766163421: Client auto-1D0B76E4-8B68-E062-3502-DCC26E9C2C00 disconnected.
+1766163436: New connection from ::1:45534 on port 1883.
+1766163436: New client connected from ::1:45534 as auto-334F988F-18B4-7F4A-8639-38951488E66D (p2, c1, k60).
+1766163436: Client auto-334F988F-18B4-7F4A-8639-38951488E66D disconnected.
+1766163452: New connection from ::1:53112 on port 1883.
+1766163452: New client connected from ::1:53112 as auto-602F30AD-62EA-CB36-D299-8E74D4422E6E (p2, c1, k60).
+1766163452: Client auto-602F30AD-62EA-CB36-D299-8E74D4422E6E disconnected.
+1766163467: New connection from ::1:38202 on port 1883.
+1766163467: New client connected from ::1:38202 as auto-9A1F2684-20C4-38AF-1E0D-0DE3991D8FE6 (p2, c1, k60).
+1766163467: Client auto-9A1F2684-20C4-38AF-1E0D-0DE3991D8FE6 disconnected.
