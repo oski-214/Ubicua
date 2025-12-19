@@ -18,7 +18,7 @@ import java.util.function.Consumer;
 public class MqttMonitoringActivity extends AppCompatActivity {
     private static final String TAG = "MqttMonitoringActivity";
 
-    private static final String MQTT_BROKER_URL = "tcp://192.168.1.52";
+    private static final String MQTT_BROKER_URL = "tcp://10.0.2.2:1883";
     private static final String MQTT_TOPIC = "sensors/ST_1678/traffic_counter";
 
     private MqttHandler mqttHandler;

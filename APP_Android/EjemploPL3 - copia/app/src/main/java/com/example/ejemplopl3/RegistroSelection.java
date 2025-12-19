@@ -219,4 +219,12 @@ public class RegistroSelection extends AppCompatActivity {
 
         document.close();
     }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        // Cierra la actividad actual y regresa a la anterior
+        finish();
+        return true;
+    }
+
 }
