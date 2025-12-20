@@ -136,7 +136,7 @@ public class RegistroSelection extends AppCompatActivity {
             }
         }
 
-        // --- PASO CLAVE: Calculamos los valores finales aquí ---
+        
         int sumaTotal = totalCoches + totalCamiones + totalBicis;
 
         String masNumeroso = "Coches";
@@ -145,8 +145,8 @@ public class RegistroSelection extends AppCompatActivity {
 
         String techPredom = (totalEco >= totalGas) ? "ECO" : "GAS";
 
-        // Creamos los Strings finales. Al ser variables que no se vuelven a tocar,
-        // Java las acepta dentro del runOnUiThread sin problemas.
+       
+       
         String textoTotal = "Total de vehículos hoy: " + sumaTotal;
         String textoTipo = "Tipo predominante: " + masNumeroso;
         String textoTech = "Tecnología predominante: " + techPredom;
