@@ -25,16 +25,16 @@ public class RetrofitClient {
                     .addInterceptor(loggingInterceptor)
                     .build();
 
-            // --- INICIO DE LA CORRECCIÓN ---
-            // 1. Crea el constructor de Gson
+            
+            // Crea el constructor de Gson
             GsonBuilder gsonBuilder = new GsonBuilder();
 
-            // 2. REGISTRA NUESTRO ADAPTADOR PERSONALIZADO para el tipo 'Date'
+            // REGISTRA NUESTRO ADAPTADOR PERSONALIZADO para el tipo 'Date'
             gsonBuilder.registerTypeAdapter(Date.class, new CustomDateAdapter());
 
-            // 3. Construye el objeto Gson
+            // Construye el objeto Gson
             Gson gson = gsonBuilder.create();
-            // --- FIN DE LA CORRECCIÓN ---
+           
 
 
             retrofit = new Retrofit.Builder()
