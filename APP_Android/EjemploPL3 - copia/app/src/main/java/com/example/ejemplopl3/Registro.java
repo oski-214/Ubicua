@@ -41,7 +41,7 @@ public class Registro {
     private String technology;
 
     // --- GETTERS ---
-    // (No es necesario añadir Setters si solo vas a consumir datos)
+    
 
     public String getType_vehicle() {
         return type_vehicle;
