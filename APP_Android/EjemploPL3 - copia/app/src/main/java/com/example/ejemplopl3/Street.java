@@ -4,12 +4,12 @@ import com.google.gson.annotations.SerializedName;
 
 public class Street {
 
-    // CORREGIDO: Las anotaciones @SerializedName ahora coinciden con las claves del JSON (camelCase).
+    
 
-    @SerializedName("streetId") // <-- Antes era "street_id"
+    @SerializedName("streetId") 
     private String street_id;
 
-    @SerializedName("streetLength") // <-- Antes era "street_length"
+    @SerializedName("streetLength") 
     private double street_length;
 
     @SerializedName("latitude")
@@ -24,22 +24,20 @@ public class Street {
     @SerializedName("neighborhood")
     private String neighborhood;
 
-    @SerializedName("postalCode") // <-- Antes era "postal_code"
+    @SerializedName("postalCode") 
     private String postal_code;
 
-    @SerializedName("streetName") // <-- Antes era "street_name"
+    @SerializedName("streetName") 
     private String street_name;
 
-    @SerializedName("surfaceType") // <-- Antes era "surface_type"
+    @SerializedName("surfaceType") 
     private String surface_type;
 
-    @SerializedName("speedLimit") // <-- Antes era "speed_limit"
+    @SerializedName("speedLimit") 
     private int speed_limit;
 
     // --- GETTERS Y SETTERS ---
-    // No es necesario cambiar los getters y setters. Siguen funcionando
-    // con los nombres de las variables (street_id, street_name, etc.).
-
+    
     public String getStreet_id() {
         return street_id;
     }
