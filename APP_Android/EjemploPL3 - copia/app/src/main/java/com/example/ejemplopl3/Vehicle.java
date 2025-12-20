@@ -4,8 +4,7 @@ import com.google.gson.annotations.SerializedName;
 
 public class Vehicle {
 
-    // Usamos @SerializedName para mapear las claves del JSON (que probablemente coinciden
-    // con los nombres de las columnas de la BD) a nuestras variables.
+
     @SerializedName("plate")
     private String matricula;
 
