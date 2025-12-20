@@ -35,21 +35,20 @@ public class StreetSelection extends AppCompatActivity {
     private RecyclerView recyclerView;
     private StreetAdapter streetAdapter;
     private List<Street> streetDataList;
-    // Suponiendo que el Spinner cargará los IDs de las calles
+    
     private List<String> streetIds = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // Habilita el modo Edge-to-Edge. Esto debe ir ANTES de setContentView.
+        // Habilita el modo Edge-to-Edge
         EdgeToEdge.enable(this);
 
 
         setContentView(R.layout.activity_street_selection);
 
 
-        // --- INICIO DE CÓDIGO PARA GESTIONAR SUPERPOSICIÓN ---
 
         // Encuentra el layout principal por su nuevo ID
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
@@ -61,11 +60,9 @@ public class StreetSelection extends AppCompatActivity {
             return insets;
         });
 
-        // 2. CONFIGURA LA TOOLBAR
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        // 3. AHORA EL CÓDIGO PARA LA FLECHA FUNCIONARÁ
         if (getSupportActionBar() != null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
             getSupportActionBar().setTitle("Detalles de Calle");
@@ -106,7 +103,7 @@ public class StreetSelection extends AppCompatActivity {
     }
 
     /**
-     * Nuevo metodo: Obtiene la lista de IDs de calles desde la API y los carga en el Spinner.
+     * Obtiene la lista de IDs de calles desde la API y los carga en el Spinner.
      */
     private void fetchStreetIdsForSpinner() {
         ApiService apiService = RetrofitClient.getClient().create(ApiService.class);
@@ -135,20 +132,16 @@ public class StreetSelection extends AppCompatActivity {
         });
     }
 
-    // El parámetro street_id ya era String, lo cual estaba bien.
     private void fetchStreetDetailsById(String street_id) {
         ApiService apiService = RetrofitClient.getClient().create(ApiService.class);
 
-        // La llamada a la API usa el street_id de tipo String.
-        // Asumiendo que tu getStreetById en ApiService acepta un String. Si no, ajústalo allí.
-        // Ejemplo: Call<List<Street>> getStreetById(@Query("table") String table, @Query("street_id") String streetId);
+        
         Call<List<Street>> call = apiService.getStreetById("Street", street_id);
 
         call.enqueue(new Callback<List<Street>>() {
             @Override
             public void onResponse(@NonNull Call<List<Street>> call, @NonNull Response<List<Street>> response) {
 
-                // --- INICIO DE CORRECCIONES EN LÓGICA DE onResponse ---
 
                 if (response.isSuccessful() && response.body() != null) {
                     // Limpiamos la lista de datos del RecyclerView.
@@ -170,7 +163,6 @@ public class StreetSelection extends AppCompatActivity {
                     Toast.makeText(StreetSelection.this, "Error al obtener datos: " + response.message(), Toast.LENGTH_LONG).show();
                 }
 
-                // --- FIN DE CORRECCIONES EN LÓGICA DE onResponse ---
             }
 
             @Override
@@ -181,7 +173,6 @@ public class StreetSelection extends AppCompatActivity {
         });
     }
 
-    // Este metodo se llama cuando se presiona el botón de "Atrás" de la ActionBar
     @Override
     public boolean onSupportNavigateUp() {
         // Cierra la actividad actual y regresa a la anterior
