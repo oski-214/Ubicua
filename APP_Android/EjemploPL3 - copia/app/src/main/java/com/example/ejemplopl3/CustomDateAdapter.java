@@ -38,8 +38,7 @@ public class CustomDateAdapter extends TypeAdapter<Date> {
 
         String dateStr = in.nextString();
 
-        // CORRECCIÓN CLAVE: Reemplazar el carácter problemático por un espacio normal
-        // El U+202F es el "Narrow No-Break Space"
+        
         dateStr = dateStr.replace('\u202F', ' ');
 
         // Intenta analizar con el primer formato
