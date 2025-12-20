@@ -38,17 +38,14 @@ public class VehicleSelection extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        // --- INICIO DE LA CORRECCIÓN ---
 
-        // Habilita el modo Edge-to-Edge. Esto debe ir ANTES de setContentView.
+        // Habilita el modo Edge-to-Edge. 
         EdgeToEdge.enable(this);
 
-        // --- FIN DE LA CORRECCIÓN ---
 
         setContentView(R.layout.activity_vehicle_selection);
 
 
-        // --- INICIO DE CÓDIGO PARA GESTIONAR SUPERPOSICIÓN ---
 
         // Encuentra el layout principal por su nuevo ID
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
@@ -60,7 +57,6 @@ public class VehicleSelection extends AppCompatActivity {
             return insets;
         });
 
-        // --- INICIO DE CAMBIOS ---
 
         // 1. Recibir el tipo de vehículo de la actividad anterior
         vehicleType = getIntent().getStringExtra("VEHICLE_TYPE");
@@ -71,11 +67,9 @@ public class VehicleSelection extends AppCompatActivity {
             return;
         }
 
-        // 2. CONFIGURA LA TOOLBAR
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        // 3. AHORA EL CÓDIGO PARA LA FLECHA FUNCIONARÁ
         if (getSupportActionBar() != null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
             getSupportActionBar().setTitle("Vehículos: " + vehicleType);
@@ -86,7 +80,6 @@ public class VehicleSelection extends AppCompatActivity {
         TextView title = findViewById(R.id.vehicle_selection_title);
         title.setText("Selecciona un " + vehicleType);
 
-        // --- FIN DE CAMBIOS ---
 
         vehicleSpinner = findViewById(R.id.vehicle_spinner);
         searchButton = findViewById(R.id.vehicle_button);
@@ -98,7 +91,6 @@ public class VehicleSelection extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(vehicleAdapter);
 
-        // --- INICIO DE CAMBIOS ---
 
         // 1. Configurar el adaptador del Spinner (inicialmente vacío)
         ArrayAdapter<String> spinnerAdapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, licensePlates);
@@ -108,7 +100,6 @@ public class VehicleSelection extends AppCompatActivity {
         // 2. Llamar al nuevo método para cargar las matrículas desde la API
         fetchLicensePlatesForSpinner(vehicleType);
 
-        // --- FIN DE CAMBIOS ---
 
         searchButton.setOnClickListener(v -> {
             String selectedPlate = (String) vehicleSpinner.getSelectedItem();
@@ -121,7 +112,7 @@ public class VehicleSelection extends AppCompatActivity {
     }
 
     /**
-     * Reemplazado: Este método ahora llama a la API para obtener las matrículas.
+     * Este método llama a la API para obtener las matrículas.
      * @param type El tipo de vehículo ("Coche", "Camion", etc.) que se usará como nombre de la tabla.
      */
     private void fetchLicensePlatesForSpinner(String type) {
@@ -153,7 +144,7 @@ public class VehicleSelection extends AppCompatActivity {
 
     private void fetchVehicleDetails(String licensePlate) {
         ApiService apiService = RetrofitClient.getClient().create(ApiService.class);
-        // La llamada a la API ahora usa la variable 'vehicleType' para la tabla correcta
+        // La llamada a la API usa la variable 'vehicleType' para la tabla correcta
         Call<List<Vehicle>> call = apiService.getVehicleByLicensePlate(vehicleType, licensePlate);
 
         call.enqueue(new Callback<List<Vehicle>>() {
@@ -183,7 +174,6 @@ public class VehicleSelection extends AppCompatActivity {
         });
     }
 
-    // Este metodo se llama cuando se presiona el botón de "Atrás" de la ActionBar
     @Override
     public boolean onSupportNavigateUp() {
         // Cierra la actividad actual y regresa a la anterior
