@@ -15,17 +15,14 @@ public class VehicleTypeSelection extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        // --- INICIO DE LA CORRECCIÓN ---
 
-        // Habilita el modo Edge-to-Edge. Esto debe ir ANTES de setContentView.
+        // Habilita el modo Edge-to-Edge.
         EdgeToEdge.enable(this);
 
-        // --- FIN DE LA CORRECCIÓN ---
 
         setContentView(R.layout.activity_vehicle_type_selection);
 
 
-        // --- INICIO DE CÓDIGO PARA GESTIONAR SUPERPOSICIÓN ---
 
         // Encuentra el layout principal por su nuevo ID
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
@@ -37,11 +34,9 @@ public class VehicleTypeSelection extends AppCompatActivity {
             return insets;
         });
 
-        // 2. CONFIGURA LA TOOLBAR
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        // 3. AHORA EL CÓDIGO PARA LA FLECHA FUNCIONARÁ
         if (getSupportActionBar() != null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
             getSupportActionBar().setTitle("Tipos de Vehículo");
